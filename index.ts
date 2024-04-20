@@ -12,16 +12,12 @@ dotenv.config();
 const app: Application = express();
 const port = process.env.PORT || 8000;
 
-
 app.use("/api/wallet", wallet);
 app.use("/api/tokens", tokens);
 app.use("/api/dln", dln);
 
-const job = nodeCron.schedule("* * * * * *", async function jobYouNeedToExecute() {
-    await getTokenList();
-});
+nodeCron.schedule("* 23 * * * *", getTokenList);
 
-// job.start();
 app.get('/', (req: Request, res: Response) => {
     res.send('Welcome to Express & TypeScript Server');
 });
