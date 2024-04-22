@@ -1,20 +1,72 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = env("DB_URL")
 }
 
 model User {
-  id        String   @id @default(uuid())
-  address   String
-  createdAt DateTime @default(now())
+  id          String     @id @default(uuid()) @db.Uuid
+  created_at  DateTime   @default(now()) @db.Timestamptz(6)
+  address     String     @unique
+  token       String?
+  device_type String
+  Bridge      Bridge[]
+  DCA         DCA[]
+  Limit       Limit[]
+  activity    activity[]
+}
+
+model Bridge {
+  id          String   @id @default(uuid()) @db.Uuid
+  created_at  DateTime @default(now()) @db.Timestamptz(6)
+  src_address String
+  dst_address String
+  src_chain   String
+  dst_chain   String
+  src_token   String
+  dst_token   String
+  src_amount  Decimal
+  dst_amount  Decimal
+  tx_hash     String @unique
+  route       String
+  address     String
+  User        User    @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Bridge_address_fkey")
+}
+
+model DCA {
+  id           String   @id @default(uuid()) @db.Uuid
+  created_at   DateTime @default(now()) @db.Timestamptz(6)
+  address      String
+  dca_key      String
+  input_token  String
+  output_token String
+  in_amount    Decimal
+  out_amount   Decimal
+  User         User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_DCA_address_fkey")
+}
+
+model Limit {
+  id         String   @id @default(uuid()) @db.Uuid
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  address    String
+  in_token   String
+  out_token  String
+  in_amount  Decimal
+  out_amount Decimal
+  buy_rate   Decimal
+  tx_hash    String @unique
+  expiry     String
+  User       User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Limit_address_fkey")
+}
+
+model activity {
+  id            String   @id @default(uuid()) @db.Uuid
+  created_at    DateTime @default(now()) @db.Timestamptz(6)
+  activity_type String
+  activity      Json
+  address       String
+  User          User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_activity_address_fkey")
 }

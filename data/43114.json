@@ -112,17 +112,17 @@
     "decimals": 8
   },
   {
-    "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
-    "name": "Frax",
-    "symbol": "FRAX",
-    "image": "https://tokens.1inch.io/0x853d955acef822db058eb8505911ed77f175b99e.png",
-    "decimals": 18
-  },
-  {
     "address": "0x130966628846bfd36ff31a822705796e8cb8c18d",
     "name": "Magic Internet Money",
     "symbol": "MIM",
     "image": "https://snowtrace.io/token/images/mimstablecoin_32.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd24c2ad096400b6fbcd2ad8b24e7acbc21a1da64",
+    "name": "Frax",
+    "symbol": "FRAX",
+    "image": "https://tokens.1inch.io/0x853d955acef822db058eb8505911ed77f175b99e.png",
     "decimals": 18
   },
   {
@@ -182,6 +182,13 @@
     "decimals": 18
   },
   {
+    "address": "0xaec8318a9a59baeb39861d10ff6c7f7bf1f96c57",
+    "name": "EURA (previously agEUR)",
+    "symbol": "EURA",
+    "image": "https://tokens.1inch.io/0xaec8318a9a59baeb39861d10ff6c7f7bf1f96c57.png",
+    "decimals": 18
+  },
+  {
     "address": "0x47afa96cdc9fab46904a55a6ad4bf6660b53c38a",
     "name": "Aave Avalanche Market DAI",
     "symbol": "avDAI",
@@ -193,13 +200,6 @@
     "name": "Colony Token",
     "symbol": "CLY",
     "image": "https://tokens.1inch.io/0xec3492a2508ddf4fdc0cd76f31f340b30d1793e6.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xaec8318a9a59baeb39861d10ff6c7f7bf1f96c57",
-    "name": "EURA (previously agEUR)",
-    "symbol": "EURA",
-    "image": "https://tokens.1inch.io/0xaec8318a9a59baeb39861d10ff6c7f7bf1f96c57.png",
     "decimals": 18
   },
   {
@@ -224,25 +224,11 @@
     "decimals": 18
   },
   {
-    "address": "0x46a51127c3ce23fb7ab1de06226147f446e4a857",
-    "name": "Aave Avalanche Market USDC",
-    "symbol": "avUSDC",
-    "image": "https://tokens.1inch.io/0xbcca60bb61934080951369a648fb03df4f96263c.png",
-    "decimals": 6
-  },
-  {
-    "address": "0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
-    "name": "Euro Coin",
-    "symbol": "EURC",
-    "image": "https://tokens.1inch.io/0xc891eb4cbdeff6e073e859e987815ed1505c2acd.png",
-    "decimals": 6
-  },
-  {
-    "address": "0x532e6537fea298397212f09a61e03311686f548e",
-    "name": "Aave Avalanche Market USDT",
-    "symbol": "avUSDT",
-    "image": "https://tokens.1inch.io/0x3ed3b47dd13ec9a98b44e6204a523e766b225811.png",
-    "decimals": 6
+    "address": "0x2147efff675e4a4ee1c2f918d181cdbd7a8e208f",
+    "name": "AlphaToken",
+    "symbol": "ALPHA.e",
+    "image": "https://tokens.1inch.io/0xa1faa113cbe53436df28ff0aee54275c13b40975.png",
+    "decimals": 18
   },
   {
     "address": "0x027dbca046ca156de9622cd1e2d907d375e53aa7",
@@ -252,18 +238,18 @@
     "decimals": 9
   },
   {
-    "address": "0x1f1e7c893855525b303f99bdf5c3c05be09ca251",
-    "name": "Synapse",
-    "symbol": "SYN",
-    "image": "https://tokens.1inch.io/0x1f1e7c893855525b303f99bdf5c3c05be09ca251_1.png",
-    "decimals": 18
+    "address": "0xc891eb4cbdeff6e073e859e987815ed1505c2acd",
+    "name": "Euro Coin",
+    "symbol": "EURC",
+    "image": "https://tokens.1inch.io/0xc891eb4cbdeff6e073e859e987815ed1505c2acd.png",
+    "decimals": 6
   },
   {
-    "address": "0xabc9547b534519ff73921b1fba6e672b5f58d083",
-    "name": "Wootrade Network",
-    "symbol": "WOO.e",
-    "image": "https://snowtrace.io/token/images/wootradenetwork_32.png",
-    "decimals": 18
+    "address": "0x46a51127c3ce23fb7ab1de06226147f446e4a857",
+    "name": "Aave Avalanche Market USDC",
+    "symbol": "avUSDC",
+    "image": "https://tokens.1inch.io/0xbcca60bb61934080951369a648fb03df4f96263c.png",
+    "decimals": 6
   },
   {
     "address": "0x19860ccb0a68fd4213ab9d8266f7bbf05a8dde98",
@@ -280,80 +266,24 @@
     "decimals": 18
   },
   {
-    "address": "0x2147efff675e4a4ee1c2f918d181cdbd7a8e208f",
-    "name": "AlphaToken",
-    "symbol": "ALPHA.e",
-    "image": "https://tokens.1inch.io/0xa1faa113cbe53436df28ff0aee54275c13b40975.png",
+    "address": "0x532e6537fea298397212f09a61e03311686f548e",
+    "name": "Aave Avalanche Market USDT",
+    "symbol": "avUSDT",
+    "image": "https://tokens.1inch.io/0x3ed3b47dd13ec9a98b44e6204a523e766b225811.png",
+    "decimals": 6
+  },
+  {
+    "address": "0x1f1e7c893855525b303f99bdf5c3c05be09ca251",
+    "name": "Synapse",
+    "symbol": "SYN",
+    "image": "https://tokens.1inch.io/0x1f1e7c893855525b303f99bdf5c3c05be09ca251_1.png",
     "decimals": 18
   },
   {
-    "address": "0x6d923f688c7ff287dc3a5943caeefc994f97b290",
-    "name": "SmarterCoin",
-    "symbol": "SMRTr",
-    "image": "https://tokens.1inch.io/0x6d923f688c7ff287dc3a5943caeefc994f97b290.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
-    "name": "BENQI",
-    "symbol": "QI",
-    "image": "https://tokens.1inch.io/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x321e7092a180bb43555132ec53aaa65a5bf84251",
-    "name": "Governance OHM",
-    "symbol": "gOHM",
-    "image": "https://tokens.1inch.io/0x321e7092a180bb43555132ec53aaa65a5bf84251.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xb1466d4cf0dcfc0bcddcf3500f473cdacb88b56d",
-    "name": "Weble Ecosystem Token",
-    "symbol": "WET",
-    "image": "https://tokens.1inch.io/0xb1466d4cf0dcfc0bcddcf3500f473cdacb88b56d.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4f60a160d8c2dddaafe16fcc57566db84d674bd6",
-    "name": "Jewels",
-    "symbol": "JEWEL",
-    "image": "https://tokens.1inch.io/0x4f60a160d8c2dddaafe16fcc57566db84d674bd6.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x214db107654ff987ad859f34125307783fc8e387",
-    "name": "Frax Share",
-    "symbol": "FXS",
-    "image": "https://tokens.1inch.io/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc7b5d72c836e718cda8888eaf03707faef675079",
-    "name": "TrustSwap Token",
-    "symbol": "SWAP.e",
-    "image": "https://tokens.1inch.io/0xcc4304a31d09258b0029ea7fe63d032f52e44efe.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x440abbf18c54b2782a4917b80a1746d3a2c2cce1",
-    "name": "SHIBAVAX",
-    "symbol": "SHIBX",
-    "image": "https://tokens.1inch.io/0x440abbf18c54b2782a4917b80a1746d3a2c2cce1.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x100cc3a819dd3e8573fd2e46d1e66ee866068f30",
-    "name": "Dragon Crypto Aurum",
-    "symbol": "DCAU",
-    "image": "https://tokens.1inch.io/0x100cc3a819dd3e8573fd2e46d1e66ee866068f30.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xfcde4a87b8b6fa58326bb462882f1778158b02f1",
-    "name": "Wirex Token",
-    "symbol": "WXT",
-    "image": "https://tokens.1inch.io/0xfcde4a87b8b6fa58326bb462882f1778158b02f1.png",
+    "address": "0xabc9547b534519ff73921b1fba6e672b5f58d083",
+    "name": "Wootrade Network",
+    "symbol": "WOO.e",
+    "image": "https://snowtrace.io/token/images/wootradenetwork_32.png",
     "decimals": 18
   },
   {
@@ -371,17 +301,38 @@
     "decimals": 18
   },
   {
-    "address": "0x01c2086facfd7aa38f69a6bd8c91bef3bb5adfca",
-    "name": "YAY Games",
-    "symbol": "YAY",
-    "image": "https://tokens.1inch.io/0x01c2086facfd7aa38f69a6bd8c91bef3bb5adfca.png",
+    "address": "0x321e7092a180bb43555132ec53aaa65a5bf84251",
+    "name": "Governance OHM",
+    "symbol": "gOHM",
+    "image": "https://tokens.1inch.io/0x321e7092a180bb43555132ec53aaa65a5bf84251.png",
     "decimals": 18
   },
   {
-    "address": "0xdfe521292ece2a4f44242efbcd66bc594ca9714b",
-    "name": "Aave Avalanche Market WAVAX",
-    "symbol": "avWAVAX",
-    "image": "https://tokens.1inch.io/0xdfe521292ece2a4f44242efbcd66bc594ca9714b.png",
+    "address": "0x4f60a160d8c2dddaafe16fcc57566db84d674bd6",
+    "name": "Jewels",
+    "symbol": "JEWEL",
+    "image": "https://tokens.1inch.io/0x4f60a160d8c2dddaafe16fcc57566db84d674bd6.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd45b7c061016102f9fa220502908f2c0f1add1d7",
+    "name": "Aave Avalanche Market AAVE",
+    "symbol": "avAAVE",
+    "image": "https://tokens.1inch.io/0xffc97d72e13e01096502cb8eb52dee56f74dad7b.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfcde4a87b8b6fa58326bb462882f1778158b02f1",
+    "name": "Wirex Token",
+    "symbol": "WXT",
+    "image": "https://tokens.1inch.io/0xfcde4a87b8b6fa58326bb462882f1778158b02f1.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xb1466d4cf0dcfc0bcddcf3500f473cdacb88b56d",
+    "name": "Weble Ecosystem Token",
+    "symbol": "WET",
+    "image": "https://tokens.1inch.io/0xb1466d4cf0dcfc0bcddcf3500f473cdacb88b56d.png",
     "decimals": 18
   },
   {
@@ -399,17 +350,66 @@
     "decimals": 18
   },
   {
-    "address": "0xd45b7c061016102f9fa220502908f2c0f1add1d7",
-    "name": "Aave Avalanche Market AAVE",
-    "symbol": "avAAVE",
-    "image": "https://tokens.1inch.io/0xffc97d72e13e01096502cb8eb52dee56f74dad7b.png",
-    "decimals": 18
-  },
-  {
     "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
     "name": "Elk",
     "symbol": "ELK",
     "image": "https://tokens.1inch.io/0xeeeeeb57642040be42185f49c52f7e9b38f8eeee.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8729438eb15e2c8b576fcc6aecda6a148776c0f5",
+    "name": "BENQI",
+    "symbol": "QI",
+    "image": "https://tokens.1inch.io/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xdfe521292ece2a4f44242efbcd66bc594ca9714b",
+    "name": "Aave Avalanche Market WAVAX",
+    "symbol": "avWAVAX",
+    "image": "https://tokens.1inch.io/0xdfe521292ece2a4f44242efbcd66bc594ca9714b.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x440abbf18c54b2782a4917b80a1746d3a2c2cce1",
+    "name": "SHIBAVAX",
+    "symbol": "SHIBX",
+    "image": "https://tokens.1inch.io/0x440abbf18c54b2782a4917b80a1746d3a2c2cce1.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6d923f688c7ff287dc3a5943caeefc994f97b290",
+    "name": "SmarterCoin",
+    "symbol": "SMRTr",
+    "image": "https://tokens.1inch.io/0x6d923f688c7ff287dc3a5943caeefc994f97b290.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc7b5d72c836e718cda8888eaf03707faef675079",
+    "name": "TrustSwap Token",
+    "symbol": "SWAP.e",
+    "image": "https://tokens.1inch.io/0xcc4304a31d09258b0029ea7fe63d032f52e44efe.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x100cc3a819dd3e8573fd2e46d1e66ee866068f30",
+    "name": "Dragon Crypto Aurum",
+    "symbol": "DCAU",
+    "image": "https://tokens.1inch.io/0x100cc3a819dd3e8573fd2e46d1e66ee866068f30.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x01c2086facfd7aa38f69a6bd8c91bef3bb5adfca",
+    "name": "YAY Games",
+    "symbol": "YAY",
+    "image": "https://tokens.1inch.io/0x01c2086facfd7aa38f69a6bd8c91bef3bb5adfca.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x214db107654ff987ad859f34125307783fc8e387",
+    "name": "Frax Share",
+    "symbol": "FXS",
+    "image": "https://tokens.1inch.io/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0.png",
     "decimals": 18
   },
   {

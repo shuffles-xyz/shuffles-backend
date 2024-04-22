@@ -119,13 +119,6 @@
     "decimals": 6
   },
   {
-    "address": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
-    "name": "Optimistic Thales Token",
-    "symbol": "THALES",
-    "image": "https://tokens.1inch.io/0x217d47011b23bb961eb6d93ca9945b7501a5bb11.png",
-    "decimals": 18
-  },
-  {
     "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
     "name": "Rocket Pool ETH",
     "symbol": "rETH",
@@ -133,10 +126,10 @@
     "decimals": 18
   },
   {
-    "address": "0xc55e93c62874d8100dbd2dfe307edc1036ad5434",
-    "name": "Moo BIFI",
-    "symbol": "mooBIFI",
-    "image": "https://tokens.1inch.io/0xc55e93c62874d8100dbd2dfe307edc1036ad5434.png",
+    "address": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
+    "name": "Optimistic Thales Token",
+    "symbol": "THALES",
+    "image": "https://tokens.1inch.io/0x217d47011b23bb961eb6d93ca9945b7501a5bb11.png",
     "decimals": 18
   },
   {
@@ -147,13 +140,6 @@
     "decimals": 18
   },
   {
-    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-    "name": "Hop",
-    "symbol": "HOP",
-    "image": "https://tokens.1inch.io/0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc.png",
-    "decimals": 18
-  },
-  {
     "address": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49",
     "name": "Synth sETH",
     "symbol": "sETH",
@@ -161,10 +147,38 @@
     "decimals": 18
   },
   {
+    "address": "0xc55e93c62874d8100dbd2dfe307edc1036ad5434",
+    "name": "Moo BIFI",
+    "symbol": "mooBIFI",
+    "image": "https://tokens.1inch.io/0xc55e93c62874d8100dbd2dfe307edc1036ad5434.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+    "name": "Hop",
+    "symbol": "HOP",
+    "image": "https://tokens.1inch.io/0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9e1028f5f1d5ede59748ffcee5532509976840e0",
+    "name": "Perpetual",
+    "symbol": "PERP",
+    "image": "https://tokens.1inch.io/0x9e1028f5f1d5ede59748ffcee5532509976840e0.png",
+    "decimals": 18
+  },
+  {
     "address": "0x8ae125e8653821e851f12a49f7765db9a9ce7384",
     "name": "Dola USD Stablecoin",
     "symbol": "DOLA",
     "image": "https://tokens.1inch.io/0x8ae125e8653821e851f12a49f7765db9a9ce7384.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x61baadcf22d2565b0f471b291c475db5555e0b76",
+    "name": "Aelin Token",
+    "symbol": "AELIN",
+    "image": "https://tokens.1inch.io/0x61baadcf22d2565b0f471b291c475db5555e0b76.png",
     "decimals": 18
   },
   {
@@ -182,13 +196,6 @@
     "decimals": 18
   },
   {
-    "address": "0x9e1028f5f1d5ede59748ffcee5532509976840e0",
-    "name": "Perpetual",
-    "symbol": "PERP",
-    "image": "https://tokens.1inch.io/0x9e1028f5f1d5ede59748ffcee5532509976840e0.png",
-    "decimals": 18
-  },
-  {
     "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07",
     "name": "Kromatika",
     "symbol": "KROM",
@@ -200,13 +207,6 @@
     "name": "Alchemix ETH",
     "symbol": "alETH",
     "image": "https://tokens.1inch.io/0x3e29d3a9316dab217754d13b28646b76607c5f04.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x61baadcf22d2565b0f471b291c475db5555e0b76",
-    "name": "Aelin Token",
-    "symbol": "AELIN",
-    "image": "https://tokens.1inch.io/0x61baadcf22d2565b0f471b291c475db5555e0b76.png",
     "decimals": 18
   },
   {
