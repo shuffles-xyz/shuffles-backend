@@ -3,14 +3,9 @@ import prisma from '../../lib/prims-client';
 import getUser from '../../utils/getUser';
 
 async function createUser(req: Request, res: Response) {
-   console.log('createUser', req);
    const { address, deviceType } = req.body;
 
    try {
-      if (!address || !deviceType) {
-         return res.status(400).json({ error: 'Address and device type are required' });
-      }
-
       const userExists = await getUser(address);
 
       if (userExists) {
@@ -19,7 +14,7 @@ async function createUser(req: Request, res: Response) {
 
       const user = await prisma.user.create({
          data: {
-            address,
+            address: address,
             device_type: deviceType,
          }
       });
@@ -32,4 +27,4 @@ async function createUser(req: Request, res: Response) {
    }
 }
 
-export default  createUser ;
+export default createUser;

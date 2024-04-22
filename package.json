@@ -15,7 +15,8 @@
     "express": "^4.19.2",
     "node-cron": "^3.0.3",
     "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "zod": "^3.23.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

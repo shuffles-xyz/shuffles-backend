@@ -26,6 +26,9 @@ dependencies:
   ts-node:
     specifier: ^10.9.2
     version: 10.9.2(@types/node@20.12.7)(typescript@5.4.5)
+  zod:
+    specifier: ^3.23.0
+    version: 3.23.0
 
 devDependencies:
   '@types/cors':
@@ -1289,3 +1292,7 @@ packages:
   /yn@3.1.1:
     resolution: {integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==}
     engines: {node: '>=6'}
+
+  /zod@3.23.0:
+    resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
+    dev: false
