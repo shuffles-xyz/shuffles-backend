@@ -3,9 +3,9 @@ import prisma from "../../lib/prims-client";
 
 async function createActivity(req: Request, res: Response) {
     const {
-       address, 
-       activity_type,
-       activity
+        address,
+        activity_type,
+        activity
     } = req.body;
     try {
         const activityRes = await prisma.activity.create({
@@ -23,7 +23,7 @@ async function createActivity(req: Request, res: Response) {
 }
 
 async function getActivity(req: Request, res: Response) {
-    const { address } = req.params;
+    const { address } = req.body;
     try {
         const activityRes = await prisma.activity.findMany({
             where: {

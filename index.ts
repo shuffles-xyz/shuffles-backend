@@ -27,7 +27,7 @@ app.use("/api/limit", limit);
 app.use("/api/bridge", bridge);
 app.use("/api/activity", activity);
 
-nodeCron.schedule("* 23 * * * *", getTokenList);
+// nodeCron.schedule("* 23 * * * *", getTokenList);
 
 app.get('/', (req: Request, res: Response) => {
     res.send('Welcome to Express & TypeScript Server');

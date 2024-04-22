@@ -30,10 +30,10 @@ model Bridge {
   dst_token   String
   src_amount  Decimal
   dst_amount  Decimal
-  tx_hash     String @unique
+  tx_hash     String   @unique
   route       String
   address     String
-  User        User    @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Bridge_address_fkey")
+  User        User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Bridge_address_fkey")
 }
 
 model DCA {
@@ -57,7 +57,7 @@ model Limit {
   in_amount  Decimal
   out_amount Decimal
   buy_rate   Decimal
-  tx_hash    String @unique
+  tx_hash    String   @unique
   expiry     String
   User       User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Limit_address_fkey")
 }

@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import prisma from "../../lib/prims-client";
 
 async function createBridge(req: Request, res: Response) {
-  const { 
+  const {
     src_address,
     dst_address,
     src_chain,
@@ -38,7 +38,7 @@ async function createBridge(req: Request, res: Response) {
 }
 
 async function getBridgeTx(req: Request, res: Response) {
-  const { tx } = req.params;
+  const { tx } = req.body;
   try {
     const bridge = await prisma.bridge.findUnique({
       where: {
@@ -53,13 +53,13 @@ async function getBridgeTx(req: Request, res: Response) {
 }
 
 async function getAllTransactions(req: Request, res: Response) {
-  const { address } = req.params;
+  const { address } = req.body;
   try {
     const bridge = await prisma.bridge.findMany({
       where: {
         address,
-        },
-        });
+      },
+    });
     res.status(200).json(bridge);
   } catch (error) {
     console.log(error);
