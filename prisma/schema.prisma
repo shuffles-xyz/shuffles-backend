@@ -26,8 +26,8 @@ model Bridge {
   dst_address String
   src_chain   String
   dst_chain   String
-  src_token   String
-  dst_token   String
+  src_token   Json
+  dst_token   Json
   src_amount  Decimal
   dst_amount  Decimal
   tx_hash     String   @unique
@@ -41,8 +41,8 @@ model DCA {
   created_at   DateTime @default(now()) @db.Timestamptz(6)
   address      String
   dca_key      String
-  input_token  String
-  output_token String
+  input_token  Json
+  output_token Json
   in_amount    Decimal
   out_amount   Decimal
   User         User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_DCA_address_fkey")
@@ -52,8 +52,8 @@ model Limit {
   id         String   @id @default(uuid()) @db.Uuid
   created_at DateTime @default(now()) @db.Timestamptz(6)
   address    String
-  in_token   String
-  out_token  String
+  input_token   Json
+  output_token  Json
   in_amount  Decimal
   out_amount Decimal
   buy_rate   Decimal

@@ -4,8 +4,8 @@ import prisma from "../../lib/prims-client";
 async function createLimitOrder(req: Request, res: Response) {
     const {
         address,
-        in_token,
-        out_token,
+        input_token,
+        output_token,
         in_amount,
         out_amount,
         buy_rate,
@@ -15,8 +15,8 @@ async function createLimitOrder(req: Request, res: Response) {
         const bridge = await prisma.limit.create({
             data: {
                 address,
-                in_token,
-                out_token,
+                input_token,
+                output_token,
                 in_amount,
                 out_amount,
                 buy_rate,

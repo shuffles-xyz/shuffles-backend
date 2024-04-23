@@ -1,12 +1,13 @@
 import express from "express";
 import { createDCA, getDCA, getAllDCA } from "../controllers/dca/dca";
+import { validateCreateDCA, validateGetDCA, validateGetAllDCA } from "../middlewares/dca";
 
 const router = express.Router();
 
-router.post("/create", createDCA);
+router.post("/create", validateCreateDCA, createDCA);
 
-router.post("/get", getDCA);
+router.post("/get", validateGetDCA, getDCA);
 
-router.post("/getAll", getAllDCA);
+router.post("/getAll", validateGetAllDCA, getAllDCA);
 
 export default router;
