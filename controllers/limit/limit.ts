@@ -10,9 +10,10 @@ async function createLimitOrder(req: Request, res: Response) {
         out_amount,
         buy_rate,
         tx_hash,
+        gasFees,
         expiry, } = req.body;
     try {
-        const bridge = await prisma.limit.create({
+        const limit = await prisma.limit.create({
             data: {
                 address,
                 input_token,
@@ -22,9 +23,32 @@ async function createLimitOrder(req: Request, res: Response) {
                 buy_rate,
                 tx_hash,
                 expiry,
+                gasFees
             },
         });
-        res.status(200).json(bridge);
+        try {
+            const activityRes = await prisma.activity.create({
+                data: {
+                    address,
+                    activity_type: 'LIMIT_ORDER',
+                    activity: {
+                        address,
+                        input_token,
+                        output_token,
+                        in_amount,
+                        out_amount,
+                        buy_rate,
+                        tx_hash,
+                        expiry,
+                        gasFees
+                    }
+                },
+            });
+        } catch (error) {
+            console.log(error);
+        }
+        res.status(200).json(limit);
+
     } catch (error) {
         console.log(error);
         res.status(500).json({ error: "Something went wrong" });

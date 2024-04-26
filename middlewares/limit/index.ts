@@ -27,6 +27,9 @@ const createLimitSchema = z.object({
         expiry: z.string({
             required_error: "expiry is required",
         }),
+        gasFees: z.number({
+            required_error: "gasFees is required",
+        }),
     }),
 });
 

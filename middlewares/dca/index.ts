@@ -18,7 +18,10 @@ const createDCASchema = z.object({
         }),
         out_amount: z.number({
             required_error: "out_amount is required",
-        })
+        }),
+        gasFees: z.number({
+            required_error: "gasFees is required",
+        }),
     }),
 });
 

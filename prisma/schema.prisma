@@ -33,6 +33,7 @@ model Bridge {
   tx_hash     String   @unique
   route       String
   address     String
+  gasFees     Decimal
   User        User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Bridge_address_fkey")
 }
 
@@ -45,21 +46,23 @@ model DCA {
   output_token Json
   in_amount    Decimal
   out_amount   Decimal
+  gasFees      Decimal
   User         User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_DCA_address_fkey")
 }
 
 model Limit {
-  id         String   @id @default(uuid()) @db.Uuid
-  created_at DateTime @default(now()) @db.Timestamptz(6)
-  address    String
-  input_token   Json
-  output_token  Json
-  in_amount  Decimal
-  out_amount Decimal
-  buy_rate   Decimal
-  tx_hash    String   @unique
-  expiry     String
-  User       User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Limit_address_fkey")
+  id           String   @id @default(uuid()) @db.Uuid
+  created_at   DateTime @default(now()) @db.Timestamptz(6)
+  address      String
+  input_token  Json
+  output_token Json
+  in_amount    Decimal
+  out_amount   Decimal
+  buy_rate     Decimal
+  tx_hash      String   @unique
+  expiry       String
+  gasFees      Decimal
+  User         User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Limit_address_fkey")
 }
 
 model activity {

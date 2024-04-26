@@ -13,6 +13,7 @@ async function createBridge(req: Request, res: Response) {
     dst_amount,
     tx_hash,
     route,
+    gasFees,
     address } = req.body;
   try {
     const bridge = await prisma.bridge.create({
@@ -28,8 +29,32 @@ async function createBridge(req: Request, res: Response) {
         tx_hash,
         route,
         address,
+        gasFees
       },
     });
+    try {
+      const activityRes = await prisma.activity.create({
+          data: {
+              address,
+              activity_type: 'BRIDGE',
+              activity: {
+                  src_address,
+                  dst_address,
+                  src_chain,
+                  dst_chain,
+                  src_token,
+                  dst_token,
+                  src_amount,
+                  dst_amount,
+                  tx_hash,
+                  route,
+                  gasFees
+              }
+          },
+      });
+     } catch (error) {
+      console.log(error);
+     }
     res.status(200).json(bridge);
   } catch (error) {
     console.log(error);
