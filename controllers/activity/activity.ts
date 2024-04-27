@@ -29,6 +29,9 @@ async function getActivity(req: Request, res: Response) {
             where: {
                 address,
             },
+            orderBy: {
+                created_at: 'desc',
+            },
         });
         res.status(200).json(activityRes);
     } catch (error) {
@@ -36,5 +39,6 @@ async function getActivity(req: Request, res: Response) {
         res.status(500).json({ error: "Something went wrong" });
     }
 }
+
 
 export { createActivity, getActivity };
