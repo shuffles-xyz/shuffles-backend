@@ -1,30 +1,14 @@
 import { Request, Response } from 'express';
 import prisma from '../../lib/prims-client';
-import { createActivity } from '../activity/activity';
-import { tryCatch } from 'bullmq';
 
 async function createDCA(req: Request, res: Response) {
     const { address, dca_key, input_token, output_token, in_amount, out_amount, gasFees } = req.body;
 
     try {
-        const dca = await prisma.dCA.create({
-            data: {
-                address,
-                dca_key,
-                input_token,
-                output_token,
-                in_amount,
-                out_amount,
-                gasFees
-            }
-        });
-        
-       try {
-        const activityRes = await prisma.activity.create({
-            data: {
-                address,
-                activity_type: 'DCA',
-                activity: {
+        const [dca, activity] = await Promise.all([
+            prisma.dCA.create({
+                data: {
+                    address,
                     dca_key,
                     input_token,
                     output_token,
@@ -32,13 +16,24 @@ async function createDCA(req: Request, res: Response) {
                     out_amount,
                     gasFees
                 }
-            },
-        });
-       } catch (error) {
-        console.log(error);
-       }
-        res.status(200).json(dca);      
+            }),
+            prisma.activity.create({
+                data: {
+                    address,
+                    activity_type: 'DCA',
+                    activity: {
+                        dca_key,
+                        input_token,
+                        output_token,
+                        in_amount,
+                        out_amount,
+                        gasFees
+                    }
+                },
+            })
+        ])
 
+        res.status(200).json(dca);
     } catch (error) {
         console.error(error);
         res.status(500).json({ error: 'Internal Server Error' });
@@ -66,13 +61,13 @@ async function getDCA(req: Request, res: Response) {
 }
 
 async function getAllDCA(req: Request, res: Response) {
-    const {address} = req.body;
+    const { address } = req.body;
     try {
         const dca = await prisma.dCA.findMany({
             where: {
                 address: address as string
-                }
-                });
+            }
+        });
 
         res.status(200).json(dca);
 
@@ -82,4 +77,4 @@ async function getAllDCA(req: Request, res: Response) {
     }
 }
 
-export { createDCA, getDCA, getAllDCA };
+export { createDCA, getAllDCA, getDCA };
