@@ -1,8 +1,8 @@
-import { NextFunction, Request, Response } from "express";
+import { NextFunction, Request, Response, query } from "express";
 import { z } from "zod";
 
 const getTokenListSchema = z.object({
-    body: z.object({
+    query: z.object({
         chain: z.string({
             required_error: "chain is required",
         }),
@@ -12,7 +12,7 @@ const getTokenListSchema = z.object({
 export default async function validateGetTokenList(req: Request, res: Response, next: NextFunction) {
     try {
         await getTokenListSchema.parseAsync({
-            body: req.body,
+            query: req.query,
         });
         return next();
     } catch (error) {
