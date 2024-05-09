@@ -5,7 +5,7 @@ async function createDCA(req: Request, res: Response) {
     const { address, dca_key, input_token, output_token, in_amount, out_amount, gasFees } = req.body;
 
     try {
-        const [dca, activity] = await Promise.all([
+        const [dca] = await Promise.all([
             prisma.dCA.create({
                 data: {
                     address,

@@ -16,7 +16,7 @@ async function createBridge(req: Request, res: Response) {
     gasFees,
     address } = req.body;
   try {
-    const [bridge, activity] = await Promise.all([
+    const [bridge] = await Promise.all([
       await prisma.bridge.create({
         data: {
           src_address,

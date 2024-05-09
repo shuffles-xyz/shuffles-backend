@@ -4,8 +4,6 @@ import express, { Application, Request, Response } from 'express';
 import wallet from './routes/wallet';
 import tokens from './routes/tokens';
 import dln from './routes/dln';
-import nodeCron from 'node-cron';
-import { getTokenList } from "./utils/getTokenList";
 import user from './routes/user';
 import dca from './routes/dca';
 import limit from './routes/limit';
@@ -29,7 +27,7 @@ app.use("/api/activity", activity);
 
 // nodeCron.schedule("* 23 * * * *", getTokenList);
 
-app.get('/', (req: Request, res: Response) => {
+app.get('/', (_: Request, res: Response) => {
     res.send('Welcome to Express & TypeScript Server');
 });
 
