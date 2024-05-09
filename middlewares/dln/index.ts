@@ -1,4 +1,4 @@
-import { NextFunction, Request, Response, query } from "express";
+import { NextFunction, Request, Response } from "express";
 import { z } from "zod";
 
 const getTokenListSchema = z.object({

@@ -1,13 +1,12 @@
 import { Request, Response } from 'express';
 import prisma from '../../lib/prims-client';
-import { promise } from 'zod';
 
 async function createWithdrawal(req: Request, res: Response) {
-   const {address, receiver, token, amount, tx_hash } = req.body;
+   const { address, receiver, token, amount, tx_hash } = req.body;
 
    try {
       console.log(req.body);
-      const [withdrawal, activity] = await Promise.all([
+      const [withdrawal] = await Promise.all([
          await prisma.withdrawal.create({
             data: {
                address,
@@ -17,8 +16,7 @@ async function createWithdrawal(req: Request, res: Response) {
                tx_hash
             }
          }),
-   
-        await prisma.activity.create({
+         await prisma.activity.create({
             data: {
                address: address,
                activity_type: 'WITHDRAW',
@@ -30,8 +28,8 @@ async function createWithdrawal(req: Request, res: Response) {
                }
             }
          })
-      ]) 
-      
+      ])
+
       res.status(200).json(withdrawal);
 
    } catch (error) {
