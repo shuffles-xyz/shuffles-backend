@@ -9,6 +9,7 @@ import dca from './routes/dca';
 import limit from './routes/limit';
 import bridge from './routes/bridge';
 import activity from './routes/activity';
+import withdrawal from './routes/withdrawal';
 
 dotenv.config();
 
@@ -24,6 +25,7 @@ app.use("/api/dca", dca);
 app.use("/api/limit", limit);
 app.use("/api/bridge", bridge);
 app.use("/api/activity", activity);
+app.use("/api/withdrawal", withdrawal);
 
 // nodeCron.schedule("* 23 * * * *", getTokenList);
 

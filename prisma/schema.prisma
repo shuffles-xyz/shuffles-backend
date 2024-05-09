@@ -8,15 +8,16 @@ datasource db {
 }
 
 model User {
-  id          String     @id @default(uuid()) @db.Uuid
-  created_at  DateTime   @default(now()) @db.Timestamptz(6)
-  address     String     @unique
+  id          String       @id @default(uuid()) @db.Uuid
+  created_at  DateTime     @default(now()) @db.Timestamptz(6)
+  address     String       @unique
   token       String?
   device_type String
   Bridge      Bridge[]
   DCA         DCA[]
   Limit       Limit[]
   activity    activity[]
+  withdrawal  withdrawal[]
 }
 
 model Bridge {
@@ -72,4 +73,15 @@ model activity {
   activity      Json
   address       String
   User          User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_activity_address_fkey")
+}
+
+model withdrawal {
+  id         String   @id @default(uuid()) @db.Uuid
+  created_at DateTime @default(now()) @db.Timestamptz(6)
+  token      Json
+  amount     Decimal
+  tx_hash    String   @unique
+  receiver   String
+  address    String
+  User       User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction)
 }
