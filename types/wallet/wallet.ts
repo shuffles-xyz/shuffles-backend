@@ -29,3 +29,11 @@ export interface IToken {
     publicKey: string;
     secretKey: string;
   }
+
+  export type Token = {
+    address: string,
+    name: string,
+    symbol: string,
+    image: string,
+    decimals: number,
+  }

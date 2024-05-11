@@ -1,5 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import {Token} from '../types/wallet/wallet';
+
 
 const chains = [
     "42161",
@@ -29,7 +31,7 @@ export async function getTokenList() {
             const data = await response.json();
             console.log('Token list fetched', chainId);
             const tokens = data.tokens;
-            let tokenList = [];
+            let tokenList:Token[] = [];
             for (const key in tokens) {
                 if (Object.hasOwnProperty.call(tokens, key)) {
                     const token = tokens[key];

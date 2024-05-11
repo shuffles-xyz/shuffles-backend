@@ -11,6 +11,7 @@ import bridge from './routes/bridge';
 import activity from './routes/activity';
 import withdrawal from './routes/withdrawal';
 import nodeCron from 'node-cron';
+import {getTokenList} from './utils/getTokenList';
 
 dotenv.config();
 
@@ -28,7 +29,7 @@ app.use("/api/bridge", bridge);
 app.use("/api/activity", activity);
 app.use("/api/withdrawal", withdrawal);
 
-// nodeCron.schedule("* 23 * * * *", getTokenList);
+nodeCron.schedule("* 23 * * * *", getTokenList);
 
 app.get('/', (_: Request, res: Response) => {
     res.send('Welcome to Express & TypeScript Server');
