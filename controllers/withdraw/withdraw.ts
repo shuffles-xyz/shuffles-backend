@@ -5,7 +5,6 @@ async function createWithdrawal(req: Request, res: Response) {
    const { address, receiver, token, amount, tx_hash } = req.body;
 
    try {
-      console.log(req.body);
       const [withdrawal] = await Promise.all([
          await prisma.withdrawal.create({
             data: {
