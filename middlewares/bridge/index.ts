@@ -9,12 +9,10 @@ const createBridgeSchema = z.object({
         dst_address: z.string({
             required_error: "dst_address is required",
         }),
-        src_chain: z.string({
-            required_error: "src_chain is required",
-        }),
-        dst_chain: z.string({
-            required_error: "dst_chain is required",
-        }),
+        src_chain: z.object({
+        }).required(),
+        dst_chain: z.object({
+        }).required(),
         src_token: z.object({}).required(),
         dst_token: z.object({}).required(),
         src_amount: z.number({

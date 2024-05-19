@@ -17,6 +17,9 @@ dependencies:
   express:
     specifier: ^4.19.2
     version: 4.19.2
+  https:
+    specifier: ^1.0.0
+    version: 1.0.0
   node-cron:
     specifier: ^3.0.3
     version: 3.0.3
@@ -668,6 +671,10 @@ packages:
       setprototypeof: 1.2.0
       statuses: 2.0.1
       toidentifier: 1.0.1
+    dev: false
+
+  /https@1.0.0:
+    resolution: {integrity: sha512-4EC57ddXrkaF0x83Oj8sM6SLQHAWXw90Skqu2M4AEWENZ3F02dFJE/GARA8igO79tcgYqGrD7ae4f5L3um2lgg==}
     dev: false
 
   /iconv-lite@0.4.24:

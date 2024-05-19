@@ -42,6 +42,13 @@
     "decimals": 18
   },
   {
+    "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+    "name": "Aerodrome Finance",
+    "symbol": "AERO",
+    "image": "https://tokens.1inch.io/0x940181a94a35a4569e4529a3cdfb74e38fd98631.png",
+    "decimals": 18
+  },
+  {
     "address": "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376",
     "name": "USD+",
     "symbol": "USD+",
@@ -53,6 +60,13 @@
     "name": "Coinbase Wrapped Staked ETH",
     "symbol": "cbETH",
     "image": "https://tokens.1inch.io/0x2ae3f1ec7f1f5012cfeab0185bfc7aa3cf0dec22.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xb8d98a102b0079b69ffbc760c8d857a31653e56e",
+    "name": "toby",
+    "symbol": "toby",
+    "image": "https://tokens.1inch.io/0xb8d98a102b0079b69ffbc760c8d857a31653e56e.png",
     "decimals": 18
   },
   {
@@ -70,6 +84,13 @@
     "decimals": 18
   },
   {
+    "address": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "image": "https://tokens.1inch.io/0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452.png",
+    "decimals": 18
+  },
+  {
     "address": "0x63e71271719f03d7233f4fa306b6ea868d0f52ff",
     "name": "BaseInu",
     "symbol": "BINU",
@@ -77,10 +98,10 @@
     "decimals": 18
   },
   {
-    "address": "0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452",
-    "name": "Wrapped liquid staked Ether 2.0",
-    "symbol": "wstETH",
-    "image": "https://tokens.1inch.io/0xc1cba3fcea344f92d9239c08c0568f6f2f0ee452.png",
+    "address": "0x0578d8a44db98b23bf096a382e016e29a5ce0ffe",
+    "name": "higher",
+    "symbol": "HIGHER",
+    "image": "https://tokens.1inch.io/0x0578d8a44db98b23bf096a382e016e29a5ce0ffe.png",
     "decimals": 18
   },
   {
@@ -105,10 +126,10 @@
     "decimals": 6
   },
   {
-    "address": "0x081ad949defe648774c3b8debe0e4f28a80716dc",
-    "name": "Horizon",
-    "symbol": "HZN",
-    "image": "https://tokens.1inch.io/0x081ad949defe648774c3b8debe0e4f28a80716dc.png",
+    "address": "0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c",
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH",
+    "image": "https://tokens.1inch.io/0xb6fe221fe9eef5aba221c348ba20a1bf5e73624c.png",
     "decimals": 18
   },
   {
@@ -124,6 +145,27 @@
     "symbol": "AXL",
     "image": "https://tokens.1inch.io/0x23ee2343b892b1bb63503a4fabc840e0e2c6810f.png",
     "decimals": 6
+  },
+  {
+    "address": "0x081ad949defe648774c3b8debe0e4f28a80716dc",
+    "name": "Horizon",
+    "symbol": "HZN",
+    "image": "https://tokens.1inch.io/0x081ad949defe648774c3b8debe0e4f28a80716dc.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8fe815417913a93ea99049fc0718ee1647a2a07c",
+    "name": "XSwap",
+    "symbol": "XSWAP",
+    "image": "https://tokens.1inch.io/0x8fe815417913a93ea99049fc0718ee1647a2a07c.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3055913c90fcc1a6ce9a358911721eeb942013a1",
+    "name": "PancakeSwap Token",
+    "symbol": "Cake",
+    "image": "https://tokens.1inch.io/0x3055913c90fcc1a6ce9a358911721eeb942013a1.png",
+    "decimals": 18
   },
   {
     "address": "0xbcf19453badf7c7ac0630b11dcb75d52b7eb8930",
