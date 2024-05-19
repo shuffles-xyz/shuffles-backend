@@ -33,6 +33,9 @@ const createBridgeSchema = z.object({
         gasFees: z.number({
             required_error: "gasFees is required",
         }),
+        orderId: z.string({
+            required_error: "orderId is required",
+        }),
     }),
 });
 

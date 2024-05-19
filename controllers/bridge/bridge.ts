@@ -14,7 +14,9 @@ async function createBridge(req: Request, res: Response) {
     tx_hash,
     route,
     gasFees,
-    address } = req.body;
+    address,
+    orderId
+  } = req.body;
   try {
     const [bridge] = await Promise.all([
       await prisma.bridge.create({
@@ -30,7 +32,8 @@ async function createBridge(req: Request, res: Response) {
           tx_hash,
           route,
           address,
-          gasFees
+          gasFees,
+          orderId
         },
       }),
       await prisma.activity.create({
