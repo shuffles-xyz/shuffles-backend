@@ -9,7 +9,7 @@ async function createLimitOrder(req: Request, res: Response) {
         in_amount,
         out_amount,
         buy_rate,
-        tx_hash,
+        txHash,
         gasFees,
         expiry, } = req.body;
     try {
@@ -22,7 +22,7 @@ async function createLimitOrder(req: Request, res: Response) {
                     in_amount,
                     out_amount,
                     buy_rate,
-                    tx_hash,
+                    tx_hash: txHash,
                     expiry,
                     gasFees
                 },
@@ -38,7 +38,7 @@ async function createLimitOrder(req: Request, res: Response) {
                         in_amount,
                         out_amount,
                         buy_rate,
-                        tx_hash,
+                        txHash,
                         expiry,
                         gasFees
                     }
