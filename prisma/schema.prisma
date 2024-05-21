@@ -35,7 +35,7 @@ model Bridge {
   route       String
   address     String
   gasFees     Decimal
-  orderId     String
+  orderId     String   @unique
   User        User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_Bridge_address_fkey")
 }
 
@@ -49,6 +49,7 @@ model DCA {
   in_amount    Decimal
   out_amount   Decimal
   gasFees      Decimal
+  tx_hash      String   @unique
   User         User     @relation(fields: [address], references: [address], onDelete: NoAction, onUpdate: NoAction, map: "public_DCA_address_fkey")
 }
 

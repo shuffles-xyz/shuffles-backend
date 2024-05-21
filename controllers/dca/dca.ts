@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import prisma from '../../lib/prims-client';
 
 async function createDCA(req: Request, res: Response) {
-    const { address, dca_key, input_token, output_token, in_amount, out_amount, gasFees } = req.body;
+    const { address, dca_key, input_token, output_token, in_amount, out_amount, gasFees, txHash } = req.body;
 
     try {
         const [dca] = await Promise.all([
@@ -14,7 +14,8 @@ async function createDCA(req: Request, res: Response) {
                     output_token,
                     in_amount,
                     out_amount,
-                    gasFees
+                    gasFees,
+                    tx_hash: txHash
                 }
             }),
             prisma.activity.create({

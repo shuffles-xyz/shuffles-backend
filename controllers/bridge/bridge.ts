@@ -69,7 +69,7 @@ async function getBridgeTx(req: Request, res: Response) {
   try {
     const bridge = await prisma.bridge.findUnique({
       where: {
-        tx_hash: tx,
+        orderId: tx,
       },
     });
     res.status(200).json(bridge);
