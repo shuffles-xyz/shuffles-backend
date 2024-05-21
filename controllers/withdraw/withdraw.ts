@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import prisma from '../../lib/prims-client';
 
 async function createWithdrawal(req: Request, res: Response) {
-   const { address, receiver, token, amount, tx_hash } = req.body;
+   const { address, receiver, token, amount, txHash } = req.body;
 
    try {
       const [withdrawal] = await Promise.all([
@@ -12,7 +12,7 @@ async function createWithdrawal(req: Request, res: Response) {
                receiver,
                token,
                amount,
-               tx_hash
+               tx_hash: txHash
             }
          }),
          await prisma.activity.create({
@@ -23,7 +23,7 @@ async function createWithdrawal(req: Request, res: Response) {
                   receiver,
                   token,
                   amount,
-                  tx_hash
+                  txHash
                }
             }
          })

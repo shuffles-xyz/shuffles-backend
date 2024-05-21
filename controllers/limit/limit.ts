@@ -13,6 +13,7 @@ async function createLimitOrder(req: Request, res: Response) {
         gasFees,
         expiry, } = req.body;
     try {
+        console.log(req.body);
         const [limitOrder] = await Promise.all([
             await prisma.limit.create({
                 data: {
