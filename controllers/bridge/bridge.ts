@@ -51,6 +51,7 @@ async function createBridge(req: Request, res: Response) {
             dst_amount,
             tx_hash,
             route,
+            orderId,
             gasFees
           }
         },

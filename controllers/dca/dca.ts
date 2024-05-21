@@ -28,7 +28,8 @@ async function createDCA(req: Request, res: Response) {
                         output_token,
                         in_amount,
                         out_amount,
-                        gasFees
+                        gasFees,
+                        txHash
                     }
                 },
             })
