@@ -11,7 +11,7 @@ async function createBridge(req: Request, res: Response) {
     dst_token,
     src_amount,
     dst_amount,
-    tx_hash,
+    txHash,
     route,
     gasFees,
     address,
@@ -29,7 +29,7 @@ async function createBridge(req: Request, res: Response) {
           dst_token,
           src_amount,
           dst_amount,
-          tx_hash,
+          tx_hash: txHash,
           route,
           address,
           gasFees,
@@ -49,8 +49,9 @@ async function createBridge(req: Request, res: Response) {
             dst_token,
             src_amount,
             dst_amount,
-            tx_hash,
+            txHash,
             route,
+            orderId,
             gasFees
           }
         },
@@ -69,7 +70,7 @@ async function getBridgeTx(req: Request, res: Response) {
   try {
     const bridge = await prisma.bridge.findUnique({
       where: {
-        tx_hash: tx,
+        orderId: tx,
       },
     });
     res.status(200).json(bridge);

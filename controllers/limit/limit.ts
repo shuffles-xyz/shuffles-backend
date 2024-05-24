@@ -9,10 +9,11 @@ async function createLimitOrder(req: Request, res: Response) {
         in_amount,
         out_amount,
         buy_rate,
-        tx_hash,
+        txHash,
         gasFees,
         expiry, } = req.body;
     try {
+        console.log(req.body);
         const [limitOrder] = await Promise.all([
             await prisma.limit.create({
                 data: {
@@ -22,7 +23,7 @@ async function createLimitOrder(req: Request, res: Response) {
                     in_amount,
                     out_amount,
                     buy_rate,
-                    tx_hash,
+                    tx_hash: txHash,
                     expiry,
                     gasFees
                 },
@@ -38,7 +39,7 @@ async function createLimitOrder(req: Request, res: Response) {
                         in_amount,
                         out_amount,
                         buy_rate,
-                        tx_hash,
+                        txHash,
                         expiry,
                         gasFees
                     }

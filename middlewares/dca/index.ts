@@ -22,6 +22,9 @@ const createDCASchema = z.object({
         gasFees: z.number({
             required_error: "gasFees is required",
         }),
+        txHash: z.string({
+            required_error: "txHash is required",
+        }),
     }),
 });
 

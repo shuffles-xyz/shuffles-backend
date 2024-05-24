@@ -21,7 +21,7 @@ const createBridgeSchema = z.object({
         dst_amount: z.number({
             required_error: "dst_amount is required",
         }),
-        tx_hash: z.string({
+        txHash: z.string({
             required_error: "tx-hash is required",
         }),
         route: z.string({
