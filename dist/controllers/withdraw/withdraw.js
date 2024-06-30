@@ -5,9 +5,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const prims_client_1 = __importDefault(require("../../lib/prims-client"));
 async function createWithdrawal(req, res) {
-    const { address, receiver, token, amount, tx_hash } = req.body;
+    const { address, receiver, token, amount, txHash } = req.body;
     try {
-        console.log(req.body);
         const [withdrawal] = await Promise.all([
             await prims_client_1.default.withdrawal.create({
                 data: {
@@ -15,7 +14,7 @@ async function createWithdrawal(req, res) {
                     receiver,
                     token,
                     amount,
-                    tx_hash
+                    tx_hash: txHash
                 }
             }),
             await prims_client_1.default.activity.create({
@@ -26,7 +25,7 @@ async function createWithdrawal(req, res) {
                         receiver,
                         token,
                         amount,
-                        tx_hash
+                        txHash
                     }
                 }
             })

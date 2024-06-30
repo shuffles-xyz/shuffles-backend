@@ -49,6 +49,13 @@
     "decimals": 18
   },
   {
+    "address": "0x68f180fcce6836688e9084f035309e29bf0a2095",
+    "name": "Wrapped Bitcoin",
+    "symbol": "WBTC",
+    "image": "https://tokens.1inch.io/0x68f180fcce6836688e9084f035309e29bf0a2095.png",
+    "decimals": 8
+  },
+  {
     "address": "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9",
     "name": "Synth sUSD",
     "symbol": "sUSD",
@@ -61,13 +68,6 @@
     "symbol": "SNX",
     "image": "https://ethereum-optimism.github.io/logos/SNX.svg",
     "decimals": 18
-  },
-  {
-    "address": "0x68f180fcce6836688e9084f035309e29bf0a2095",
-    "name": "Wrapped Bitcoin",
-    "symbol": "WBTC",
-    "image": "https://tokens.1inch.io/0x68f180fcce6836688e9084f035309e29bf0a2095.png",
-    "decimals": 8
   },
   {
     "address": "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97",
@@ -112,13 +112,6 @@
     "decimals": 18
   },
   {
-    "address": "0x73cb180bf0521828d8849bc8cf2b920918e23032",
-    "name": "USD+",
-    "symbol": "USD+",
-    "image": "https://tokens.1inch.io/0x73cb180bf0521828d8849bc8cf2b920918e23032.png",
-    "decimals": 6
-  },
-  {
     "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
     "name": "Rocket Pool ETH",
     "symbol": "rETH",
@@ -126,10 +119,24 @@
     "decimals": 18
   },
   {
+    "address": "0x73cb180bf0521828d8849bc8cf2b920918e23032",
+    "name": "USD+",
+    "symbol": "USD+",
+    "image": "https://tokens.1inch.io/0x73cb180bf0521828d8849bc8cf2b920918e23032.png",
+    "decimals": 6
+  },
+  {
     "address": "0x217d47011b23bb961eb6d93ca9945b7501a5bb11",
     "name": "Optimistic Thales Token",
     "symbol": "THALES",
     "image": "https://tokens.1inch.io/0x217d47011b23bb961eb6d93ca9945b7501a5bb11.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49",
+    "name": "Synth sETH",
+    "symbol": "sETH",
+    "image": "https://tokens.1inch.io/0xe405de8f52ba7559f9df3c368500b6e6ae6cee49.png",
     "decimals": 18
   },
   {
@@ -140,10 +147,17 @@
     "decimals": 18
   },
   {
-    "address": "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49",
-    "name": "Synth sETH",
-    "symbol": "sETH",
-    "image": "https://tokens.1inch.io/0xe405de8f52ba7559f9df3c368500b6e6ae6cee49.png",
+    "address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
+    "name": "BOB",
+    "symbol": "BOB",
+    "image": "https://tokens.1inch.io/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8ae125e8653821e851f12a49f7765db9a9ce7384",
+    "name": "Dola USD Stablecoin",
+    "symbol": "DOLA",
+    "image": "https://tokens.1inch.io/0x8ae125e8653821e851f12a49f7765db9a9ce7384.png",
     "decimals": 18
   },
   {
@@ -161,17 +175,17 @@
     "decimals": 18
   },
   {
+    "address": "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
+    "name": "BUSD Token",
+    "symbol": "BUSD",
+    "image": "https://tokens.1inch.io/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39.png",
+    "decimals": 18
+  },
+  {
     "address": "0x9e1028f5f1d5ede59748ffcee5532509976840e0",
     "name": "Perpetual",
     "symbol": "PERP",
     "image": "https://tokens.1inch.io/0x9e1028f5f1d5ede59748ffcee5532509976840e0.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x8ae125e8653821e851f12a49f7765db9a9ce7384",
-    "name": "Dola USD Stablecoin",
-    "symbol": "DOLA",
-    "image": "https://tokens.1inch.io/0x8ae125e8653821e851f12a49f7765db9a9ce7384.png",
     "decimals": 18
   },
   {
@@ -182,13 +196,6 @@
     "decimals": 18
   },
   {
-    "address": "0x9c9e5fd8bbc25984b178fdce6117defa39d2db39",
-    "name": "BUSD Token",
-    "symbol": "BUSD",
-    "image": "https://tokens.1inch.io/0x9c9e5fd8bbc25984b178fdce6117defa39d2db39.png",
-    "decimals": 18
-  },
-  {
     "address": "0xdfa46478f9e5ea86d57387849598dbfb2e964b02",
     "name": "Mai Stablecoin",
     "symbol": "MAI",
@@ -196,17 +203,17 @@
     "decimals": 18
   },
   {
-    "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07",
-    "name": "Kromatika",
-    "symbol": "KROM",
-    "image": "https://tokens.1inch.io/0xf98dcd95217e15e05d8638da4c91125e59590b07.png",
-    "decimals": 18
-  },
-  {
     "address": "0x3e29d3a9316dab217754d13b28646b76607c5f04",
     "name": "Alchemix ETH",
     "symbol": "alETH",
     "image": "https://tokens.1inch.io/0x3e29d3a9316dab217754d13b28646b76607c5f04.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07",
+    "name": "Kromatika",
+    "symbol": "KROM",
+    "image": "https://tokens.1inch.io/0xf98dcd95217e15e05d8638da4c91125e59590b07.png",
     "decimals": 18
   },
   {
@@ -228,13 +235,6 @@
     "name": "Saddle DAO",
     "symbol": "SDL",
     "image": "https://tokens.1inch.io/0xae31207ac34423c41576ff59bfb4e036150f9cf7.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b",
-    "name": "BOB",
-    "symbol": "BOB",
-    "image": "https://tokens.1inch.io/0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b.png",
     "decimals": 18
   },
   {

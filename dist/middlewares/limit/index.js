@@ -18,8 +18,8 @@ const createLimitSchema = zod_1.z.object({
         buy_rate: zod_1.z.number({
             required_error: "buy_rate is required",
         }),
-        tx_hash: zod_1.z.string({
-            required_error: "tx_hash is required",
+        txHash: zod_1.z.string({
+            required_error: "txHash is required",
         }),
         expiry: zod_1.z.string({
             required_error: "expiry is required",

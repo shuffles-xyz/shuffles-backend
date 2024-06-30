@@ -63,6 +63,13 @@
     "decimals": 18
   },
   {
+    "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
+    "name": "Pendle",
+    "symbol": "PENDLE",
+    "image": "https://tokens.1inch.io/0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8.png",
+    "decimals": 18
+  },
+  {
     "address": "0x6694340fc020c5e6b96567843da2df01b2ce1eb6",
     "name": "StargateToken",
     "symbol": "STG",
@@ -77,13 +84,6 @@
     "decimals": 18
   },
   {
-    "address": "0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8",
-    "name": "Pendle",
-    "symbol": "PENDLE",
-    "image": "https://tokens.1inch.io/0x0c880f6761f1af8d9aa9c466984b80dab9a8c9e8.png",
-    "decimals": 18
-  },
-  {
     "address": "0x323665443cef804a3b5206103304bd4872ea4253",
     "name": "USDV",
     "symbol": "USDV",
@@ -91,17 +91,17 @@
     "decimals": 6
   },
   {
-    "address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
-    "name": "GMX",
-    "symbol": "GMX",
-    "image": "https://tokens.1inch.io/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a.png",
-    "decimals": 18
-  },
-  {
     "address": "0x5979d7b546e38e414f7e9822514be443a4800529",
     "name": "Wrapped liquid staked Ether 2.0",
     "symbol": "wstETH",
     "image": "https://tokens.1inch.io/0x5979d7b546e38e414f7e9822514be443a4800529.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a",
+    "name": "GMX",
+    "symbol": "GMX",
+    "image": "https://tokens.1inch.io/0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a.png",
     "decimals": 18
   },
   {
@@ -119,17 +119,17 @@
     "decimals": 18
   },
   {
+    "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH",
+    "image": "https://tokens.1inch.io/0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8.png",
+    "decimals": 18
+  },
+  {
     "address": "0xd77b108d4f6cefaa0cae9506a934e825becca46e",
     "name": "WINR",
     "symbol": "WINR",
     "image": "https://tokens.1inch.io/0xd77b108d4f6cefaa0cae9506a934e825becca46e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
-    "name": "Frax",
-    "symbol": "FRAX",
-    "image": "https://tokens.1inch.io/0x17fc002b466eec40dae837fc4be5c67993ddbd6f.png",
     "decimals": 18
   },
   {
@@ -140,10 +140,10 @@
     "decimals": 18
   },
   {
-    "address": "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8",
-    "name": "Rocket Pool ETH",
-    "symbol": "rETH",
-    "image": "https://tokens.1inch.io/0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8.png",
+    "address": "0x17fc002b466eec40dae837fc4be5c67993ddbd6f",
+    "name": "Frax",
+    "symbol": "FRAX",
+    "image": "https://tokens.1inch.io/0x17fc002b466eec40dae837fc4be5c67993ddbd6f.png",
     "decimals": 18
   },
   {
@@ -151,13 +151,6 @@
     "name": "Magic Internet Money",
     "symbol": "MIM",
     "image": "https://tokens.1inch.io/0xfea7a6a0b346362bf88a9e4a88416b77a57d6c2a.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
-    "name": "SushiToken",
-    "symbol": "SUSHI",
-    "image": "https://tokens.1inch.io/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2.png",
     "decimals": 18
   },
   {
@@ -182,6 +175,13 @@
     "decimals": 18
   },
   {
+    "address": "0xd4d42f0b6def4ce0383636770ef773390d85c61a",
+    "name": "SushiToken",
+    "symbol": "SUSHI",
+    "image": "https://tokens.1inch.io/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2.png",
+    "decimals": 18
+  },
+  {
     "address": "0xfa7f8980b0f1e64a2062791cc3b0871572f1f7f0",
     "name": "Uniswap",
     "symbol": "UNI",
@@ -196,18 +196,18 @@
     "decimals": 18
   },
   {
-    "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
-    "name": "deBridge USD Coin",
-    "symbol": "deUSDC",
-    "image": "https://tokens.1inch.io/0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa_2.png",
-    "decimals": 6
-  },
-  {
     "address": "0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60",
     "name": "Lido DAO Token",
     "symbol": "LDO",
     "image": "https://tokens.1inch.io/0x13ad51ed4f1b7e9dc168d8a00cb3f4ddd85efa60.png",
     "decimals": 18
+  },
+  {
+    "address": "0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa",
+    "name": "deBridge USD Coin",
+    "symbol": "deUSDC",
+    "image": "https://tokens.1inch.io/0x1ddcaa4ed761428ae348befc6718bcb12e63bfaa_2.png",
+    "decimals": 6
   },
   {
     "address": "0xcab86f6fb6d1c2cbeeb97854a0c023446a075fe3",
@@ -245,6 +245,13 @@
     "decimals": 18
   },
   {
+    "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
+    "name": "MCDEX Token",
+    "symbol": "MCB",
+    "image": "https://tokens.1inch.io/0x4e352cf164e64adcbad318c3a1e222e9eba4ce42.png",
+    "decimals": 18
+  },
+  {
     "address": "0x3e6648c5a70a150a88bce65f4ad4d506fe15d2af",
     "name": "Spell Token",
     "symbol": "SPELL",
@@ -259,16 +266,10 @@
     "decimals": 18
   },
   {
-    "address": "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42",
-    "name": "MCDEX Token",
-    "symbol": "MCB",
-    "image": "https://tokens.1inch.io/0x4e352cf164e64adcbad318c3a1e222e9eba4ce42.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xde903e2712288a1da82942dddf2c20529565ac30",
-    "name": "Swapr",
-    "symbol": "SWPR",
+    "address": "0x079504b86d38119f859c4194765029f692b7b7aa",
+    "name": "Lyra Token",
+    "symbol": "LYRA",
+    "image": "https://tokens.1inch.io/0x079504b86d38119f859c4194765029f692b7b7aa.png",
     "decimals": 18
   },
   {
@@ -293,6 +294,19 @@
     "decimals": 6
   },
   {
+    "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
+    "name": "Compound",
+    "symbol": "COMP",
+    "image": "https://tokens.1inch.io/0xc00e94cb662c3520282e6f5717214004a7f26888.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xde903e2712288a1da82942dddf2c20529565ac30",
+    "name": "Swapr",
+    "symbol": "SWPR",
+    "decimals": 18
+  },
+  {
     "address": "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee",
     "name": "Elk",
     "symbol": "ELK",
@@ -307,11 +321,25 @@
     "decimals": 18
   },
   {
-    "address": "0x079504b86d38119f859c4194765029f692b7b7aa",
-    "name": "Lyra Token",
-    "symbol": "LYRA",
-    "image": "https://tokens.1inch.io/0x079504b86d38119f859c4194765029f692b7b7aa.png",
+    "address": "0x3a8b787f78d775aecfeea15706d4221b40f345ab",
+    "name": "CelerToken",
+    "symbol": "CELR",
+    "image": "https://zapper.fi/images/CELR-icon.png",
     "decimals": 18
+  },
+  {
+    "address": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879",
+    "name": "Maker",
+    "symbol": "MKR",
+    "image": "https://tokens.1inch.io/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
+    "name": "USD+",
+    "symbol": "USD+",
+    "image": "https://tokens.1inch.io/0xe80772eaf6e2e18b651f160bc9158b2a5cafca65.png",
+    "decimals": 6
   },
   {
     "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
@@ -335,31 +363,10 @@
     "decimals": 18
   },
   {
-    "address": "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65",
-    "name": "USD+",
-    "symbol": "USD+",
-    "image": "https://tokens.1inch.io/0xe80772eaf6e2e18b651f160bc9158b2a5cafca65.png",
-    "decimals": 6
-  },
-  {
     "address": "0xc19669a405067927865b40ea045a2baabbbe57f5",
     "name": "STAR",
     "symbol": "STAR",
     "image": "https://tokens.1inch.io/0xc19669a405067927865b40ea045a2baabbbe57f5.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3a8b787f78d775aecfeea15706d4221b40f345ab",
-    "name": "CelerToken",
-    "symbol": "CELR",
-    "image": "https://zapper.fi/images/CELR-icon.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879",
-    "name": "Maker",
-    "symbol": "MKR",
-    "image": "https://tokens.1inch.io/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2.png",
     "decimals": 18
   },
   {
@@ -499,13 +506,6 @@
     "address": "0x3642c0680329ae3e103e2b5ab29ddfed4d43cbe5",
     "name": "Plenny",
     "symbol": "PL2",
-    "decimals": 18
-  },
-  {
-    "address": "0x354a6da3fcde098f8389cad84b0182725c6c91de",
-    "name": "Compound",
-    "symbol": "COMP",
-    "image": "https://tokens.1inch.io/0xc00e94cb662c3520282e6f5717214004a7f26888.png",
     "decimals": 18
   },
   {

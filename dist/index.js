@@ -14,6 +14,8 @@ const limit_1 = __importDefault(require("./routes/limit"));
 const bridge_1 = __importDefault(require("./routes/bridge"));
 const activity_1 = __importDefault(require("./routes/activity"));
 const withdrawal_1 = __importDefault(require("./routes/withdrawal"));
+const node_cron_1 = __importDefault(require("node-cron"));
+const getTokenList_1 = require("./utils/getTokenList");
 dotenv_1.default.config();
 const app = (0, express_1.default)();
 const port = process.env.PORT || 8000;
@@ -27,6 +29,7 @@ app.use("/api/limit", limit_1.default);
 app.use("/api/bridge", bridge_1.default);
 app.use("/api/activity", activity_1.default);
 app.use("/api/withdrawal", withdrawal_1.default);
+node_cron_1.default.schedule("* 23 * * * *", getTokenList_1.getTokenList);
 app.get('/', (_, res) => {
     res.send('Welcome to Express & TypeScript Server');
 });

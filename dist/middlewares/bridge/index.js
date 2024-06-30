@@ -10,12 +10,8 @@ const createBridgeSchema = zod_1.z.object({
         dst_address: zod_1.z.string({
             required_error: "dst_address is required",
         }),
-        src_chain: zod_1.z.string({
-            required_error: "src_chain is required",
-        }),
-        dst_chain: zod_1.z.string({
-            required_error: "dst_chain is required",
-        }),
+        src_chain: zod_1.z.object({}).required(),
+        dst_chain: zod_1.z.object({}).required(),
         src_token: zod_1.z.object({}).required(),
         dst_token: zod_1.z.object({}).required(),
         src_amount: zod_1.z.number({
@@ -24,7 +20,7 @@ const createBridgeSchema = zod_1.z.object({
         dst_amount: zod_1.z.number({
             required_error: "dst_amount is required",
         }),
-        tx_hash: zod_1.z.string({
+        txHash: zod_1.z.string({
             required_error: "tx-hash is required",
         }),
         route: zod_1.z.string({
@@ -35,6 +31,9 @@ const createBridgeSchema = zod_1.z.object({
         }),
         gasFees: zod_1.z.number({
             required_error: "gasFees is required",
+        }),
+        orderId: zod_1.z.string({
+            required_error: "orderId is required",
         }),
     }),
 });

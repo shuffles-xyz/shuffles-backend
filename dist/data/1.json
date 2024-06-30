@@ -42,6 +42,13 @@
     "decimals": 18
   },
   {
+    "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+    "name": "Matic Token",
+    "symbol": "MATIC",
+    "image": "https://tokens.1inch.io/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
+    "decimals": 18
+  },
+  {
     "address": "0xd31a59c85ae9d8edefec411d448f90841571b89c",
     "name": "Wrapped SOL",
     "symbol": "SOL",
@@ -49,10 +56,10 @@
     "decimals": 9
   },
   {
-    "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
-    "name": "Matic Token",
-    "symbol": "MATIC",
-    "image": "https://tokens.1inch.io/0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
+    "address": "0x57e114b691db790c35207b2e685d4a43181e6061",
+    "name": "ENA",
+    "symbol": "ENA",
+    "image": "https://tokens.1inch.io/0x57e114b691db790c35207b2e685d4a43181e6061.png",
     "decimals": 18
   },
   {
@@ -63,31 +70,10 @@
     "decimals": 18
   },
   {
-    "address": "0x57e114b691db790c35207b2e685d4a43181e6061",
-    "name": "ENA",
-    "symbol": "ENA",
-    "image": "https://tokens.1inch.io/0x57e114b691db790c35207b2e685d4a43181e6061.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb",
-    "name": "AltLayer Token",
-    "symbol": "ALT",
-    "image": "https://tokens.1inch.io/0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb.png",
-    "decimals": 18
-  },
-  {
     "address": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
     "name": "Pepe",
     "symbol": "PEPE",
     "image": "https://tokens.1inch.io/0x6982508145454ce325ddbe47a25d4ec3d2311933.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x808507121b80c02388fad14726482e061b8da827",
-    "name": "Pendle",
-    "symbol": "PENDLE",
-    "image": "https://tokens.1inch.io/0x808507121b80c02388fad14726482e061b8da827.png",
     "decimals": 18
   },
   {
@@ -98,24 +84,24 @@
     "decimals": 18
   },
   {
-    "address": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
-    "name": "Ondo Finance",
-    "symbol": "ONDO",
-    "image": "https://tokens.1inch.io/0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3.png",
+    "address": "0xf951e335afb289353dc249e82926178eac7ded78",
+    "name": "swETH",
+    "symbol": "SWETH",
+    "image": "https://tokens.1inch.io/0xf951e335afb289353dc249e82926178eac7ded78.png",
     "decimals": 18
   },
   {
-    "address": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
-    "name": "Injective Token",
-    "symbol": "INJ",
-    "image": "https://tokens.1inch.io/0xe28b3b32b6c345a34ff64674606124dd5aceca30.png",
+    "address": "0x808507121b80c02388fad14726482e061b8da827",
+    "name": "Pendle",
+    "symbol": "PENDLE",
+    "image": "https://tokens.1inch.io/0x808507121b80c02388fad14726482e061b8da827.png",
     "decimals": 18
   },
   {
-    "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
-    "name": "Wrapped liquid staked Ether 2.0",
-    "symbol": "wstETH",
-    "image": "https://tokens.1inch.io/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0.png",
+    "address": "0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb",
+    "name": "AltLayer Token",
+    "symbol": "ALT",
+    "image": "https://tokens.1inch.io/0x8457ca5040ad67fdebbcc8edce889a335bc0fbfb.png",
     "decimals": 18
   },
   {
@@ -126,10 +112,17 @@
     "decimals": 18
   },
   {
-    "address": "0xf951e335afb289353dc249e82926178eac7ded78",
-    "name": "swETH",
-    "symbol": "SWETH",
-    "image": "https://tokens.1inch.io/0xf951e335afb289353dc249e82926178eac7ded78.png",
+    "address": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "image": "https://tokens.1inch.io/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3",
+    "name": "Ondo Finance",
+    "symbol": "ONDO",
+    "image": "https://tokens.1inch.io/0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3.png",
     "decimals": 18
   },
   {
@@ -140,52 +133,17 @@
     "decimals": 18
   },
   {
-    "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
-    "name": "LUSD Stablecoin",
-    "symbol": "LUSD",
-    "image": "https://tokens.1inch.io/0x5f98805a4e8be255a32880fdec7f6728c6568ba0.png",
+    "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "image": "https://tokens.1inch.io/0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0.png",
     "decimals": 18
   },
   {
-    "address": "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee",
-    "name": "Wrapped eETH",
-    "symbol": "weETH",
-    "image": "https://tokens.1inch.io/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xe5a733681bbe6cd8c764bb8078ef8e13a576dd78",
-    "name": "Devour",
-    "symbol": "DPAY",
-    "image": "https://tokens.1inch.io/0xe5a733681bbe6cd8c764bb8078ef8e13a576dd78.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
-    "name": "Fantom Token",
-    "symbol": "FTM",
-    "image": "https://tokens.1inch.io/0x4e15361fd6b4bb609fa63c81a2be19d873717870.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x767fe9edc9e0df98e07454847909b5e959d7ca0e",
-    "name": "Illuvium",
-    "symbol": "ILV",
-    "image": "https://tokens.1inch.io/0x767fe9edc9e0df98e07454847909b5e959d7ca0e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
-    "name": "SHIBA INU",
-    "symbol": "SHIB",
-    "image": "https://tokens.1inch.io/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
-    "name": "Immutable X",
-    "symbol": "IMX",
-    "image": "https://tokens.1inch.io/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff.png",
+    "address": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+    "name": "Injective Token",
+    "symbol": "INJ",
+    "image": "https://tokens.1inch.io/0xe28b3b32b6c345a34ff64674606124dd5aceca30.png",
     "decimals": 18
   },
   {
@@ -196,17 +154,24 @@
     "decimals": 18
   },
   {
-    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
-    "name": "Lido DAO Token",
-    "symbol": "LDO",
-    "image": "https://tokens.1inch.io/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png",
+    "address": "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74",
+    "name": "Memecoin",
+    "symbol": "MEME",
+    "image": "https://tokens.1inch.io/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74.png",
     "decimals": 18
   },
   {
-    "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
-    "name": "Synthetix Network Token",
-    "symbol": "SNX",
-    "image": "https://tokens.1inch.io/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.png",
+    "address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+    "name": "SHIBA INU",
+    "symbol": "SHIB",
+    "image": "https://tokens.1inch.io/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x5f98805a4e8be255a32880fdec7f6728c6568ba0",
+    "name": "LUSD Stablecoin",
+    "symbol": "LUSD",
+    "image": "https://tokens.1inch.io/0x5f98805a4e8be255a32880fdec7f6728c6568ba0.png",
     "decimals": 18
   },
   {
@@ -217,20 +182,6 @@
     "decimals": 18
   },
   {
-    "address": "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74",
-    "name": "Memecoin",
-    "symbol": "MEME",
-    "image": "https://tokens.1inch.io/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
-    "name": "Synth sUSD",
-    "symbol": "sUSD",
-    "image": "https://tokens.1inch.io/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png",
-    "decimals": 18
-  },
-  {
     "address": "0xd1d2eb1b1e90b638588728b4130137d262c87cae",
     "name": "Gala",
     "symbol": "GALA",
@@ -238,66 +189,17 @@
     "decimals": 8
   },
   {
-    "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
-    "name": "StargateToken",
-    "symbol": "STG",
-    "image": "https://tokens.1inch.io/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png",
+    "address": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
+    "name": "Immutable X",
+    "symbol": "IMX",
+    "image": "https://tokens.1inch.io/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff.png",
     "decimals": 18
   },
   {
-    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
-    "name": "Aave Token",
-    "symbol": "AAVE",
-    "image": "https://tokens.1inch.io/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa35b1b31ce002fbf2058d22f30f95d405200a15b",
-    "name": "Stader ETHx",
-    "symbol": "ETHX",
-    "image": "https://tokens.1inch.io/0xa35b1b31ce002fbf2058d22f30f95d405200a15b.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x993864e43caa7f7f12953ad6feb1d1ca635b875f",
-    "name": "Singularity Dao",
-    "symbol": "SDAO",
-    "image": "https://tokens.1inch.io/0x993864e43caa7f7f12953ad6feb1d1ca635b875f.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
-    "name": "HEX",
-    "symbol": "HEX",
-    "image": "https://tokens.1inch.io/0x2b591e99afe9f32eaa6214f7b7629768c40eeb39.png",
-    "decimals": 8
-  },
-  {
-    "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
-    "name": "ApeCoin",
-    "symbol": "APE",
-    "image": "https://tokens.1inch.io/0x4d224452801aced8b2f0aebe155379bb5d594381.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
-    "name": "Amp",
-    "symbol": "AMP",
-    "image": "https://tokens.1inch.io/0xff20817765cb7f73d4bde2e66e067e58d11095c2.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
-    "name": "DAO Maker",
-    "symbol": "DAO",
-    "image": "https://tokens.1inch.io/0x0f51bb10119727a7e5ea3538074fb341f56b09ad.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
-    "name": "Curve.Fi USD Stablecoin",
-    "symbol": "crvUSD",
-    "image": "https://tokens.1inch.io/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e.png",
+    "address": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+    "name": "Fantom Token",
+    "symbol": "FTM",
+    "image": "https://tokens.1inch.io/0x4e15361fd6b4bb609fa63c81a2be19d873717870.png",
     "decimals": 18
   },
   {
@@ -308,122 +210,38 @@
     "decimals": 9
   },
   {
-    "address": "0x853d955acef822db058eb8505911ed77f175b99e",
-    "name": "Frax",
-    "symbol": "FRAX",
-    "image": "https://tokens.1inch.io/0x853d955acef822db058eb8505911ed77f175b99e.png",
+    "address": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "name": "Lido DAO Token",
+    "symbol": "LDO",
+    "image": "https://tokens.1inch.io/0x5a98fcbea516cf06857215779fd812ca3bef1b32.png",
     "decimals": 18
   },
   {
-    "address": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
-    "name": "Fetch",
-    "symbol": "FET",
-    "image": "https://tokens.1inch.io/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85.png",
+    "address": "0xe5a733681bbe6cd8c764bb8078ef8e13a576dd78",
+    "name": "Devour",
+    "symbol": "DPAY",
+    "image": "https://tokens.1inch.io/0xe5a733681bbe6cd8c764bb8078ef8e13a576dd78.png",
     "decimals": 18
   },
   {
-    "address": "0xc55126051b22ebb829d00368f4b12bde432de5da",
-    "name": "BTRFLY",
-    "symbol": "BTRFLY",
-    "image": "https://tokens.1inch.io/0xc55126051b22ebb829d00368f4b12bde432de5da.png",
+    "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+    "name": "Curve DAO Token",
+    "symbol": "CRV",
+    "image": "https://tokens.1inch.io/0xd533a949740bb3306d119cc777fa900ba034cd52.png",
     "decimals": 18
   },
   {
-    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
-    "name": "1INCH Token",
-    "symbol": "1INCH",
-    "image": "https://tokens.1inch.io/0x111111111117dc0aa78b770fa6a738034120c302.png",
+    "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
+    "name": "Synthetix Network Token",
+    "symbol": "SNX",
+    "image": "https://tokens.1inch.io/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f.png",
     "decimals": 18
   },
   {
-    "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
-    "name": "Uniswap",
-    "symbol": "UNI",
-    "image": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
-    "name": "Blur",
-    "symbol": "BLUR",
-    "image": "https://tokens.1inch.io/0x5283d291dbcf85356a21ba090e6db59121208b44.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
-    "name": "Quant",
-    "symbol": "QNT",
-    "image": "https://tokens.1inch.io/0x4a220e6096b25eadb88358cb44068a3248254675.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x31429d1856ad1377a8a0079410b297e1a9e214c2",
-    "name": "ANGLE",
-    "symbol": "ANGLE",
-    "image": "https://tokens.1inch.io/0x31429d1856ad1377a8a0079410b297e1a9e214c2.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xfb7b4564402e5500db5bb6d63ae671302777c75a",
-    "name": "DEXTools",
-    "symbol": "DEXT",
-    "image": "https://tokens.1inch.io/0x26ce25148832c04f3d7f26f32478a9fe55197166.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050",
-    "name": "Arkham",
-    "symbol": "ARKM",
-    "image": "https://assets.coingecko.com/coins/images/30929/large/Arkham_Logo_CG.png?1689672102",
-    "decimals": 18
-  },
-  {
-    "address": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
-    "name": "Ribbon",
-    "symbol": "RBN",
-    "image": "https://tokens.1inch.io/0x6123b0049f904d730db3c36a31167d9d4121fa6b.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
-    "name": "dYdX",
-    "symbol": "DYDX",
-    "image": "https://assets.coingecko.com/coins/images/17500/large/hjnIm9bV.jpg?1628009360",
-    "decimals": 18
-  },
-  {
-    "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
-    "name": "Frax Share",
-    "symbol": "FXS",
-    "image": "https://tokens.1inch.io/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
-    "name": "Binance USD",
-    "symbol": "BUSD",
-    "image": "https://tokens.1inch.io/0x4fabb145d64652a948d72533023f6e7a623c7c53.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
-    "name": "Ixs Token",
-    "symbol": "IXS",
-    "image": "https://tokens.1inch.io/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
-    "name": "Graph Token",
-    "symbol": "GRT",
-    "image": "https://tokens.1inch.io/0xc944e90c64b2c07662a292be6244bdf05cda44a7.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
-    "name": "Clearpool",
-    "symbol": "CPOOL",
-    "image": "https://tokens.1inch.io/0x66761fa41377003622aee3c7675fc7b5c1c2fac5.png",
+    "address": "0x767fe9edc9e0df98e07454847909b5e959d7ca0e",
+    "name": "Illuvium",
+    "symbol": "ILV",
+    "image": "https://tokens.1inch.io/0x767fe9edc9e0df98e07454847909b5e959d7ca0e.png",
     "decimals": 18
   },
   {
@@ -434,59 +252,10 @@
     "decimals": 18
   },
   {
-    "address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
-    "name": "Convex Token",
-    "symbol": "CVX",
-    "image": "https://tokens.1inch.io/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
-    "name": "Rocket Pool Protocol",
-    "symbol": "RPL",
-    "image": "https://tokens.1inch.io/0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
-    "name": "LooksRare Token",
-    "symbol": "LOOKS",
-    "image": "https://tokens.1inch.io/0xf4d2888d29d722226fafa5d9b24f9164c092421e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d",
-    "name": "LQTY",
-    "symbol": "LQTY",
-    "image": "https://tokens.1inch.io/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
-    "name": "XEN Crypto",
-    "symbol": "XEN",
-    "image": "https://tokens.1inch.io/0x06450dee7fd2fb8e39061434babcfc05599a6fb8.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xed1167b6dc64e8a366db86f2e952a482d0981ebd",
-    "name": "Lybra Finance",
-    "symbol": "LBR",
-    "image": "https://tokens.1inch.io/0xed1167b6dc64e8a366db86f2e952a482d0981ebd.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
-    "name": "PAID Network",
-    "symbol": "PAID",
-    "image": "https://tokens.1inch.io/0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373",
-    "name": "GAMEE",
-    "symbol": "GMEE",
-    "image": "https://tokens.1inch.io/0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373.png",
+    "address": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+    "name": "DAO Maker",
+    "symbol": "DAO",
+    "image": "https://tokens.1inch.io/0x0f51bb10119727a7e5ea3538074fb341f56b09ad.png",
     "decimals": 18
   },
   {
@@ -497,325 +266,101 @@
     "decimals": 18
   },
   {
-    "address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
-    "name": "Paypal USD",
-    "symbol": "PYUSD",
-    "image": "https://tokens.1inch.io/0x6c3ea9036406852006290770bedfcaba0e23a0e8.png",
-    "decimals": 6
-  },
-  {
-    "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
-    "name": "Curve DAO Token",
-    "symbol": "CRV",
-    "image": "https://tokens.1inch.io/0xd533a949740bb3306d119cc777fa900ba034cd52.png",
+    "address": "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6",
+    "name": "StargateToken",
+    "symbol": "STG",
+    "image": "https://tokens.1inch.io/0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6.png",
     "decimals": 18
   },
   {
-    "address": "0x15e6e0d4ebeac120f9a97e71faa6a0235b85ed12",
-    "name": "SatoshiVM",
-    "symbol": "SAVM",
-    "image": "https://tokens.1inch.io/0x15e6e0d4ebeac120f9a97e71faa6a0235b85ed12.png",
+    "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "image": "https://tokens.1inch.io/0x4d224452801aced8b2f0aebe155379bb5d594381.png",
     "decimals": 18
   },
   {
-    "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
-    "name": "Enjin Coin",
-    "symbol": "ENJ",
-    "image": "https://tokens.1inch.io/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c.png",
+    "address": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+    "name": "Graph Token",
+    "symbol": "GRT",
+    "image": "https://tokens.1inch.io/0xc944e90c64b2c07662a292be6244bdf05cda44a7.png",
     "decimals": 18
   },
   {
-    "address": "0x30d20208d987713f46dfd34ef128bb16c404d10f",
-    "name": "Stader",
-    "symbol": "SD",
-    "image": "https://tokens.1inch.io/0x30d20208d987713f46dfd34ef128bb16c404d10f.png",
+    "address": "0x5283d291dbcf85356a21ba090e6db59121208b44",
+    "name": "Blur",
+    "symbol": "BLUR",
+    "image": "https://tokens.1inch.io/0x5283d291dbcf85356a21ba090e6db59121208b44.png",
     "decimals": 18
   },
   {
-    "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
-    "name": "Olympus",
-    "symbol": "OHM",
-    "image": "https://tokens.1inch.io/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5.png",
-    "decimals": 9
-  },
-  {
-    "address": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
-    "name": "tBTC v2",
-    "symbol": "tBTC",
-    "image": "https://tokens.1inch.io/0x18084fba666a33d37592fa2633fd49a74dd93a88.png",
+    "address": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "image": "https://tokens.1inch.io/0xbf5495efe5db9ce00f80364c8b423567e58d2110.png",
     "decimals": 18
   },
   {
-    "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
-    "name": "Basic Attention Token",
-    "symbol": "BAT",
-    "image": "https://tokens.1inch.io/0x0d8775f648430679a709e98d2b0cb6250d2887ef.png",
+    "address": "0xa35b1b31ce002fbf2058d22f30f95d405200a15b",
+    "name": "Stader ETHx",
+    "symbol": "ETHX",
+    "image": "https://tokens.1inch.io/0xa35b1b31ce002fbf2058d22f30f95d405200a15b.png",
     "decimals": 18
   },
   {
-    "address": "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa",
-    "name": "PolkastarterToken",
-    "symbol": "POLS",
-    "image": "https://tokens.1inch.io/0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa.png",
+    "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "name": "Aave Token",
+    "symbol": "AAVE",
+    "image": "https://tokens.1inch.io/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.png",
     "decimals": 18
   },
   {
-    "address": "0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099",
-    "name": "Cellframe Token",
-    "symbol": "CELL",
-    "image": "https://tokens.1inch.io/0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099.png",
+    "address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
+    "name": "Convex Token",
+    "symbol": "CVX",
+    "image": "https://tokens.1inch.io/0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b.png",
     "decimals": 18
   },
   {
-    "address": "0x549020a9cb845220d66d3e9c6d9f9ef61c981102",
-    "name": "SIDUS",
-    "symbol": "SIDUS",
-    "image": "https://tokens.1inch.io/0x549020a9cb845220d66d3e9c6d9f9ef61c981102.png",
+    "address": "0x993864e43caa7f7f12953ad6feb1d1ca635b875f",
+    "name": "Singularity Dao",
+    "symbol": "SDAO",
+    "image": "https://tokens.1inch.io/0x993864e43caa7f7f12953ad6feb1d1ca635b875f.png",
     "decimals": 18
   },
   {
-    "address": "0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
-    "name": "Agoras Token",
-    "symbol": "AGRS",
-    "image": "https://tokens.1inch.io/0x738865301a9b7dd80dc3666dd48cf034ec42bdda.png",
+    "address": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+    "name": "Curve.Fi USD Stablecoin",
+    "symbol": "crvUSD",
+    "image": "https://tokens.1inch.io/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+    "name": "HEX",
+    "symbol": "HEX",
+    "image": "https://tokens.1inch.io/0x2b591e99afe9f32eaa6214f7b7629768c40eeb39.png",
     "decimals": 8
   },
   {
-    "address": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
-    "name": "Wootrade Network",
-    "symbol": "WOO",
-    "image": "https://tokens.1inch.io/0x4691937a7508860f876c9c0a2a617e7d9e945d4b.png",
+    "address": "0x57ab1ec28d129707052df4df418d58a2d46d5f51",
+    "name": "Synth sUSD",
+    "symbol": "sUSD",
+    "image": "https://tokens.1inch.io/0x57ab1ec28d129707052df4df418d58a2d46d5f51.png",
     "decimals": 18
   },
   {
-    "address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
-    "name": "SuperFarm",
-    "symbol": "SUPER",
-    "image": "https://tokens.1inch.io/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55.png",
+    "address": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
+    "name": "Fetch",
+    "symbol": "FET",
+    "image": "https://tokens.1inch.io/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85.png",
     "decimals": 18
   },
   {
-    "address": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
-    "name": "OceanToken",
-    "symbol": "OCEAN",
-    "image": "https://tokens.1inch.io/0x967da4048cd07ab37855c090aaf366e4ce1b9f48.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x78a0a62fba6fb21a83fe8a3433d44c73a4017a6f",
-    "name": "Open Exchange Token",
-    "symbol": "OX_OLD",
-    "image": "https://tokens.1inch.io/0x78a0a62fba6fb21a83fe8a3433d44c73a4017a6f.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x7659ce147d0e714454073a5dd7003544234b6aa0",
-    "name": "XCAD Token",
-    "symbol": "XCAD",
-    "image": "https://tokens.1inch.io/0x7659ce147d0e714454073a5dd7003544234b6aa0.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8",
-    "name": "Jupiter",
-    "symbol": "JUP",
-    "image": "https://tokens.1inch.io/0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
-    "name": "Ethereum Name Service",
-    "symbol": "ENS",
-    "image": "https://tokens.1inch.io/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf3b9569f82b18aef890de263b84189bd33ebe452",
-    "name": "A Hunters Dream",
-    "symbol": "CAW",
-    "image": "https://tokens.1inch.io/0xf3b9569f82b18aef890de263b84189bd33ebe452.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4c11249814f11b9346808179cf06e71ac328c1b5",
-    "name": "Oraichain Token",
-    "symbol": "ORAI",
-    "image": "https://tokens.1inch.io/0x4c11249814f11b9346808179cf06e71ac328c1b5.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
-    "name": "@EthernityChain $ERN Token",
-    "symbol": "ERN",
-    "image": "https://tokens.1inch.io/0xbbc2ae13b23d715c30720f079fcd9b4a74093505.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
-    "name": "Gemini dollar",
-    "symbol": "GUSD",
-    "image": "https://tokens.1inch.io/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd.png",
-    "decimals": 2
-  },
-  {
-    "address": "0xfa14fa6958401314851a17d6c5360ca29f74b57b",
-    "name": "SAITO",
-    "symbol": "SAITO",
-    "image": "https://tokens.1inch.io/0xfa14fa6958401314851a17d6c5360ca29f74b57b.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xba5bde662c17e2adff1075610382b9b691296350",
-    "name": "SuperRare",
-    "symbol": "RARE",
-    "image": "https://tokens.1inch.io/0xba5bde662c17e2adff1075610382b9b691296350.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4",
-    "name": "Route",
-    "symbol": "ROUTE",
-    "image": "https://tokens.1inch.io/0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x16980b3b4a3f9d89e33311b5aa8f80303e5ca4f8",
-    "name": "KIRA Network",
-    "symbol": "KEX",
-    "image": "https://tokens.1inch.io/0x16980b3b4a3f9d89e33311b5aa8f80303e5ca4f8.png",
-    "decimals": 6
-  },
-  {
-    "address": "0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
-    "name": "Rarible",
-    "symbol": "RARI",
-    "image": "https://tokens.1inch.io/0xfca59cd816ab1ead66534d82bc21e7515ce441cf.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
-    "name": "Axelar",
-    "symbol": "AXL",
-    "image": "https://tokens.1inch.io/0x467719ad09025fcc6cf6f8311755809d45a5e5f3.png",
-    "decimals": 6
-  },
-  {
-    "address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
-    "name": "Nexo",
-    "symbol": "NEXO",
-    "image": "https://tokens.1inch.io/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
-    "name": "CoW Protocol Token",
-    "symbol": "COW",
-    "image": "https://tokens.1inch.io/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd8912c10681d8b21fd3742244f44658dba12264e",
-    "name": "Pluton",
-    "symbol": "PLU",
-    "image": "https://tokens.1inch.io/0xd8912c10681d8b21fd3742244f44658dba12264e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf411903cbc70a74d22900a5de66a2dda66507255",
-    "name": "VERA",
-    "symbol": "VRA",
-    "image": "https://tokens.1inch.io/0xf411903cbc70a74d22900a5de66a2dda66507255.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
-    "name": "Mana",
-    "symbol": "MANA",
-    "image": "https://tokens.1inch.io/0x0f5d2fb29fb7d3cfee444a200298f468908cc942.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
-    "name": "IoTeX Network",
-    "symbol": "IOTX",
-    "image": "https://tokens.1inch.io/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
-    "name": "Synapse",
-    "symbol": "SYN",
-    "image": "https://tokens.1inch.io/0x0f2d719407fdbeff09d87557abb7232601fd9f29.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4",
-    "name": "Morpheus.Network",
-    "symbol": "MNW",
-    "image": "https://tokens.1inch.io/0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x5b7533812759b45c2b44c19e320ba2cd2681b542",
-    "name": "SingularityNET Token",
-    "symbol": "AGIX",
-    "image": "https://tokens.1inch.io/0x5b7533812759b45c2b44c19e320ba2cd2681b542.png",
-    "decimals": 8
-  },
-  {
-    "address": "0xf0d33beda4d734c72684b5f9abbebf715d0a7935",
-    "name": "NuNet",
-    "symbol": "NTX",
-    "image": "https://tokens.1inch.io/0xf0d33beda4d734c72684b5f9abbebf715d0a7935.png",
-    "decimals": 6
-  },
-  {
-    "address": "0x037a54aab062628c9bbae1fdb1583c195585fe41",
-    "name": "LCX",
-    "symbol": "LCX",
-    "image": "https://tokens.1inch.io/0x037a54aab062628c9bbae1fdb1583c195585fe41.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
-    "name": "chiliZ",
-    "symbol": "CHZ",
-    "image": "https://tokens.1inch.io/0x3506424f91fd33084466f402d5d97f05f8e3b4af.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
-    "name": "0x Protocol",
-    "symbol": "ZRX",
-    "image": "https://tokens.1inch.io/0xe41d2489571d322189246dafa5ebde1f4699f498.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x2a3bff78b79a009976eea096a51a948a3dc00e34",
-    "name": "Wilder",
-    "symbol": "WILD",
-    "image": "https://tokens.1inch.io/0x2a3bff78b79a009976eea096a51a948a3dc00e34.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
-    "name": "Stake DAO Token",
-    "symbol": "SDT",
-    "image": "https://tokens.1inch.io/0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x892a6f9df0147e5f079b0993f486f9aca3c87881",
-    "name": "unification.com/xfund",
-    "symbol": "xFUND",
-    "image": "https://tokens.1inch.io/0x892a6f9df0147e5f079b0993f486f9aca3c87881.png",
-    "decimals": 9
-  },
-  {
-    "address": "0x5026f006b85729a8b14553fae6af249ad16c9aab",
-    "name": "Wojak Coin",
-    "symbol": "WOJAK",
-    "image": "https://tokens.1inch.io/0x5026f006b85729a8b14553fae6af249ad16c9aab.png",
+    "address": "0x853d955acef822db058eb8505911ed77f175b99e",
+    "name": "Frax",
+    "symbol": "FRAX",
+    "image": "https://tokens.1inch.io/0x853d955acef822db058eb8505911ed77f175b99e.png",
     "decimals": 18
   },
   {
@@ -826,31 +371,59 @@
     "decimals": 18
   },
   {
-    "address": "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24",
-    "name": "GraphLinq",
-    "symbol": "GLQ",
-    "image": "https://tokens.1inch.io/0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24.png",
+    "address": "0x549020a9cb845220d66d3e9c6d9f9ef61c981102",
+    "name": "SIDUS",
+    "symbol": "SIDUS",
+    "image": "https://tokens.1inch.io/0x549020a9cb845220d66d3e9c6d9f9ef61c981102.png",
     "decimals": 18
   },
   {
-    "address": "0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5",
-    "name": "BitDAO",
-    "symbol": "BIT",
-    "image": "https://tokens.1inch.io/0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5.png",
+    "address": "0xff20817765cb7f73d4bde2e66e067e58d11095c2",
+    "name": "Amp",
+    "symbol": "AMP",
+    "image": "https://tokens.1inch.io/0xff20817765cb7f73d4bde2e66e067e58d11095c2.png",
     "decimals": 18
   },
   {
-    "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
-    "name": "Ankr Network",
-    "symbol": "ANKR",
-    "image": "https://tokens.1inch.io/0x8290333cef9e6d528dd5618fb97a76f268f3edd4.png",
+    "address": "0x73d7c860998ca3c01ce8c808f5577d94d545d1b4",
+    "name": "Ixs Token",
+    "symbol": "IXS",
+    "image": "https://tokens.1inch.io/0x73d7c860998ca3c01ce8c808f5577d94d545d1b4.png",
     "decimals": 18
   },
   {
-    "address": "0x33349b282065b0284d756f0577fb39c158f935e6",
-    "name": "Maple Token",
-    "symbol": "MPL",
-    "image": "https://tokens.1inch.io/0x33349b282065b0284d756f0577fb39c158f935e6.png",
+    "address": "0x4a220e6096b25eadb88358cb44068a3248254675",
+    "name": "Quant",
+    "symbol": "QNT",
+    "image": "https://tokens.1inch.io/0x4a220e6096b25eadb88358cb44068a3248254675.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050",
+    "name": "Arkham",
+    "symbol": "ARKM",
+    "image": "https://assets.coingecko.com/coins/images/30929/large/Arkham_Logo_CG.png?1689672102",
+    "decimals": 18
+  },
+  {
+    "address": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55",
+    "name": "SuperFarm",
+    "symbol": "SUPER",
+    "image": "https://tokens.1inch.io/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
+    "name": "Axie Infinity Shard",
+    "symbol": "AXS",
+    "image": "https://tokens.1inch.io/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfae103dc9cf190ed75350761e95403b7b8afa6c0",
+    "name": "rswETH",
+    "symbol": "rswETH",
+    "image": "https://tokens.1inch.io/0xfae103dc9cf190ed75350761e95403b7b8afa6c0.png",
     "decimals": 18
   },
   {
@@ -861,52 +434,66 @@
     "decimals": 18
   },
   {
-    "address": "0xc4f6e93aeddc11dc22268488465babcaf09399ac",
-    "name": "hi Dollar",
-    "symbol": "HI",
-    "image": "https://tokens.1inch.io/0xc4f6e93aeddc11dc22268488465babcaf09399ac.png",
+    "address": "0xc55126051b22ebb829d00368f4b12bde432de5da",
+    "name": "BTRFLY",
+    "symbol": "BTRFLY",
+    "image": "https://tokens.1inch.io/0xc55126051b22ebb829d00368f4b12bde432de5da.png",
     "decimals": 18
   },
   {
-    "address": "0xbf2179859fc6d5bee9bf9158632dc51678a4100e",
-    "name": "Aelf",
-    "symbol": "ELF",
-    "image": "https://tokens.1inch.io/0xbf2179859fc6d5bee9bf9158632dc51678a4100e.png",
+    "address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "image": "https://tokens.1inch.io/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
     "decimals": 18
   },
   {
-    "address": "0x817bbdbc3e8a1204f3691d14bb44992841e3db35",
-    "name": "CudosToken",
-    "symbol": "CUDOS",
-    "image": "https://tokens.1inch.io/0x817bbdbc3e8a1204f3691d14bb44992841e3db35.png",
+    "address": "0x2a3bff78b79a009976eea096a51a948a3dc00e34",
+    "name": "Wilder",
+    "symbol": "WILD",
+    "image": "https://tokens.1inch.io/0x2a3bff78b79a009976eea096a51a948a3dc00e34.png",
     "decimals": 18
   },
   {
-    "address": "0x40fd72257597aa14c7231a7b1aaa29fce868f677",
-    "name": "Sora Token",
-    "symbol": "XOR",
-    "image": "https://tokens.1inch.io/0x40fd72257597aa14c7231a7b1aaa29fce868f677.png",
+    "address": "0x31429d1856ad1377a8a0079410b297e1a9e214c2",
+    "name": "ANGLE",
+    "symbol": "ANGLE",
+    "image": "https://tokens.1inch.io/0x31429d1856ad1377a8a0079410b297e1a9e214c2.png",
     "decimals": 18
   },
   {
-    "address": "0x362bc847a3a9637d3af6624eec853618a43ed7d2",
-    "name": "Parsiq Token",
-    "symbol": "PRQ",
-    "image": "https://tokens.1inch.io/0x362bc847a3a9637d3af6624eec853618a43ed7d2.png",
+    "address": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+    "name": "Frax Share",
+    "symbol": "FXS",
+    "image": "https://tokens.1inch.io/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0.png",
     "decimals": 18
   },
   {
-    "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
-    "name": "SushiToken",
-    "symbol": "SUSHI",
-    "image": "https://tokens.1inch.io/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2.png",
+    "address": "0x36e66fbbce51e4cd5bd3c62b637eb411b18949d4",
+    "name": "Omni Network",
+    "symbol": "OMNI",
+    "image": "https://tokens.1inch.io/0x36e66fbbce51e4cd5bd3c62b637eb411b18949d4.png",
     "decimals": 18
   },
   {
-    "address": "0x4104b135dbc9609fc1a9490e61369036497660c8",
-    "name": "APWine Token",
-    "symbol": "APW",
-    "image": "https://tokens.1inch.io/0x4104b135dbc9609fc1a9490e61369036497660c8.png",
+    "address": "0x111111111117dc0aa78b770fa6a738034120c302",
+    "name": "1INCH Token",
+    "symbol": "1INCH",
+    "image": "https://tokens.1inch.io/0x111111111117dc0aa78b770fa6a738034120c302.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
+    "name": "dYdX",
+    "symbol": "DYDX",
+    "image": "https://assets.coingecko.com/coins/images/17500/large/hjnIm9bV.jpg?1628009360",
+    "decimals": 18
+  },
+  {
+    "address": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
+    "name": "Ribbon",
+    "symbol": "RBN",
+    "image": "https://tokens.1inch.io/0x6123b0049f904d730db3c36a31167d9d4121fa6b.png",
     "decimals": 18
   },
   {
@@ -917,227 +504,94 @@
     "decimals": 24
   },
   {
-    "address": "0xe80c0cd204d654cebe8dd64a4857cab6be8345a3",
-    "name": "JPEG’d Governance Token",
-    "symbol": "JPEG",
-    "image": "https://tokens.1inch.io/0xe80c0cd204d654cebe8dd64a4857cab6be8345a3.png",
+    "address": "0xf4d2888d29d722226fafa5d9b24f9164c092421e",
+    "name": "LooksRare Token",
+    "symbol": "LOOKS",
+    "image": "https://tokens.1inch.io/0xf4d2888d29d722226fafa5d9b24f9164c092421e.png",
     "decimals": 18
   },
   {
-    "address": "0xd4c435f5b09f855c3317c8524cb1f586e42795fa",
-    "name": "Cindicator",
-    "symbol": "CND",
-    "image": "https://tokens.1inch.io/0xd4c435f5b09f855c3317c8524cb1f586e42795fa.png",
+    "address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206",
+    "name": "Nexo",
+    "symbol": "NEXO",
+    "image": "https://tokens.1inch.io/0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206.png",
     "decimals": 18
   },
   {
-    "address": "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
-    "name": "FLOKI",
-    "symbol": "FLOKI",
-    "image": "https://tokens.1inch.io/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e_1.png",
-    "decimals": 9
-  },
-  {
-    "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
-    "name": "stETH",
-    "symbol": "stETH",
-    "image": "https://tokens.1inch.io/0xae7ab96520de3a18e5e111b5eaab095312d7fe84.png",
+    "address": "0xfb7b4564402e5500db5bb6d63ae671302777c75a",
+    "name": "DEXTools",
+    "symbol": "DEXT",
+    "image": "https://tokens.1inch.io/0x26ce25148832c04f3d7f26f32478a9fe55197166.png",
     "decimals": 18
   },
   {
-    "address": "0x06f3c323f0238c72bf35011071f2b5b7f43a054c",
-    "name": "MASQ",
-    "symbol": "MASQ",
-    "image": "https://tokens.1inch.io/0x06f3c323f0238c72bf35011071f2b5b7f43a054c.png",
+    "address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+    "name": "Basic Attention Token",
+    "symbol": "BAT",
+    "image": "https://tokens.1inch.io/0x0d8775f648430679a709e98d2b0cb6250d2887ef.png",
     "decimals": 18
   },
   {
-    "address": "0xdd1ad9a21ce722c151a836373babe42c868ce9a4",
-    "name": "Universal Basic Income",
-    "symbol": "UBI",
-    "image": "https://tokens.1inch.io/0xdd1ad9a21ce722c151a836373babe42c868ce9a4.png",
+    "address": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+    "name": "OceanToken",
+    "symbol": "OCEAN",
+    "image": "https://tokens.1inch.io/0x967da4048cd07ab37855c090aaf366e4ce1b9f48.png",
     "decimals": 18
   },
   {
-    "address": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
-    "name": "Euro Coin",
-    "symbol": "EURC",
-    "image": "https://tokens.1inch.io/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c.png",
+    "address": "0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d",
+    "name": "LQTY",
+    "symbol": "LQTY",
+    "image": "https://tokens.1inch.io/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+    "name": "Binance USD",
+    "symbol": "BUSD",
+    "image": "https://tokens.1inch.io/0x4fabb145d64652a948d72533023f6e7a623c7c53.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+    "name": "Paypal USD",
+    "symbol": "PYUSD",
+    "image": "https://tokens.1inch.io/0x6c3ea9036406852006290770bedfcaba0e23a0e8.png",
     "decimals": 6
   },
   {
-    "address": "0xac57de9c1a09fec648e93eb98875b212db0d460b",
-    "name": "Baby Doge Coin",
-    "symbol": "BabyDoge",
-    "image": "https://tokens.1inch.io/0xac57de9c1a09fec648e93eb98875b212db0d460b.png",
-    "decimals": 9
-  },
-  {
-    "address": "0x01ba67aac7f75f647d94220cc98fb30fcc5105bf",
-    "name": "Lyra Token",
-    "symbol": "LYRA",
-    "image": "https://tokens.1inch.io/0x01ba67aac7f75f647d94220cc98fb30fcc5105bf.png",
+    "address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af",
+    "name": "chiliZ",
+    "symbol": "CHZ",
+    "image": "https://tokens.1inch.io/0x3506424f91fd33084466f402d5d97f05f8e3b4af.png",
     "decimals": 18
   },
   {
-    "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
-    "name": "Band Protocol",
-    "symbol": "BAND",
-    "image": "https://tokens.1inch.io/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55.png",
+    "address": "0x18084fba666a33d37592fa2633fd49a74dd93a88",
+    "name": "tBTC v2",
+    "symbol": "tBTC",
+    "image": "https://tokens.1inch.io/0x18084fba666a33d37592fa2633fd49a74dd93a88.png",
     "decimals": 18
   },
   {
-    "address": "0xc0ba369c8db6eb3924965e5c4fd0b4c1b91e305f",
-    "name": "DLP Duck Token",
-    "symbol": "DUCK",
-    "image": "https://tokens.1inch.io/0xc0ba369c8db6eb3924965e5c4fd0b4c1b91e305f.png",
+    "address": "0x66761fa41377003622aee3c7675fc7b5c1c2fac5",
+    "name": "Clearpool",
+    "symbol": "CPOOL",
+    "image": "https://tokens.1inch.io/0x66761fa41377003622aee3c7675fc7b5c1c2fac5.png",
     "decimals": 18
   },
   {
-    "address": "0x474021845c4643113458ea4414bdb7fb74a01a77",
-    "name": "UnoRe",
-    "symbol": "UNO",
-    "image": "https://tokens.1inch.io/0x474021845c4643113458ea4414bdb7fb74a01a77.png",
+    "address": "0xd33526068d116ce69f19a9ee46f0bd304f21a51f",
+    "name": "Rocket Pool Protocol",
+    "symbol": "RPL",
+    "image": "https://tokens.1inch.io/0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png",
     "decimals": 18
   },
   {
-    "address": "0x1a2eb478fa07125c9935a77b3c03a82470801e30",
-    "name": "Amino",
-    "symbol": "AMO",
-    "image": "https://tokens.1inch.io/0x1a2eb478fa07125c9935a77b3c03a82470801e30.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
-    "name": "TrueUSD",
-    "symbol": "TUSD",
-    "image": "https://tokens.1inch.io/0x0000000000085d4780b73119b644ae5ecd22b376.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3819f64f282bf135d62168c1e513280daf905e06",
-    "name": "Hedron",
-    "symbol": "HDRN",
-    "image": "https://tokens.1inch.io/0x3819f64f282bf135d62168c1e513280daf905e06.png",
-    "decimals": 9
-  },
-  {
-    "address": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
-    "name": "Phala",
-    "symbol": "PHA",
-    "image": "https://tokens.1inch.io/0x6c5ba91642f10282b576d91922ae6448c9d52f4e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0e573ce2736dd9637a0b21058352e1667925c7a8",
-    "name": "Verified USD",
-    "symbol": "USDV",
-    "image": "https://tokens.1inch.io/0x0e573ce2736dd9637a0b21058352e1667925c7a8.png",
-    "decimals": 6
-  },
-  {
-    "address": "0x9e5bd9d9fad182ff0a93ba8085b664bcab00fa68",
-    "name": "Dinger Token",
-    "symbol": "DINGER",
-    "image": "https://tokens.1inch.io/0x9e5bd9d9fad182ff0a93ba8085b664bcab00fa68.png",
-    "decimals": 9
-  },
-  {
-    "address": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
-    "name": "Axie Infinity Shard",
-    "symbol": "AXS",
-    "image": "https://tokens.1inch.io/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
-    "name": "Compound",
-    "symbol": "COMP",
-    "image": "https://tokens.1inch.io/0xc00e94cb662c3520282e6f5717214004a7f26888.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xfc05987bd2be489accf0f509e44b0145d68240f7",
-    "name": "ESSENTIA",
-    "symbol": "ESS",
-    "image": "https://tokens.1inch.io/0xfc05987bd2be489accf0f509e44b0145d68240f7.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x6468e79a80c0eab0f9a2b574c8d5bc374af59414",
-    "name": "E-RADIX",
-    "symbol": "eXRD",
-    "image": "https://tokens.1inch.io/0x6468e79a80c0eab0f9a2b574c8d5bc374af59414.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xbc396689893d065f41bc2c6ecbee5e0085233447",
-    "name": "Perpetual",
-    "symbol": "PERP",
-    "image": "https://tokens.1inch.io/0xbc396689893d065f41bc2c6ecbee5e0085233447.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x9813037ee2218799597d83d4a5b6f3b6778218d9",
-    "name": "BONE SHIBASWAP",
-    "symbol": "BONE",
-    "image": "https://tokens.1inch.io/0x9813037ee2218799597d83d4a5b6f3b6778218d9.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x888888888889c00c67689029d7856aac1065ec11",
-    "name": "Opium Governance Token",
-    "symbol": "OPIUM",
-    "image": "https://tokens.1inch.io/0x888888888889c00c67689029d7856aac1065ec11.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784",
-    "name": "TrustToken",
-    "symbol": "TRU",
-    "image": "https://tokens.1inch.io/0x4c19596f5aaff459fa38b0f7ed92f11ae6543784.png",
-    "decimals": 8
-  },
-  {
-    "address": "0xc4de189abf94c57f396bd4c52ab13b954febefd8",
-    "name": "B.20",
-    "symbol": "B20",
-    "image": "https://tokens.1inch.io/0xc4de189abf94c57f396bd4c52ab13b954febefd8.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
-    "name": "Dogelon",
-    "symbol": "ELON",
-    "image": "https://tokens.1inch.io/0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa2e3356610840701bdf5611a53974510ae27e2e1",
-    "name": "Wrapped Binance Beacon ETH",
-    "symbol": "wBETH",
-    "image": "https://tokens.1inch.io/0xa2e3356610840701bdf5611a53974510ae27e2e1.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
-    "name": "Gnosis",
-    "symbol": "GNO",
-    "image": "https://tokens.1inch.io/0x6810e776880c02933d47db1b9fc05908e5386b96.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3b9be07d622accaed78f479bc0edabfd6397e320",
-    "name": "Lossless Token",
-    "symbol": "LSS",
-    "image": "https://tokens.1inch.io/0x3b9be07d622accaed78f479bc0edabfd6397e320.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xbea98c05eeae2f3bc8c3565db7551eb738c8ccab",
-    "name": "Geyser",
-    "symbol": "GYSR",
-    "image": "https://tokens.1inch.io/0xbea98c05eeae2f3bc8c3565db7551eb738c8ccab_1.png",
+    "address": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505",
+    "name": "@EthernityChain $ERN Token",
+    "symbol": "ERN",
+    "image": "https://tokens.1inch.io/0xbbc2ae13b23d715c30720f079fcd9b4a74093505.png",
     "decimals": 18
   },
   {
@@ -1148,290 +602,38 @@
     "decimals": 18
   },
   {
-    "address": "0x949d48eca67b17269629c7194f4b727d4ef9e5d6",
-    "name": "Merit Circle",
-    "symbol": "MC",
-    "image": "https://tokens.1inch.io/0x949d48eca67b17269629c7194f4b727d4ef9e5d6.png",
+    "address": "0xf411903cbc70a74d22900a5de66a2dda66507255",
+    "name": "VERA",
+    "symbol": "VRA",
+    "image": "https://tokens.1inch.io/0xf411903cbc70a74d22900a5de66a2dda66507255.png",
     "decimals": 18
   },
   {
-    "address": "0x44017598f2af1bd733f9d87b5017b4e7c1b28dde",
-    "name": "pSTAKE Staked ATOM",
-    "symbol": "stkATOM",
-    "image": "https://tokens.1inch.io/0x44017598f2af1bd733f9d87b5017b4e7c1b28dde.png",
+    "address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+    "name": "Enjin Coin",
+    "symbol": "ENJ",
+    "image": "https://tokens.1inch.io/0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x16980b3b4a3f9d89e33311b5aa8f80303e5ca4f8",
+    "name": "KIRA Network",
+    "symbol": "KEX",
+    "image": "https://tokens.1inch.io/0x16980b3b4a3f9d89e33311b5aa8f80303e5ca4f8.png",
     "decimals": 6
   },
   {
-    "address": "0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9",
-    "name": "DONUT",
-    "symbol": "DONUT",
-    "image": "https://tokens.1inch.io/0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9.png",
+    "address": "0x58b6a8a3302369daec383334672404ee733ab239",
+    "name": "Livepeer Token",
+    "symbol": "LPT",
+    "image": "https://tokens.1inch.io/0x58b6a8a3302369daec383334672404ee733ab239.png",
     "decimals": 18
   },
   {
-    "address": "0xdc8af07a7861bedd104b8093ae3e9376fc8596d2",
-    "name": "Rocket Vault",
-    "symbol": "RVF",
-    "image": "https://tokens.1inch.io/0xdc8af07a7861bedd104b8093ae3e9376fc8596d2.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4",
-    "name": "Sylo",
-    "symbol": "SYLO",
-    "image": "https://tokens.1inch.io/0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
-    "name": "Binance Wrapped BTC",
-    "symbol": "BBTC",
-    "image": "https://tokens.1inch.io/0x9be89d2a4cd102d8fecc6bf9da793be995c22541.png",
-    "decimals": 8
-  },
-  {
-    "address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
-    "name": "Numeraire",
-    "symbol": "NMR",
-    "image": "https://tokens.1inch.io/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
-    "name": "Akropolis",
-    "symbol": "AKRO",
-    "image": "https://tokens.1inch.io/0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x68037790a0229e9ce6eaa8a99ea92964106c4703",
-    "name": "PAR Stablecoin",
-    "symbol": "PAR",
-    "image": "https://tokens.1inch.io/0x68037790a0229e9ce6eaa8a99ea92964106c4703.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776",
-    "name": "NFTX",
-    "symbol": "NFTX",
-    "image": "https://tokens.1inch.io/0x87d73e916d7057945c9bcd8cdd94e42a6f47f776.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc834fa996fa3bec7aad3693af486ae53d8aa8b50",
-    "name": "Convergence",
-    "symbol": "CONV",
-    "image": "https://tokens.1inch.io/0xc834fa996fa3bec7aad3693af486ae53d8aa8b50.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x120a3879da835a5af037bb2d1456bebd6b54d4ba",
-    "name": "Revest",
-    "symbol": "RVST",
-    "image": "https://tokens.1inch.io/0x120a3879da835a5af037bb2d1456bebd6b54d4ba.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a",
-    "name": "BlocksquareToken",
-    "symbol": "BST",
-    "image": "https://tokens.1inch.io/0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc98d64da73a6616c42117b582e832812e7b8d57f",
-    "name": "RSS3",
-    "symbol": "RSS3",
-    "image": "https://tokens.1inch.io/0xc98d64da73a6616c42117b582e832812e7b8d57f.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x70e8de73ce538da2beed35d14187f6959a8eca96",
-    "name": "XSGD",
-    "symbol": "XSGD",
-    "image": "https://tokens.1inch.io/0x70e8de73ce538da2beed35d14187f6959a8eca96.png",
-    "decimals": 6
-  },
-  {
-    "address": "0xfc0d6cf33e38bce7ca7d89c0e292274031b7157a",
-    "name": "NETVRK",
-    "symbol": "NTVRK",
-    "image": "https://tokens.1inch.io/0xfc0d6cf33e38bce7ca7d89c0e292274031b7157a.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4740735aa98dc8aa232bd049f8f0210458e7fca3",
-    "name": "Ridotto",
-    "symbol": "RDT",
-    "image": "https://tokens.1inch.io/0x4740735aa98dc8aa232bd049f8f0210458e7fca3.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096",
-    "name": "Bounce Token",
-    "symbol": "Auction",
-    "image": "https://tokens.1inch.io/0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x2baecdf43734f22fd5c152db08e3c27233f0c7d2",
-    "name": "OM Token",
-    "symbol": "OMv1",
-    "image": "https://tokens.1inch.io/0x2baecdf43734f22fd5c152db08e3c27233f0c7d2.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd",
-    "name": "RAZOR",
-    "symbol": "RAZOR",
-    "image": "https://tokens.1inch.io/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa5f2211b9b8170f694421f2046281775e8468044",
-    "name": "THORSwap Token",
-    "symbol": "THOR",
-    "image": "https://tokens.1inch.io/0xa5f2211b9b8170f694421f2046281775e8468044.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x6bea7cfef803d1e3d5f7c0103f7ded065644e197",
-    "name": "Gamma",
-    "symbol": "GAMMA",
-    "image": "https://tokens.1inch.io/0x6bea7cfef803d1e3d5f7c0103f7ded065644e197.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x65ef703f5594d2573eb71aaf55bc0cb548492df4",
-    "name": "Multichain",
-    "symbol": "MULTI",
-    "image": "https://tokens.1inch.io/0x65ef703f5594d2573eb71aaf55bc0cb548492df4.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x7bef710a5759d197ec0bf621c3df802c2d60d848",
-    "name": "SPLYT SHOPX",
-    "symbol": "SHOPX",
-    "image": "https://tokens.1inch.io/0x7bef710a5759d197ec0bf621c3df802c2d60d848.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf65b5c5104c4fafd4b709d9d60a185eae063276c",
-    "name": "Truebit",
-    "symbol": "TRU_Truebit",
-    "image": "https://tokens.1inch.io/0xf65b5c5104c4fafd4b709d9d60a185eae063276c.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd417144312dbf50465b1c641d016962017ef6240",
-    "name": "Covalent Query Token",
-    "symbol": "CQT",
-    "image": "https://tokens.1inch.io/0xd417144312dbf50465b1c641d016962017ef6240.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x25f8087ead173b73d6e8b84329989a8eea16cf73",
-    "name": "Yield Guild Games Token",
-    "symbol": "YGG",
-    "image": "https://tokens.1inch.io/0x25f8087ead173b73d6e8b84329989a8eea16cf73.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca",
-    "name": "NOIA Token",
-    "symbol": "NOIA",
-    "image": "https://tokens.1inch.io/0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x607f4c5bb672230e8672085532f7e901544a7375",
-    "name": "iExec RLC",
-    "symbol": "RLC",
-    "image": "https://tokens.1inch.io/0x607f4c5bb672230e8672085532f7e901544a7375.png",
-    "decimals": 9
-  },
-  {
-    "address": "0x27702a26126e0b3702af63ee09ac4d1a084ef628",
-    "name": "aleph.im v2",
-    "symbol": "ALEPH",
-    "image": "https://tokens.1inch.io/0x27702a26126e0b3702af63ee09ac4d1a084ef628.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9",
-    "name": "CARD.STARTER",
-    "symbol": "CARDS",
-    "image": "https://tokens.1inch.io/0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd",
-    "name": "PieDAO BTC++",
-    "symbol": "BTC++",
-    "image": "https://tokens.1inch.io/0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf4d861575ecc9493420a3f5a14f85b13f0b50eb3",
-    "name": "Fractal Protocol Token",
-    "symbol": "FCL",
-    "image": "https://tokens.1inch.io/0xf4d861575ecc9493420a3f5a14f85b13f0b50eb3.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x8c543aed163909142695f2d2acd0d55791a9edb9",
-    "name": "VLX",
-    "symbol": "VLX",
-    "image": "https://tokens.1inch.io/0x8c543aed163909142695f2d2acd0d55791a9edb9.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
-    "name": "Trace",
-    "symbol": "TRAC",
-    "image": "https://tokens.1inch.io/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3597bfd533a99c9aa083587b074434e61eb0a258",
-    "name": "DENT",
-    "symbol": "DENT",
-    "image": "https://tokens.1inch.io/0x3597bfd533a99c9aa083587b074434e61eb0a258.png",
-    "decimals": 8
-  },
-  {
-    "address": "0x954b890704693af242613edef1b603825afcd708",
-    "name": "Cardstack",
-    "symbol": "CARD",
-    "image": "https://tokens.1inch.io/0x954b890704693af242613edef1b603825afcd708.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xddb3422497e61e13543bea06989c0789117555c5",
-    "name": "COTI Token",
-    "symbol": "COTI",
-    "image": "https://tokens.1inch.io/0xddb3422497e61e13543bea06989c0789117555c5.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xf3dcbc6d72a4e1892f7917b7c43b74131df8480e",
-    "name": "BDPToken",
-    "symbol": "BDP",
-    "image": "https://tokens.1inch.io/0xf3dcbc6d72a4e1892f7917b7c43b74131df8480e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d",
-    "name": "Fuse Token",
-    "symbol": "FUSE",
-    "image": "https://tokens.1inch.io/0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
-    "name": "MANTRA DAO",
-    "symbol": "OMv2",
-    "image": "https://tokens.1inch.io/0x3593d125a4f7849a1b059e64f4517a86dd60c95d.png",
+    "address": "0x1a2eb478fa07125c9935a77b3c03a82470801e30",
+    "name": "Amino",
+    "symbol": "AMO",
+    "image": "https://tokens.1inch.io/0x1a2eb478fa07125c9935a77b3c03a82470801e30.png",
     "decimals": 18
   },
   {
@@ -1442,87 +644,101 @@
     "decimals": 2
   },
   {
-    "address": "0x875773784af8135ea0ef43b5a374aad105c5d39e",
-    "name": "Idle",
-    "symbol": "IDLE",
-    "image": "https://tokens.1inch.io/0x875773784af8135ea0ef43b5a374aad105c5d39e.png",
+    "address": "0xed1167b6dc64e8a366db86f2e952a482d0981ebd",
+    "name": "Lybra Finance",
+    "symbol": "LBR",
+    "image": "https://tokens.1inch.io/0xed1167b6dc64e8a366db86f2e952a482d0981ebd.png",
     "decimals": 18
   },
   {
-    "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
-    "name": "CRO",
-    "symbol": "CRO",
-    "image": "https://tokens.1inch.io/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b.png",
-    "decimals": 8
-  },
-  {
-    "address": "0xb2e96a63479c2edd2fd62b382c89d5ca79f572d3",
-    "name": "Wrapped ZNN",
-    "symbol": "wZNN",
-    "image": "https://tokens.1inch.io/0xb2e96a63479c2edd2fd62b382c89d5ca79f572d3.png",
-    "decimals": 8
-  },
-  {
-    "address": "0x9ae380f0272e2162340a5bb646c354271c0f5cfc",
-    "name": "Conic Finance Token",
-    "symbol": "CNC",
-    "image": "https://tokens.1inch.io/0x9ae380f0272e2162340a5bb646c354271c0f5cfc.png",
+    "address": "0x30d20208d987713f46dfd34ef128bb16c404d10f",
+    "name": "Stader",
+    "symbol": "SD",
+    "image": "https://tokens.1inch.io/0x30d20208d987713f46dfd34ef128bb16c404d10f.png",
     "decimals": 18
   },
   {
-    "address": "0x53c8395465a84955c95159814461466053dedede",
-    "name": "DeGate Token",
-    "symbol": "DG",
-    "image": "https://tokens.1inch.io/0x53c8395465a84955c95159814461466053dedede.png",
+    "address": "0x3593d125a4f7849a1b059e64f4517a86dd60c95d",
+    "name": "MANTRA DAO",
+    "symbol": "OMv2",
+    "image": "https://tokens.1inch.io/0x3593d125a4f7849a1b059e64f4517a86dd60c95d.png",
     "decimals": 18
   },
   {
-    "address": "0x1337def16f9b486faed0293eb623dc8395dfe46a",
-    "name": "Armor",
-    "symbol": "ARMOR",
-    "image": "https://tokens.1inch.io/0x1337def16f9b486faed0293eb623dc8395dfe46a.png",
+    "address": "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+    "name": "Olympus",
+    "symbol": "OHM",
+    "image": "https://tokens.1inch.io/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5.png",
+    "decimals": 9
+  },
+  {
+    "address": "0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373",
+    "name": "GAMEE",
+    "symbol": "GMEE",
+    "image": "https://tokens.1inch.io/0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373.png",
     "decimals": 18
   },
   {
-    "address": "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
-    "name": "Dusk Network",
-    "symbol": "DUSK",
-    "image": "https://tokens.1inch.io/0x940a2db1b7008b6c776d4faaca729d6d4a4aa551.png",
+    "address": "0x15e6e0d4ebeac120f9a97e71faa6a0235b85ed12",
+    "name": "SatoshiVM",
+    "symbol": "SAVM",
+    "image": "https://tokens.1inch.io/0x15e6e0d4ebeac120f9a97e71faa6a0235b85ed12.png",
     "decimals": 18
   },
   {
-    "address": "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec",
-    "name": "Polymath",
-    "symbol": "POLY",
-    "image": "https://tokens.1inch.io/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec.png",
+    "address": "0x467719ad09025fcc6cf6f8311755809d45a5e5f3",
+    "name": "Axelar",
+    "symbol": "AXL",
+    "image": "https://tokens.1inch.io/0x467719ad09025fcc6cf6f8311755809d45a5e5f3.png",
+    "decimals": 6
+  },
+  {
+    "address": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
+    "name": "PAID Network",
+    "symbol": "PAID",
+    "image": "https://tokens.1inch.io/0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787.png",
     "decimals": 18
   },
   {
-    "address": "0x27c70cd1946795b66be9d954418546998b546634",
-    "name": "DOGE KILLER",
-    "symbol": "LEASH",
-    "image": "https://tokens.1inch.io/0x27c70cd1946795b66be9d954418546998b546634.png",
+    "address": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+    "name": "Mana",
+    "symbol": "MANA",
+    "image": "https://tokens.1inch.io/0x0f5d2fb29fb7d3cfee444a200298f468908cc942.png",
     "decimals": 18
   },
   {
-    "address": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
-    "name": "Ankr Staked ETH",
-    "symbol": "ANKRETH",
-    "image": "https://tokens.1inch.io/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb.png",
+    "address": "0xf3b9569f82b18aef890de263b84189bd33ebe452",
+    "name": "A Hunters Dream",
+    "symbol": "CAW",
+    "image": "https://tokens.1inch.io/0xf3b9569f82b18aef890de263b84189bd33ebe452.png",
     "decimals": 18
   },
   {
-    "address": "0xba8a621b4a54e61c442f5ec623687e2a942225ef",
-    "name": "Sandclock",
-    "symbol": "QUARTZ",
-    "image": "https://tokens.1inch.io/0xba8a621b4a54e61c442f5ec623687e2a942225ef.png",
+    "address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+    "name": "SushiToken",
+    "symbol": "SUSHI",
+    "image": "https://tokens.1inch.io/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2.png",
     "decimals": 18
   },
   {
-    "address": "0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
-    "name": "OVR",
-    "symbol": "OVR",
-    "image": "https://tokens.1inch.io/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697.png",
+    "address": "0x01ba67aac7f75f647d94220cc98fb30fcc5105bf",
+    "name": "Lyra Token",
+    "symbol": "LYRA",
+    "image": "https://tokens.1inch.io/0x01ba67aac7f75f647d94220cc98fb30fcc5105bf.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
+    "name": "XEN Crypto",
+    "symbol": "XEN",
+    "image": "https://tokens.1inch.io/0x06450dee7fd2fb8e39061434babcfc05599a6fb8.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xa2e3356610840701bdf5611a53974510ae27e2e1",
+    "name": "Wrapped Binance Beacon ETH",
+    "symbol": "wBETH",
+    "image": "https://tokens.1inch.io/0xa2e3356610840701bdf5611a53974510ae27e2e1.png",
     "decimals": 18
   },
   {
@@ -1533,38 +749,150 @@
     "decimals": 18
   },
   {
-    "address": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490",
-    "name": "Curve.fi DAI/USDC/USDT",
-    "symbol": "3Crv",
-    "image": "https://tokens.1inch.io/0x6c3f90f043a72fa612cbac8115ee7e52bde6e490.png",
+    "address": "0x33349b282065b0284d756f0577fb39c158f935e6",
+    "name": "Maple Token",
+    "symbol": "MPL",
+    "image": "https://tokens.1inch.io/0x33349b282065b0284d756f0577fb39c158f935e6.png",
     "decimals": 18
   },
   {
-    "address": "0x4b520c812e8430659fc9f12f6d0c39026c83588d",
-    "name": "Decentral Games",
-    "symbol": "DG_2",
-    "image": "https://tokens.1inch.io/0x4b520c812e8430659fc9f12f6d0c39026c83588d.png",
+    "address": "0x4691937a7508860f876c9c0a2a617e7d9e945d4b",
+    "name": "Wootrade Network",
+    "symbol": "WOO",
+    "image": "https://tokens.1inch.io/0x4691937a7508860f876c9c0a2a617e7d9e945d4b.png",
     "decimals": 18
   },
   {
-    "address": "0xde342a3e269056fc3305f9e315f4c40d917ba521",
-    "name": "Byte",
-    "symbol": "BYTE",
-    "image": "https://tokens.1inch.io/0xde342a3e269056fc3305f9e315f4c40d917ba521.png",
+    "address": "0x817bbdbc3e8a1204f3691d14bb44992841e3db35",
+    "name": "CudosToken",
+    "symbol": "CUDOS",
+    "image": "https://tokens.1inch.io/0x817bbdbc3e8a1204f3691d14bb44992841e3db35.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa",
+    "name": "PolkastarterToken",
+    "symbol": "POLS",
+    "image": "https://tokens.1inch.io/0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x5026f006b85729a8b14553fae6af249ad16c9aab",
+    "name": "Wojak Coin",
+    "symbol": "WOJAK",
+    "image": "https://tokens.1inch.io/0x5026f006b85729a8b14553fae6af249ad16c9aab.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "image": "https://tokens.1inch.io/0x7420b4b9a0110cdc71fb720908340c03f9bc03ec.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8",
+    "name": "Jupiter",
+    "symbol": "JUP",
+    "image": "https://tokens.1inch.io/0x4b1e80cac91e2216eeb63e29b957eb91ae9c2be8.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4c11249814f11b9346808179cf06e71ac328c1b5",
+    "name": "Oraichain Token",
+    "symbol": "ORAI",
+    "image": "https://tokens.1inch.io/0x4c11249814f11b9346808179cf06e71ac328c1b5.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfca59cd816ab1ead66534d82bc21e7515ce441cf",
+    "name": "Rarible",
+    "symbol": "RARI",
+    "image": "https://tokens.1inch.io/0xfca59cd816ab1ead66534d82bc21e7515ce441cf.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x037a54aab062628c9bbae1fdb1583c195585fe41",
+    "name": "LCX",
+    "symbol": "LCX",
+    "image": "https://tokens.1inch.io/0x037a54aab062628c9bbae1fdb1583c195585fe41.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xe41d2489571d322189246dafa5ebde1f4699f498",
+    "name": "0x Protocol",
+    "symbol": "ZRX",
+    "image": "https://tokens.1inch.io/0xe41d2489571d322189246dafa5ebde1f4699f498.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
+    "name": "Ethereum Name Service",
+    "symbol": "ENS",
+    "image": "https://tokens.1inch.io/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
+    "name": "TokenFi",
+    "symbol": "TOKEN",
+    "image": "https://tokens.1inch.io/0x4507cef57c46789ef8d1a19ea45f4216bae2b528.png",
     "decimals": 9
   },
   {
-    "address": "0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9",
-    "name": "NFT Worlds",
-    "symbol": "WRLD",
-    "image": "https://tokens.1inch.io/0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9.png",
+    "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+    "name": "Ampleforth",
+    "symbol": "AMPL",
+    "image": "https://tokens.1inch.io/0xd46ba6d942050d489dbd938a2c909a5d5039a161.png",
+    "decimals": 9
+  },
+  {
+    "address": "0x7659ce147d0e714454073a5dd7003544234b6aa0",
+    "name": "XCAD Token",
+    "symbol": "XCAD",
+    "image": "https://tokens.1inch.io/0x7659ce147d0e714454073a5dd7003544234b6aa0.png",
     "decimals": 18
   },
   {
-    "address": "0x662b67d00a13faf93254714dd601f5ed49ef2f51",
-    "name": "Orbit Chain",
-    "symbol": "ORC",
-    "image": "https://tokens.1inch.io/0x662b67d00a13faf93254714dd601f5ed49ef2f51.png",
+    "address": "0xddb3422497e61e13543bea06989c0789117555c5",
+    "name": "COTI Token",
+    "symbol": "COTI",
+    "image": "https://tokens.1inch.io/0xddb3422497e61e13543bea06989c0789117555c5.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x78a0a62fba6fb21a83fe8a3433d44c73a4017a6f",
+    "name": "Open Exchange Token",
+    "symbol": "OX_OLD",
+    "image": "https://tokens.1inch.io/0x78a0a62fba6fb21a83fe8a3433d44c73a4017a6f.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x738865301a9b7dd80dc3666dd48cf034ec42bdda",
+    "name": "Agoras Token",
+    "symbol": "AGRS",
+    "image": "https://tokens.1inch.io/0x738865301a9b7dd80dc3666dd48cf034ec42bdda.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+    "name": "Ankr Network",
+    "symbol": "ANKR",
+    "image": "https://tokens.1inch.io/0x8290333cef9e6d528dd5618fb97a76f268f3edd4.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xf0d33beda4d734c72684b5f9abbebf715d0a7935",
+    "name": "NuNet",
+    "symbol": "NTX",
+    "image": "https://tokens.1inch.io/0xf0d33beda4d734c72684b5f9abbebf715d0a7935.png",
+    "decimals": 6
+  },
+  {
+    "address": "0x5afe3855358e112b5647b952709e6165e1c1eeee",
+    "name": "Safe",
+    "symbol": "SAFE",
+    "image": "https://tokens.1inch.io/0x5afe3855358e112b5647b952709e6165e1c1eeee_1.png",
     "decimals": 18
   },
   {
@@ -1575,11 +903,788 @@
     "decimals": 18
   },
   {
-    "address": "0xc3d688b66703497daa19211eedff47f25384cdc3",
-    "name": "Compound USDC",
-    "symbol": "cUSDCv3",
-    "image": "https://tokens.1inch.io/0xc3d688b66703497daa19211eedff47f25384cdc3.png",
+    "address": "0x6810e776880c02933d47db1b9fc05908e5386b96",
+    "name": "Gnosis",
+    "symbol": "GNO",
+    "image": "https://tokens.1inch.io/0x6810e776880c02933d47db1b9fc05908e5386b96.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099",
+    "name": "Cellframe Token",
+    "symbol": "CELL",
+    "image": "https://tokens.1inch.io/0x26c8afbbfe1ebaca03c2bb082e69d0476bffe099.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xba3335588d9403515223f109edc4eb7269a9ab5d",
+    "name": "Gearbox",
+    "symbol": "GEAR",
+    "image": "https://tokens.1inch.io/0xba3335588d9403515223f109edc4eb7269a9ab5d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5",
+    "name": "BitDAO",
+    "symbol": "BIT",
+    "image": "https://tokens.1inch.io/0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d",
+    "name": "Fuse Token",
+    "symbol": "FUSE",
+    "image": "https://tokens.1inch.io/0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x644192291cc835a93d6330b24ea5f5fedd0eef9e",
+    "name": "AllianceBlock Nexera Token",
+    "symbol": "NXRA",
+    "image": "https://tokens.1inch.io/0x644192291cc835a93d6330b24ea5f5fedd0eef9e.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc82e3db60a52cf7529253b4ec688f631aad9e7c2",
+    "name": "ARC",
+    "symbol": "ARC",
+    "image": "https://tokens.1inch.io/0xc82e3db60a52cf7529253b4ec688f631aad9e7c2.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+    "name": "CRO",
+    "symbol": "CRO",
+    "image": "https://tokens.1inch.io/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x5b7533812759b45c2b44c19e320ba2cd2681b542",
+    "name": "SingularityNET Token",
+    "symbol": "AGIX",
+    "image": "https://tokens.1inch.io/0x5b7533812759b45c2b44c19e320ba2cd2681b542.png",
+    "decimals": 8
+  },
+  {
+    "address": "0xb2e96a63479c2edd2fd62b382c89d5ca79f572d3",
+    "name": "Wrapped ZNN",
+    "symbol": "wZNN",
+    "image": "https://tokens.1inch.io/0xb2e96a63479c2edd2fd62b382c89d5ca79f572d3.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x25f8087ead173b73d6e8b84329989a8eea16cf73",
+    "name": "Yield Guild Games Token",
+    "symbol": "YGG",
+    "image": "https://tokens.1inch.io/0x25f8087ead173b73d6e8b84329989a8eea16cf73.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x27702a26126e0b3702af63ee09ac4d1a084ef628",
+    "name": "aleph.im v2",
+    "symbol": "ALEPH",
+    "image": "https://tokens.1inch.io/0x27702a26126e0b3702af63ee09ac4d1a084ef628.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6c5ba91642f10282b576d91922ae6448c9d52f4e",
+    "name": "Phala",
+    "symbol": "PHA",
+    "image": "https://tokens.1inch.io/0x6c5ba91642f10282b576d91922ae6448c9d52f4e.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x0f2d719407fdbeff09d87557abb7232601fd9f29",
+    "name": "Synapse",
+    "symbol": "SYN",
+    "image": "https://tokens.1inch.io/0x0f2d719407fdbeff09d87557abb7232601fd9f29.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3",
+    "name": "Dogelon",
+    "symbol": "ELON",
+    "image": "https://tokens.1inch.io/0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4104b135dbc9609fc1a9490e61369036497660c8",
+    "name": "APWine Token",
+    "symbol": "APW",
+    "image": "https://tokens.1inch.io/0x4104b135dbc9609fc1a9490e61369036497660c8.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f",
+    "name": "Stake DAO Token",
+    "symbol": "SDT",
+    "image": "https://tokens.1inch.io/0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfa14fa6958401314851a17d6c5360ca29f74b57b",
+    "name": "SAITO",
+    "symbol": "SAITO",
+    "image": "https://tokens.1inch.io/0xfa14fa6958401314851a17d6c5360ca29f74b57b.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xde342a3e269056fc3305f9e315f4c40d917ba521",
+    "name": "Byte",
+    "symbol": "BYTE",
+    "image": "https://tokens.1inch.io/0xde342a3e269056fc3305f9e315f4c40d917ba521.png",
+    "decimals": 9
+  },
+  {
+    "address": "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab",
+    "name": "CoW Protocol Token",
+    "symbol": "COW",
+    "image": "https://tokens.1inch.io/0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+    "name": "Mantle Staked Ether",
+    "symbol": "METH",
+    "image": "https://tokens.1inch.io/0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f",
+    "name": "Trace",
+    "symbol": "TRAC",
+    "image": "https://tokens.1inch.io/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec",
+    "name": "Polymath",
+    "symbol": "POLY",
+    "image": "https://tokens.1inch.io/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc4f6e93aeddc11dc22268488465babcaf09399ac",
+    "name": "hi Dollar",
+    "symbol": "HI",
+    "image": "https://tokens.1inch.io/0xc4f6e93aeddc11dc22268488465babcaf09399ac.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xdc8af07a7861bedd104b8093ae3e9376fc8596d2",
+    "name": "Rocket Vault",
+    "symbol": "RVF",
+    "image": "https://tokens.1inch.io/0xdc8af07a7861bedd104b8093ae3e9376fc8596d2.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+    "name": "Audius",
+    "symbol": "AUDIO",
+    "image": "https://tokens.1inch.io/0x18aaa7115705e8be94bffebde57af9bfc265b998.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
+    "name": "Celsius",
+    "symbol": "CEL",
+    "image": "https://tokens.1inch.io/0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d.png",
+    "decimals": 4
+  },
+  {
+    "address": "0x9e5bd9d9fad182ff0a93ba8085b664bcab00fa68",
+    "name": "Dinger Token",
+    "symbol": "DINGER",
+    "image": "https://tokens.1inch.io/0x9e5bd9d9fad182ff0a93ba8085b664bcab00fa68.png",
+    "decimals": 9
+  },
+  {
+    "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
+    "name": "OmiseGO",
+    "symbol": "OMG",
+    "image": "https://tokens.1inch.io/0xd26114cd6ee289accf82350c8d8487fedb8a0c07.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x72b886d09c117654ab7da13a14d603001de0b777",
+    "name": "XDEFI",
+    "symbol": "XDEFI",
+    "image": "https://tokens.1inch.io/0x72b886d09c117654ab7da13a14d603001de0b777.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd8912c10681d8b21fd3742244f44658dba12264e",
+    "name": "Pluton",
+    "symbol": "PLU",
+    "image": "https://tokens.1inch.io/0xd8912c10681d8b21fd3742244f44658dba12264e.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
+    "name": "Instadapp",
+    "symbol": "INST",
+    "image": "https://tokens.1inch.io/0x6f40d4a6237c257fff2db00fa0510deeecd303eb.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24",
+    "name": "GraphLinq",
+    "symbol": "GLQ",
+    "image": "https://tokens.1inch.io/0x9f9c8ec3534c3ce16f928381372bfbfbfb9f4d24.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca",
+    "name": "NOIA Token",
+    "symbol": "NOIA",
+    "image": "https://tokens.1inch.io/0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+    "name": "Golem Network Token",
+    "symbol": "GLM",
+    "image": "https://tokens.1inch.io/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x892a6f9df0147e5f079b0993f486f9aca3c87881",
+    "name": "unification.com/xfund",
+    "symbol": "xFUND",
+    "image": "https://tokens.1inch.io/0x892a6f9df0147e5f079b0993f486f9aca3c87881.png",
+    "decimals": 9
+  },
+  {
+    "address": "0xd4c435f5b09f855c3317c8524cb1f586e42795fa",
+    "name": "Cindicator",
+    "symbol": "CND",
+    "image": "https://tokens.1inch.io/0xd4c435f5b09f855c3317c8524cb1f586e42795fa.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
+    "name": "Gho Token",
+    "symbol": "GHO",
+    "image": "https://tokens.1inch.io/0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x607f4c5bb672230e8672085532f7e901544a7375",
+    "name": "iExec RLC",
+    "symbol": "RLC",
+    "image": "https://tokens.1inch.io/0x607f4c5bb672230e8672085532f7e901544a7375.png",
+    "decimals": 9
+  },
+  {
+    "address": "0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4",
+    "name": "Route",
+    "symbol": "ROUTE",
+    "image": "https://tokens.1inch.io/0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x0e573ce2736dd9637a0b21058352e1667925c7a8",
+    "name": "Verified USD",
+    "symbol": "USDV",
+    "image": "https://tokens.1inch.io/0x0e573ce2736dd9637a0b21058352e1667925c7a8.png",
     "decimals": 6
+  },
+  {
+    "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+    "name": "Gemini dollar",
+    "symbol": "GUSD",
+    "image": "https://tokens.1inch.io/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd.png",
+    "decimals": 2
+  },
+  {
+    "address": "0x66a0f676479cee1d7373f3dc2e2952778bff5bd6",
+    "name": "Wise Token",
+    "symbol": "WISE",
+    "image": "https://tokens.1inch.io/0x66a0f676479cee1d7373f3dc2e2952778bff5bd6.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+    "name": "Civic",
+    "symbol": "CVC",
+    "image": "https://tokens.1inch.io/0x41e5560054824ea6b0732e656e3ad64e20e94e45.png",
+    "decimals": 8
+  },
+  {
+    "address": "0xba5bde662c17e2adff1075610382b9b691296350",
+    "name": "SuperRare",
+    "symbol": "RARE",
+    "image": "https://tokens.1inch.io/0xba5bde662c17e2adff1075610382b9b691296350.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xae7ab96520de3a18e5e111b5eaab095312d7fe84",
+    "name": "stETH",
+    "symbol": "stETH",
+    "image": "https://tokens.1inch.io/0xae7ab96520de3a18e5e111b5eaab095312d7fe84.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6468e79a80c0eab0f9a2b574c8d5bc374af59414",
+    "name": "E-RADIX",
+    "symbol": "eXRD",
+    "image": "https://tokens.1inch.io/0x6468e79a80c0eab0f9a2b574c8d5bc374af59414.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x362bc847a3a9637d3af6624eec853618a43ed7d2",
+    "name": "Parsiq Token",
+    "symbol": "PRQ",
+    "image": "https://tokens.1inch.io/0x362bc847a3a9637d3af6624eec853618a43ed7d2.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x875773784af8135ea0ef43b5a374aad105c5d39e",
+    "name": "Idle",
+    "symbol": "IDLE",
+    "image": "https://tokens.1inch.io/0x875773784af8135ea0ef43b5a374aad105c5d39e.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4",
+    "name": "Morpheus.Network",
+    "symbol": "MNW",
+    "image": "https://tokens.1inch.io/0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xbf2179859fc6d5bee9bf9158632dc51678a4100e",
+    "name": "Aelf",
+    "symbol": "ELF",
+    "image": "https://tokens.1inch.io/0xbf2179859fc6d5bee9bf9158632dc51678a4100e.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988",
+    "name": "Terra Virtua Kolect",
+    "symbol": "TVK",
+    "image": "https://tokens.1inch.io/0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xba0dda8762c24da9487f5fa026a9b64b695a07ea",
+    "name": "OX Coin",
+    "symbol": "OX",
+    "image": "https://tokens.1inch.io/0xba0dda8762c24da9487f5fa026a9b64b695a07ea.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x40fd72257597aa14c7231a7b1aaa29fce868f677",
+    "name": "Sora Token",
+    "symbol": "XOR",
+    "image": "https://tokens.1inch.io/0x40fd72257597aa14c7231a7b1aaa29fce868f677.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+    "name": "IoTeX Network",
+    "symbol": "IOTX",
+    "image": "https://tokens.1inch.io/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6c3f90f043a72fa612cbac8115ee7e52bde6e490",
+    "name": "Curve.fi DAI/USDC/USDT",
+    "symbol": "3Crv",
+    "image": "https://tokens.1inch.io/0x6c3f90f043a72fa612cbac8115ee7e52bde6e490.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xa8b919680258d369114910511cc87595aec0be6d",
+    "name": "LUKSO Token",
+    "symbol": "LYXe",
+    "image": "https://tokens.1inch.io/0xa8b919680258d369114910511cc87595aec0be6d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6368e1e18c4c419ddfc608a0bed1ccb87b9250fc",
+    "name": "Tap",
+    "symbol": "XTP",
+    "image": "https://tokens.1inch.io/0x6368e1e18c4c419ddfc608a0bed1ccb87b9250fc.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x954b890704693af242613edef1b603825afcd708",
+    "name": "Cardstack",
+    "symbol": "CARD",
+    "image": "https://tokens.1inch.io/0x954b890704693af242613edef1b603825afcd708.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4fe83213d56308330ec302a8bd641f1d0113a4cc",
+    "name": "NuCypher",
+    "symbol": "NU",
+    "image": "https://tokens.1inch.io/0x4fe83213d56308330ec302a8bd641f1d0113a4cc.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xe80c0cd204d654cebe8dd64a4857cab6be8345a3",
+    "name": "JPEG’d Governance Token",
+    "symbol": "JPEG",
+    "image": "https://tokens.1inch.io/0xe80c0cd204d654cebe8dd64a4857cab6be8345a3.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb",
+    "name": "Ankr Staked ETH",
+    "symbol": "ANKRETH",
+    "image": "https://tokens.1inch.io/0xe95a203b1a91a908f9b9ce46459d101078c2c3cb.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551",
+    "name": "Dusk Network",
+    "symbol": "DUSK",
+    "image": "https://tokens.1inch.io/0x940a2db1b7008b6c776d4faaca729d6d4a4aa551.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5",
+    "name": "Lympo tokens",
+    "symbol": "LYM",
+    "image": "https://tokens.1inch.io/0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x27c70cd1946795b66be9d954418546998b546634",
+    "name": "DOGE KILLER",
+    "symbol": "LEASH",
+    "image": "https://tokens.1inch.io/0x27c70cd1946795b66be9d954418546998b546634.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4",
+    "name": "DexKit",
+    "symbol": "KIT",
+    "image": "https://tokens.1inch.io/0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9",
+    "name": "CARD.STARTER",
+    "symbol": "CARDS",
+    "image": "https://tokens.1inch.io/0x3d6f0dea3ac3c607b3998e6ce14b6350721752d9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x0b38210ea11411557c13457d4da7dc6ea731b88a",
+    "name": "API3",
+    "symbol": "API3",
+    "image": "https://tokens.1inch.io/0x0b38210ea11411557c13457d4da7dc6ea731b88a.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3b9be07d622accaed78f479bc0edabfd6397e320",
+    "name": "Lossless Token",
+    "symbol": "LSS",
+    "image": "https://tokens.1inch.io/0x3b9be07d622accaed78f479bc0edabfd6397e320.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+    "name": "FLOKI",
+    "symbol": "FLOKI",
+    "image": "https://tokens.1inch.io/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e_1.png",
+    "decimals": 9
+  },
+  {
+    "address": "0xcc4304a31d09258b0029ea7fe63d032f52e44efe",
+    "name": "TrustSwap Token",
+    "symbol": "SWAP",
+    "image": "https://tokens.1inch.io/0xcc4304a31d09258b0029ea7fe63d032f52e44efe.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x662b67d00a13faf93254714dd601f5ed49ef2f51",
+    "name": "Orbit Chain",
+    "symbol": "ORC",
+    "image": "https://tokens.1inch.io/0x662b67d00a13faf93254714dd601f5ed49ef2f51.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x32a7c02e79c4ea1008dd6564b35f131428673c41",
+    "name": "CRUST",
+    "symbol": "CRU",
+    "image": "https://tokens.1inch.io/0x32a7c02e79c4ea1008dd6564b35f131428673c41.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9aeb50f542050172359a0e1a25a9933bc8c01259",
+    "name": "oinfinance",
+    "symbol": "OIN",
+    "image": "https://tokens.1inch.io/0x9aeb50f542050172359a0e1a25a9933bc8c01259.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+    "name": "FTT",
+    "symbol": "FTX Token",
+    "image": "https://tokens.1inch.io/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3819f64f282bf135d62168c1e513280daf905e06",
+    "name": "Hedron",
+    "symbol": "HDRN",
+    "image": "https://tokens.1inch.io/0x3819f64f282bf135d62168c1e513280daf905e06.png",
+    "decimals": 9
+  },
+  {
+    "address": "0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697",
+    "name": "OVR",
+    "symbol": "OVR",
+    "image": "https://tokens.1inch.io/0x21bfbda47a0b4b5b1248c767ee49f7caa9b23697.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+    "name": "Everipedia IQ",
+    "symbol": "IQ",
+    "image": "https://tokens.1inch.io/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x06f3c323f0238c72bf35011071f2b5b7f43a054c",
+    "name": "MASQ",
+    "symbol": "MASQ",
+    "image": "https://tokens.1inch.io/0x06f3c323f0238c72bf35011071f2b5b7f43a054c.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xba8a621b4a54e61c442f5ec623687e2a942225ef",
+    "name": "Sandclock",
+    "symbol": "QUARTZ",
+    "image": "https://tokens.1inch.io/0xba8a621b4a54e61c442f5ec623687e2a942225ef.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70",
+    "name": "Premia",
+    "symbol": "PREMIA",
+    "image": "https://tokens.1inch.io/0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x474021845c4643113458ea4414bdb7fb74a01a77",
+    "name": "UnoRe",
+    "symbol": "UNO",
+    "image": "https://tokens.1inch.io/0x474021845c4643113458ea4414bdb7fb74a01a77.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xdd1ad9a21ce722c151a836373babe42c868ce9a4",
+    "name": "Universal Basic Income",
+    "symbol": "UBI",
+    "image": "https://tokens.1inch.io/0xdd1ad9a21ce722c151a836373babe42c868ce9a4.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xbea98c05eeae2f3bc8c3565db7551eb738c8ccab",
+    "name": "Geyser",
+    "symbol": "GYSR",
+    "image": "https://tokens.1inch.io/0xbea98c05eeae2f3bc8c3565db7551eb738c8ccab_1.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81",
+    "name": "Muse",
+    "symbol": "MUSE",
+    "image": "https://tokens.1inch.io/0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd",
+    "name": "RAZOR",
+    "symbol": "RAZOR",
+    "image": "https://tokens.1inch.io/0x50de6856358cc35f3a9a57eaaa34bd4cb707d2cd.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
+    "name": "Polygon Ecosystem Token",
+    "symbol": "POL",
+    "image": "https://tokens.1inch.io/0x455e53cbb86018ac2b8092fdcd39d8444affc3f6.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
+    "name": "Threshold Network Token",
+    "symbol": "T",
+    "image": "https://tokens.1inch.io/0xcdf7028ceab81fa0c6971208e83fa7872994bee5.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x1337def16f9b486faed0293eb623dc8395dfe46a",
+    "name": "Armor",
+    "symbol": "ARMOR",
+    "image": "https://tokens.1inch.io/0x1337def16f9b486faed0293eb623dc8395dfe46a.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc0ba369c8db6eb3924965e5c4fd0b4c1b91e305f",
+    "name": "DLP Duck Token",
+    "symbol": "DUCK",
+    "image": "https://tokens.1inch.io/0xc0ba369c8db6eb3924965e5c4fd0b4c1b91e305f.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xec213f83defb583af3a000b1c0ada660b1902a0f",
+    "name": "Presearch",
+    "symbol": "PRE",
+    "image": "https://tokens.1inch.io/0xec213f83defb583af3a000b1c0ada660b1902a0f.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776",
+    "name": "NFTX",
+    "symbol": "NFTX",
+    "image": "https://tokens.1inch.io/0x87d73e916d7057945c9bcd8cdd94e42a6f47f776.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x888888888889c00c67689029d7856aac1065ec11",
+    "name": "Opium Governance Token",
+    "symbol": "OPIUM",
+    "image": "https://tokens.1inch.io/0x888888888889c00c67689029d7856aac1065ec11.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x949d48eca67b17269629c7194f4b727d4ef9e5d6",
+    "name": "Merit Circle",
+    "symbol": "MC",
+    "image": "https://tokens.1inch.io/0x949d48eca67b17269629c7194f4b727d4ef9e5d6.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc98d64da73a6616c42117b582e832812e7b8d57f",
+    "name": "RSS3",
+    "symbol": "RSS3",
+    "image": "https://tokens.1inch.io/0xc98d64da73a6616c42117b582e832812e7b8d57f.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9813037ee2218799597d83d4a5b6f3b6778218d9",
+    "name": "BONE SHIBASWAP",
+    "symbol": "BONE",
+    "image": "https://tokens.1inch.io/0x9813037ee2218799597d83d4a5b6f3b6778218d9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xac57de9c1a09fec648e93eb98875b212db0d460b",
+    "name": "Baby Doge Coin",
+    "symbol": "BabyDoge",
+    "image": "https://tokens.1inch.io/0xac57de9c1a09fec648e93eb98875b212db0d460b.png",
+    "decimals": 9
+  },
+  {
+    "address": "0x120a3879da835a5af037bb2d1456bebd6b54d4ba",
+    "name": "Revest",
+    "symbol": "RVST",
+    "image": "https://tokens.1inch.io/0x120a3879da835a5af037bb2d1456bebd6b54d4ba.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3b484b82567a09e2588a13d54d032153f0c0aee0",
+    "name": "SOS",
+    "symbol": "SOS",
+    "image": "https://tokens.1inch.io/0x3b484b82567a09e2588a13d54d032153f0c0aee0.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x7bef710a5759d197ec0bf621c3df802c2d60d848",
+    "name": "SPLYT SHOPX",
+    "symbol": "SHOPX",
+    "image": "https://tokens.1inch.io/0x7bef710a5759d197ec0bf621c3df802c2d60d848.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+    "name": "Band Protocol",
+    "symbol": "BAND",
+    "image": "https://tokens.1inch.io/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "name": "Compound",
+    "symbol": "COMP",
+    "image": "https://tokens.1inch.io/0xc00e94cb662c3520282e6f5717214004a7f26888.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+    "name": "Alchemix",
+    "symbol": "ALCX",
+    "image": "https://tokens.1inch.io/0xdbdb4d16eda451d0503b854cf79d55697f90c8df.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xee573a945b01b788b9287ce062a0cfc15be9fd86",
+    "name": "Exeedme",
+    "symbol": "XED",
+    "image": "https://tokens.1inch.io/0xee573a945b01b788b9287ce062a0cfc15be9fd86.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd417144312dbf50465b1c641d016962017ef6240",
+    "name": "Covalent Query Token",
+    "symbol": "CQT",
+    "image": "https://tokens.1inch.io/0xd417144312dbf50465b1c641d016962017ef6240.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8aec4bbdcfb451aa289bfbd3c2f4e34a44ada1be",
+    "name": "dogwifhat",
+    "symbol": "DOGWIFHAT",
+    "image": "https://tokens.1inch.io/0x8aec4bbdcfb451aa289bfbd3c2f4e34a44ada1be.png",
+    "decimals": 9
+  },
+  {
+    "address": "0xc669928185dbce49d2230cc9b0979be6dc797957",
+    "name": "BitTorrent",
+    "symbol": "BTT",
+    "image": "https://tokens.1inch.io/0xc669928185dbce49d2230cc9b0979be6dc797957.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784",
+    "name": "TrustToken",
+    "symbol": "TRU",
+    "image": "https://tokens.1inch.io/0x4c19596f5aaff459fa38b0f7ed92f11ae6543784.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x6bea7cfef803d1e3d5f7c0103f7ded065644e197",
+    "name": "Gamma",
+    "symbol": "GAMMA",
+    "image": "https://tokens.1inch.io/0x6bea7cfef803d1e3d5f7c0103f7ded065644e197.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9",
+    "name": "DONUT",
+    "symbol": "DONUT",
+    "image": "https://tokens.1inch.io/0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x7de91b204c1c737bcee6f000aaa6569cf7061cb7",
+    "name": "Robonomics",
+    "symbol": "XRT",
+    "image": "https://tokens.1inch.io/0x7de91b204c1c737bcee6f000aaa6569cf7061cb7.png",
+    "decimals": 9
+  },
+  {
+    "address": "0x8b39b70e39aa811b69365398e0aace9bee238aeb",
+    "name": "PolkaFoundry",
+    "symbol": "PKF",
+    "image": "https://tokens.1inch.io/0x8b39b70e39aa811b69365398e0aace9bee238aeb.png",
+    "decimals": 18
   },
   {
     "address": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
@@ -1587,6 +1692,461 @@
     "symbol": "RSR",
     "image": "https://tokens.1inch.io/0x320623b8e4ff03373931769a31fc52a4e78b5d70.png",
     "decimals": 18
+  },
+  {
+    "address": "0x4b520c812e8430659fc9f12f6d0c39026c83588d",
+    "name": "Decentral Games",
+    "symbol": "DG_2",
+    "image": "https://tokens.1inch.io/0x4b520c812e8430659fc9f12f6d0c39026c83588d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+    "name": "Numeraire",
+    "symbol": "NMR",
+    "image": "https://tokens.1inch.io/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x25e1474170c4c0aa64fa98123bdc8db49d7802fa",
+    "name": "Bidao",
+    "symbol": "BID",
+    "image": "https://tokens.1inch.io/0x25e1474170c4c0aa64fa98123bdc8db49d7802fa.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc834fa996fa3bec7aad3693af486ae53d8aa8b50",
+    "name": "Convergence",
+    "symbol": "CONV",
+    "image": "https://tokens.1inch.io/0xc834fa996fa3bec7aad3693af486ae53d8aa8b50.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x70e8de73ce538da2beed35d14187f6959a8eca96",
+    "name": "XSGD",
+    "symbol": "XSGD",
+    "image": "https://tokens.1inch.io/0x70e8de73ce538da2beed35d14187f6959a8eca96.png",
+    "decimals": 6
+  },
+  {
+    "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+    "name": "Badger",
+    "symbol": "BADGER",
+    "image": "https://tokens.1inch.io/0x3472a5a71965499acd81997a54bba8d852c6e53d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9be89d2a4cd102d8fecc6bf9da793be995c22541",
+    "name": "Binance Wrapped BTC",
+    "symbol": "BBTC",
+    "image": "https://tokens.1inch.io/0x9be89d2a4cd102d8fecc6bf9da793be995c22541.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x72e364f2abdc788b7e918bc238b21f109cd634d7",
+    "name": "Metaverse Index",
+    "symbol": "MVI",
+    "image": "https://tokens.1inch.io/0x72e364f2abdc788b7e918bc238b21f109cd634d7.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x2baecdf43734f22fd5c152db08e3c27233f0c7d2",
+    "name": "OM Token",
+    "symbol": "OMv1",
+    "image": "https://tokens.1inch.io/0x2baecdf43734f22fd5c152db08e3c27233f0c7d2.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc4de189abf94c57f396bd4c52ab13b954febefd8",
+    "name": "B.20",
+    "symbol": "B20",
+    "image": "https://tokens.1inch.io/0xc4de189abf94c57f396bd4c52ab13b954febefd8.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8c543aed163909142695f2d2acd0d55791a9edb9",
+    "name": "VLX",
+    "symbol": "VLX",
+    "image": "https://tokens.1inch.io/0x8c543aed163909142695f2d2acd0d55791a9edb9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x57b946008913b82e4df85f501cbaed910e58d26c",
+    "name": "Marlin POND",
+    "symbol": "POND",
+    "image": "https://tokens.1inch.io/0x57b946008913b82e4df85f501cbaed910e58d26c.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096",
+    "name": "Bounce Token",
+    "symbol": "Auction",
+    "image": "https://tokens.1inch.io/0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
+    "name": "Rail",
+    "symbol": "RAIL",
+    "image": "https://tokens.1inch.io/0xe76c6c83af64e4c60245d8c7de953df673a7a33d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
+    "name": "SparkPoint",
+    "symbol": "SRK",
+    "image": "https://tokens.1inch.io/0x0488401c3f535193fa8df029d9ffe615a06e74e6.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3d658390460295fb963f54dc0899cfb1c30776df",
+    "name": "CircuitsOfValue",
+    "symbol": "Coval",
+    "image": "https://tokens.1inch.io/0x3d658390460295fb963f54dc0899cfb1c30776df.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x12bb890508c125661e03b09ec06e404bc9289040",
+    "name": "Radio Caca V2",
+    "symbol": "RACA",
+    "image": "https://tokens.1inch.io/0x12bb890508c125661e03b09ec06e404bc9289040.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
+    "name": "FOX",
+    "symbol": "FOX",
+    "image": "https://tokens.1inch.io/0xc770eefad204b5180df6a14ee197d99d808ee52d.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x65ef703f5594d2573eb71aaf55bc0cb548492df4",
+    "name": "Multichain",
+    "symbol": "MULTI",
+    "image": "https://tokens.1inch.io/0x65ef703f5594d2573eb71aaf55bc0cb548492df4.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x68037790a0229e9ce6eaa8a99ea92964106c4703",
+    "name": "PAR Stablecoin",
+    "symbol": "PAR",
+    "image": "https://tokens.1inch.io/0x68037790a0229e9ce6eaa8a99ea92964106c4703.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x07150e919b4de5fd6a63de1f9384828396f25fdc",
+    "name": "Base Protocol",
+    "symbol": "BASE",
+    "image": "https://tokens.1inch.io/0x07150e919b4de5fd6a63de1f9384828396f25fdc.png",
+    "decimals": 9
+  },
+  {
+    "address": "0x3affcca64c2a6f4e3b6bd9c64cd2c969efd1ecbe",
+    "name": "DSLA",
+    "symbol": "DSLA",
+    "image": "https://tokens.1inch.io/0x3affcca64c2a6f4e3b6bd9c64cd2c969efd1ecbe.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
+    "name": "Loopring",
+    "symbol": "LRC",
+    "image": "https://tokens.1inch.io/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfc0d6cf33e38bce7ca7d89c0e292274031b7157a",
+    "name": "NETVRK",
+    "symbol": "NTVRK",
+    "image": "https://tokens.1inch.io/0xfc0d6cf33e38bce7ca7d89c0e292274031b7157a.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xf65b5c5104c4fafd4b709d9d60a185eae063276c",
+    "name": "Truebit",
+    "symbol": "TRU_Truebit",
+    "image": "https://tokens.1inch.io/0xf65b5c5104c4fafd4b709d9d60a185eae063276c.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x44017598f2af1bd733f9d87b5017b4e7c1b28dde",
+    "name": "pSTAKE Staked ATOM",
+    "symbol": "stkATOM",
+    "image": "https://tokens.1inch.io/0x44017598f2af1bd733f9d87b5017b4e7c1b28dde.png",
+    "decimals": 6
+  },
+  {
+    "address": "0xf4d861575ecc9493420a3f5a14f85b13f0b50eb3",
+    "name": "Fractal Protocol Token",
+    "symbol": "FCL",
+    "image": "https://tokens.1inch.io/0xf4d861575ecc9493420a3f5a14f85b13f0b50eb3.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd",
+    "name": "PieDAO BTC++",
+    "symbol": "BTC++",
+    "image": "https://tokens.1inch.io/0x0327112423f3a68efdf1fcf402f6c5cb9f7c33fd.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7",
+    "name": "Akropolis",
+    "symbol": "AKRO",
+    "image": "https://tokens.1inch.io/0x8ab7404063ec4dbcfd4598215992dc3f8ec853d7.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc0c293ce456ff0ed870add98a0828dd4d2903dbf",
+    "name": "Aura",
+    "symbol": "AURA",
+    "image": "https://tokens.1inch.io/0xc0c293ce456ff0ed870add98a0828dd4d2903dbf.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xbc396689893d065f41bc2c6ecbee5e0085233447",
+    "name": "Perpetual",
+    "symbol": "PERP",
+    "image": "https://tokens.1inch.io/0xbc396689893d065f41bc2c6ecbee5e0085233447.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8f693ca8d21b157107184d29d398a8d082b38b76",
+    "name": "Streamr",
+    "symbol": "DATA_1",
+    "image": "https://tokens.1inch.io/0x8f693ca8d21b157107184d29d398a8d082b38b76.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x08c32b0726c5684024ea6e141c50ade9690bbdcc",
+    "name": "Stratos Token",
+    "symbol": "STOS",
+    "image": "https://tokens.1inch.io/0x08c32b0726c5684024ea6e141c50ade9690bbdcc.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3597bfd533a99c9aa083587b074434e61eb0a258",
+    "name": "DENT",
+    "symbol": "DENT",
+    "image": "https://tokens.1inch.io/0x3597bfd533a99c9aa083587b074434e61eb0a258.png",
+    "decimals": 8
+  },
+  {
+    "address": "0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31",
+    "name": "Pixels",
+    "symbol": "PIXEL",
+    "image": "https://tokens.1inch.io/0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a",
+    "name": "BlocksquareToken",
+    "symbol": "BST",
+    "image": "https://tokens.1inch.io/0x509a38b7a1cc0dcd83aa9d06214663d9ec7c7f4a.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xfc05987bd2be489accf0f509e44b0145d68240f7",
+    "name": "ESSENTIA",
+    "symbol": "ESS",
+    "image": "https://tokens.1inch.io/0xfc05987bd2be489accf0f509e44b0145d68240f7.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x6fc13eace26590b80cccab1ba5d51890577d83b2",
+    "name": "Umbrella",
+    "symbol": "UMB",
+    "image": "https://tokens.1inch.io/0x6fc13eace26590b80cccab1ba5d51890577d83b2.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
+    "name": "Hop",
+    "symbol": "HOP",
+    "image": "https://tokens.1inch.io/0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xf3dcbc6d72a4e1892f7917b7c43b74131df8480e",
+    "name": "BDPToken",
+    "symbol": "BDP",
+    "image": "https://tokens.1inch.io/0xf3dcbc6d72a4e1892f7917b7c43b74131df8480e.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35",
+    "name": "SWEAT",
+    "symbol": "SWEAT",
+    "image": "https://tokens.1inch.io/0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x5c147e74d63b1d31aa3fd78eb229b65161983b2b",
+    "name": "Wrapped Flow",
+    "symbol": "WFLOW",
+    "image": "https://tokens.1inch.io/0x5c147e74d63b1d31aa3fd78eb229b65161983b2b.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x4740735aa98dc8aa232bd049f8f0210458e7fca3",
+    "name": "Ridotto",
+    "symbol": "RDT",
+    "image": "https://tokens.1inch.io/0x4740735aa98dc8aa232bd049f8f0210458e7fca3.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190",
+    "name": "Dether",
+    "symbol": "DTH",
+    "image": "https://tokens.1inch.io/0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4",
+    "name": "Sylo",
+    "symbol": "SYLO",
+    "image": "https://tokens.1inch.io/0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c",
+    "name": "Euro Coin",
+    "symbol": "EURC",
+    "image": "https://tokens.1inch.io/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c.png",
+    "decimals": 6
+  },
+  {
+    "address": "0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0",
+    "name": "Aave interest bearing LINK",
+    "symbol": "aLINK",
+    "image": "https://tokens.1inch.io/0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x8798249c2e607446efb7ad49ec89dd1865ff4272",
+    "name": "SushiBar",
+    "symbol": "xSUSHI",
+    "image": "https://tokens.1inch.io/0x8798249c2e607446efb7ad49ec89dd1865ff4272.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xa5f2211b9b8170f694421f2046281775e8468044",
+    "name": "THORSwap Token",
+    "symbol": "THOR",
+    "image": "https://tokens.1inch.io/0xa5f2211b9b8170f694421f2046281775e8468044.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x74232704659ef37c08995e386a2e26cc27a8d7b1",
+    "name": "Strike Token",
+    "symbol": "STRK",
+    "image": "https://tokens.1inch.io/0x74232704659ef37c08995e386a2e26cc27a8d7b1.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62",
+    "name": "Guild of Guardians",
+    "symbol": "GOG",
+    "image": "https://tokens.1inch.io/0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c",
+    "name": "Ultra Token",
+    "symbol": "UOS",
+    "image": "https://tokens.1inch.io/0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c.png",
+    "decimals": 4
+  },
+  {
+    "address": "0x0000000000085d4780b73119b644ae5ecd22b376",
+    "name": "TrueUSD",
+    "symbol": "TUSD",
+    "image": "https://tokens.1inch.io/0x0000000000085d4780b73119b644ae5ecd22b376.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xa1d6df714f91debf4e0802a542e13067f31b8262",
+    "name": "RFOX",
+    "symbol": "RFOX",
+    "image": "https://tokens.1inch.io/0xa1d6df714f91debf4e0802a542e13067f31b8262.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x178c820f862b14f316509ec36b13123da19a6054",
+    "name": "Energy Web Token Bridged",
+    "symbol": "EWTB",
+    "image": "https://tokens.1inch.io/0x178c820f862b14f316509ec36b13123da19a6054.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x584bc13c7d411c00c01a62e8019472de68768430",
+    "name": "Hegic",
+    "symbol": "HEGIC",
+    "image": "https://tokens.1inch.io/0x584bc13c7d411c00c01a62e8019472de68768430.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x0ae055097c6d159879521c384f1d2123d1f195e6",
+    "name": "STAKE",
+    "symbol": "STAKE",
+    "image": "https://tokens.1inch.io/0x0ae055097c6d159879521c384f1d2123d1f195e6.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x53c8395465a84955c95159814461466053dedede",
+    "name": "DeGate Token",
+    "symbol": "DG",
+    "image": "https://tokens.1inch.io/0x53c8395465a84955c95159814461466053dedede.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9",
+    "name": "NFT Worlds",
+    "symbol": "WRLD",
+    "image": "https://tokens.1inch.io/0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x9ae380f0272e2162340a5bb646c354271c0f5cfc",
+    "name": "Conic Finance Token",
+    "symbol": "CNC",
+    "image": "https://tokens.1inch.io/0x9ae380f0272e2162340a5bb646c354271c0f5cfc.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x557b933a7c2c45672b610f8954a3deb39a51a8ca",
+    "name": "REVV",
+    "symbol": "REVV",
+    "image": "https://tokens.1inch.io/0x557b933a7c2c45672b610f8954a3deb39a51a8ca.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
+    "name": "DIAToken",
+    "symbol": "DIA",
+    "image": "https://tokens.1inch.io/0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x090185f2135308bad17527004364ebcc2d37e5f6",
+    "name": "Spell Token",
+    "symbol": "SPELL",
+    "image": "https://tokens.1inch.io/0x090185f2135308bad17527004364ebcc2d37e5f6.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9",
+    "name": "X2Y2Token",
+    "symbol": "X2Y2",
+    "image": "https://tokens.1inch.io/0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9.png",
+    "decimals": 18
+  },
+  {
+    "address": "0xc3d688b66703497daa19211eedff47f25384cdc3",
+    "name": "Compound USDC",
+    "symbol": "cUSDCv3",
+    "image": "https://tokens.1inch.io/0xc3d688b66703497daa19211eedff47f25384cdc3.png",
+    "decimals": 6
   },
   {
     "address": "0x71ab77b7dbb4fa7e017bc15090b2163221420282",
@@ -1687,13 +2247,6 @@
     "decimals": 4
   },
   {
-    "address": "0x08c32b0726c5684024ea6e141c50ade9690bbdcc",
-    "name": "Stratos Token",
-    "symbol": "STOS",
-    "image": "https://tokens.1inch.io/0x08c32b0726c5684024ea6e141c50ade9690bbdcc.png",
-    "decimals": 18
-  },
-  {
     "address": "0x675bbc7514013e2073db7a919f6e4cbef576de37",
     "name": "Coldstack",
     "symbol": "CLS",
@@ -1719,13 +2272,6 @@
     "name": "wLitiCapital",
     "symbol": "wLITI",
     "image": "https://tokens.1inch.io/0x0b63128c40737b13647552e0c926bcfeccc35f93.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x74232704659ef37c08995e386a2e26cc27a8d7b1",
-    "name": "Strike Token",
-    "symbol": "STRK",
-    "image": "https://tokens.1inch.io/0x74232704659ef37c08995e386a2e26cc27a8d7b1.png",
     "decimals": 18
   },
   {
@@ -1834,13 +2380,6 @@
     "decimals": 18
   },
   {
-    "address": "0x12bb890508c125661e03b09ec06e404bc9289040",
-    "name": "Radio Caca V2",
-    "symbol": "RACA",
-    "image": "https://tokens.1inch.io/0x12bb890508c125661e03b09ec06e404bc9289040.png",
-    "decimals": 18
-  },
-  {
     "address": "0x505b5eda5e25a67e1c24a2bf1a527ed9eb88bf04",
     "name": "Coinweb",
     "symbol": "CWEB",
@@ -1873,6 +2412,13 @@
     "name": "void.cash",
     "symbol": "VCASH",
     "image": "https://tokens.1inch.io/0x37cd4e8875e3edaffdfe9be63958f07effbd0bfd.png",
+    "decimals": 18
+  },
+  {
+    "address": "0x3642c0680329ae3e103e2b5ab29ddfed4d43cbe5",
+    "name": "Plenny",
+    "symbol": "PL2",
+    "image": null,
     "decimals": 18
   },
   {
@@ -1936,13 +2482,6 @@
     "name": "Liquidity Incentive Token",
     "symbol": "LIT",
     "image": "https://tokens.1inch.io/0xfd0205066521550d7d7ab19da8f72bb004b4c341.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
-    "name": "Badger",
-    "symbol": "BADGER",
-    "image": "https://tokens.1inch.io/0x3472a5a71965499acd81997a54bba8d852c6e53d.png",
     "decimals": 18
   },
   {
@@ -2020,13 +2559,6 @@
     "name": "Aave Ethereum AAVE",
     "symbol": "aEthAAVE",
     "image": "https://tokens.1inch.io/0xa700b4eb416be35b2911fd5dee80678ff64ff6c9.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0ae055097c6d159879521c384f1d2123d1f195e6",
-    "name": "STAKE",
-    "symbol": "STAKE",
-    "image": "https://tokens.1inch.io/0x0ae055097c6d159879521c384f1d2123d1f195e6.png",
     "decimals": 18
   },
   {
@@ -2114,25 +2646,11 @@
     "decimals": 18
   },
   {
-    "address": "0x58b6a8a3302369daec383334672404ee733ab239",
-    "name": "Livepeer Token",
-    "symbol": "LPT",
-    "image": "https://tokens.1inch.io/0x58b6a8a3302369daec383334672404ee733ab239.png",
-    "decimals": 18
-  },
-  {
     "address": "0x595832f8fc6bf59c85c527fec3740a1b7a361269",
     "name": "Power Ledger",
     "symbol": "POWR",
     "image": "https://tokens.1inch.io/0x595832f8fc6bf59c85c527fec3740a1b7a361269.png",
     "decimals": 6
-  },
-  {
-    "address": "0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190",
-    "name": "Dether",
-    "symbol": "DTH",
-    "image": "https://tokens.1inch.io/0x5adc961d6ac3f7062d2ea45fefb8d8167d44b190.png",
-    "decimals": 18
   },
   {
     "address": "0x1beef31946fbbb40b877a72e4ae04a8d1a5cee06",
@@ -2205,13 +2723,6 @@
     "decimals": 18
   },
   {
-    "address": "0x644192291cc835a93d6330b24ea5f5fedd0eef9e",
-    "name": "AllianceBlock Nexera Token",
-    "symbol": "NXRA",
-    "image": "https://tokens.1inch.io/0x644192291cc835a93d6330b24ea5f5fedd0eef9e.png",
-    "decimals": 18
-  },
-  {
     "address": "0x76bc677d444f1e9d57daf5187ee2b7dc852745ae",
     "name": "Offshift",
     "symbol": "XFT",
@@ -2240,13 +2751,6 @@
     "decimals": 18
   },
   {
-    "address": "0x178c820f862b14f316509ec36b13123da19a6054",
-    "name": "Energy Web Token Bridged",
-    "symbol": "EWTB",
-    "image": "https://tokens.1inch.io/0x178c820f862b14f316509ec36b13123da19a6054.png",
-    "decimals": 18
-  },
-  {
     "address": "0x1a5f9352af8af974bfc03399e3767df6370d82e4",
     "name": "OWL Token",
     "symbol": "OWL",
@@ -2272,13 +2776,6 @@
     "name": "FunFair",
     "symbol": "FUN",
     "image": "https://tokens.1inch.io/0x419d0d8bdd9af5e606ae2232ed285aff190e711b.png",
-    "decimals": 8
-  },
-  {
-    "address": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
-    "name": "Civic",
-    "symbol": "CVC",
-    "image": "https://tokens.1inch.io/0x41e5560054824ea6b0732e656e3ad64e20e94e45.png",
     "decimals": 8
   },
   {
@@ -2394,13 +2891,6 @@
     "decimals": 18
   },
   {
-    "address": "0x7de91b204c1c737bcee6f000aaa6569cf7061cb7",
-    "name": "Robonomics",
-    "symbol": "XRT",
-    "image": "https://tokens.1inch.io/0x7de91b204c1c737bcee6f000aaa6569cf7061cb7.png",
-    "decimals": 9
-  },
-  {
     "address": "0x80fb784b7ed66730e8b1dbd9820afd29931aab03",
     "name": "EthLend",
     "symbol": "LEND",
@@ -2427,13 +2917,6 @@
     "symbol": "UBT",
     "image": "https://tokens.1inch.io/0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e.png",
     "decimals": 8
-  },
-  {
-    "address": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
-    "name": "DIAToken",
-    "symbol": "DIA",
-    "image": "https://tokens.1inch.io/0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419.png",
-    "decimals": 18
   },
   {
     "address": "0x89ab32156e46f46d02ade3fecbe5fc4243b9aaed",
@@ -2562,13 +3045,6 @@
     "decimals": 18
   },
   {
-    "address": "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
-    "name": "Celsius",
-    "symbol": "CEL",
-    "image": "https://tokens.1inch.io/0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d.png",
-    "decimals": 4
-  },
-  {
     "address": "0xaaaf91d9b90df800df4f55c205fd6989c977e73a",
     "name": "Monolith",
     "symbol": "TKN",
@@ -2601,13 +3077,6 @@
     "name": "Balancer",
     "symbol": "BAL",
     "image": "https://tokens.1inch.io/0xba100000625a3754423978a60c9317c58a424e3d.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
-    "name": "Loopring",
-    "symbol": "LRC",
-    "image": "https://tokens.1inch.io/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd.png",
     "decimals": 18
   },
   {
@@ -2653,13 +3122,6 @@
     "decimals": 18
   },
   {
-    "address": "0xcc4304a31d09258b0029ea7fe63d032f52e44efe",
-    "name": "TrustSwap Token",
-    "symbol": "SWAP",
-    "image": "https://tokens.1inch.io/0xcc4304a31d09258b0029ea7fe63d032f52e44efe.png",
-    "decimals": 18
-  },
-  {
     "address": "0xcc80c051057b774cd75067dc48f8987c4eb97a5e",
     "name": "Ethfinex Nectar Token",
     "symbol": "NEC",
@@ -2679,20 +3141,6 @@
     "symbol": "MCX",
     "image": "https://tokens.1inch.io/0xd15ecdcf5ea68e3995b2d0527a0ae0a3258302f8.png",
     "decimals": 18
-  },
-  {
-    "address": "0xd26114cd6ee289accf82350c8d8487fedb8a0c07",
-    "name": "OmiseGO",
-    "symbol": "OMG",
-    "image": "https://tokens.1inch.io/0xd26114cd6ee289accf82350c8d8487fedb8a0c07.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
-    "name": "Ampleforth",
-    "symbol": "AMPL",
-    "image": "https://tokens.1inch.io/0xd46ba6d942050d489dbd938a2c909a5d5039a161.png",
-    "decimals": 9
   },
   {
     "address": "0xd559f20296ff4895da39b5bd9add54b442596a61",
@@ -3171,13 +3619,6 @@
     "decimals": 18
   },
   {
-    "address": "0x3affcca64c2a6f4e3b6bd9c64cd2c969efd1ecbe",
-    "name": "DSLA",
-    "symbol": "DSLA",
-    "image": "https://tokens.1inch.io/0x3affcca64c2a6f4e3b6bd9c64cd2c969efd1ecbe.png",
-    "decimals": 18
-  },
-  {
     "address": "0xba21ef4c9f433ede00badefcc2754b8e74bd538a",
     "name": "Swapfolio",
     "symbol": "SWFL",
@@ -3346,13 +3787,6 @@
     "decimals": 18
   },
   {
-    "address": "0x584bc13c7d411c00c01a62e8019472de68768430",
-    "name": "Hegic",
-    "symbol": "HEGIC",
-    "image": "https://tokens.1inch.io/0x584bc13c7d411c00c01a62e8019472de68768430.png",
-    "decimals": 18
-  },
-  {
     "address": "0xcbd55d4ffc43467142761a764763652b48b969ff",
     "name": "AstroTools.io",
     "symbol": "ASTRO",
@@ -3420,13 +3854,6 @@
     "name": "Wrapped ANATHA",
     "symbol": "wANATHA",
     "image": "https://tokens.1inch.io/0x3383c5a8969dc413bfddc9656eb80a1408e4ba20.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
-    "name": "Audius",
-    "symbol": "AUDIO",
-    "image": "https://tokens.1inch.io/0x18aaa7115705e8be94bffebde57af9bfc265b998.png",
     "decimals": 18
   },
   {
@@ -3591,13 +4018,6 @@
     "decimals": 8
   },
   {
-    "address": "0x4fe83213d56308330ec302a8bd641f1d0113a4cc",
-    "name": "NuCypher",
-    "symbol": "NU",
-    "image": "https://tokens.1inch.io/0x4fe83213d56308330ec302a8bd641f1d0113a4cc.png",
-    "decimals": 18
-  },
-  {
     "address": "0x6e0dade58d2d89ebbe7afc384e3e4f15b70b14d8",
     "name": "QuiverX",
     "symbol": "QRX",
@@ -3619,13 +4039,6 @@
     "decimals": 18
   },
   {
-    "address": "0x0b38210ea11411557c13457d4da7dc6ea731b88a",
-    "name": "API3",
-    "symbol": "API3",
-    "image": "https://tokens.1inch.io/0x0b38210ea11411557c13457d4da7dc6ea731b88a.png",
-    "decimals": 18
-  },
-  {
     "address": "0x3449fc1cd036255ba1eb19d65ff4ba2b8903a69a",
     "name": "BAC",
     "symbol": "BAC",
@@ -3638,13 +4051,6 @@
     "symbol": "PIPT",
     "image": "https://tokens.1inch.io/0x26607ac599266b21d13c7acf7942c7701a8b699c.png",
     "decimals": 18
-  },
-  {
-    "address": "0x07150e919b4de5fd6a63de1f9384828396f25fdc",
-    "name": "Base Protocol",
-    "symbol": "BASE",
-    "image": "https://tokens.1inch.io/0x07150e919b4de5fd6a63de1f9384828396f25fdc.png",
-    "decimals": 9
   },
   {
     "address": "0x91dfbee3965baaee32784c2d546b7a0c62f268c9",
@@ -3693,13 +4099,6 @@
     "name": "Aave interest bearing KNC",
     "symbol": "aKNC",
     "image": "https://tokens.1inch.io/0x39c6b3e42d6a679d7d776778fe880bc9487c2eda.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0",
-    "name": "Aave interest bearing LINK",
-    "symbol": "aLINK",
-    "image": "https://tokens.1inch.io/0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0.png",
     "decimals": 18
   },
   {
@@ -3801,13 +4200,6 @@
     "decimals": 18
   },
   {
-    "address": "0x57b946008913b82e4df85f501cbaed910e58d26c",
-    "name": "Marlin POND",
-    "symbol": "POND",
-    "image": "https://tokens.1inch.io/0x57b946008913b82e4df85f501cbaed910e58d26c.png",
-    "decimals": 18
-  },
-  {
     "address": "0x054d64b73d3d8a21af3d764efd76bcaa774f3bb2",
     "name": "Plasma",
     "symbol": "PPAY",
@@ -3829,31 +4221,10 @@
     "decimals": 18
   },
   {
-    "address": "0xee573a945b01b788b9287ce062a0cfc15be9fd86",
-    "name": "Exeedme",
-    "symbol": "XED",
-    "image": "https://tokens.1inch.io/0xee573a945b01b788b9287ce062a0cfc15be9fd86.png",
-    "decimals": 18
-  },
-  {
     "address": "0x34950ff2b487d9e5282c5ab342d08a2f712eb79f",
     "name": "EFFORCE IEO",
     "symbol": "WOZX",
     "image": "https://tokens.1inch.io/0x34950ff2b487d9e5282c5ab342d08a2f712eb79f.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc770eefad204b5180df6a14ee197d99d808ee52d",
-    "name": "FOX",
-    "symbol": "FOX",
-    "image": "https://tokens.1inch.io/0xc770eefad204b5180df6a14ee197d99d808ee52d.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x66a0f676479cee1d7373f3dc2e2952778bff5bd6",
-    "name": "Wise Token",
-    "symbol": "WISE",
-    "image": "https://tokens.1inch.io/0x66a0f676479cee1d7373f3dc2e2952778bff5bd6.png",
     "decimals": 18
   },
   {
@@ -4001,20 +4372,6 @@
     "name": "INFI",
     "symbol": "INFI",
     "image": "https://tokens.1inch.io/0x159751323a9e0415dd3d6d42a1212fe9f4a0848c.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa8b919680258d369114910511cc87595aec0be6d",
-    "name": "LUKSO Token",
-    "symbol": "LYXe",
-    "image": "https://tokens.1inch.io/0xa8b919680258d369114910511cc87595aec0be6d.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988",
-    "name": "Terra Virtua Kolect",
-    "symbol": "TVK",
-    "image": "https://tokens.1inch.io/0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988.png",
     "decimals": 18
   },
   {
@@ -4172,13 +4529,6 @@
     "decimals": 18
   },
   {
-    "address": "0x9aeb50f542050172359a0e1a25a9933bc8c01259",
-    "name": "oinfinance",
-    "symbol": "OIN",
-    "image": "https://tokens.1inch.io/0x9aeb50f542050172359a0e1a25a9933bc8c01259.png",
-    "decimals": 8
-  },
-  {
     "address": "0xac0104cca91d167873b8601d2e71eb3d4d8c33e0",
     "name": "Crowns",
     "symbol": "CWS",
@@ -4197,13 +4547,6 @@
     "name": "NameChangeToken",
     "symbol": "NCT",
     "image": "https://tokens.1inch.io/0x8a9c4dfe8b9d8962b31e4e16f8321c44d48e246e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81",
-    "name": "Muse",
-    "symbol": "MUSE",
-    "image": "https://tokens.1inch.io/0xb6ca7399b4f9ca56fc27cbff44f4d2e4eef1fc81.png",
     "decimals": 18
   },
   {
@@ -4326,13 +4669,6 @@
     "decimals": 18
   },
   {
-    "address": "0x6fc13eace26590b80cccab1ba5d51890577d83b2",
-    "name": "Umbrella",
-    "symbol": "UMB",
-    "image": "https://tokens.1inch.io/0x6fc13eace26590b80cccab1ba5d51890577d83b2.png",
-    "decimals": 18
-  },
-  {
     "address": "0x1456688345527be1f37e9e627da0837d6f08c925",
     "name": "USDP Stablecoin",
     "symbol": "USDP_2",
@@ -4414,13 +4750,6 @@
     "name": "Warp Token",
     "symbol": "WARP",
     "image": "https://tokens.1inch.io/0xed40834a13129509a89be39a9be9c0e96a0ddd71.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
-    "name": "SparkPoint",
-    "symbol": "SRK",
-    "image": "https://tokens.1inch.io/0x0488401c3f535193fa8df029d9ffe615a06e74e6.png",
     "decimals": 18
   },
   {
@@ -4515,13 +4844,6 @@
     "decimals": 18
   },
   {
-    "address": "0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70",
-    "name": "Premia",
-    "symbol": "PREMIA",
-    "image": "https://tokens.1inch.io/0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70.png",
-    "decimals": 18
-  },
-  {
     "address": "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e",
     "name": "PoolTogether",
     "symbol": "POOL",
@@ -4543,24 +4865,10 @@
     "decimals": 18
   },
   {
-    "address": "0x557b933a7c2c45672b610f8954a3deb39a51a8ca",
-    "name": "REVV",
-    "symbol": "REVV",
-    "image": "https://tokens.1inch.io/0x557b933a7c2c45672b610f8954a3deb39a51a8ca.png",
-    "decimals": 18
-  },
-  {
     "address": "0x38a2fdc11f526ddd5a607c1f251c065f40fbf2f7",
     "name": "PhoenixDAO",
     "symbol": "PHNX",
     "image": "https://tokens.1inch.io/0x38a2fdc11f526ddd5a607c1f251c065f40fbf2f7.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4",
-    "name": "DexKit",
-    "symbol": "KIT",
-    "image": "https://tokens.1inch.io/0x7866e48c74cbfb8183cd1a929cd9b95a7a5cb4f4.png",
     "decimals": 18
   },
   {
@@ -4569,13 +4877,6 @@
     "symbol": "MOD",
     "image": "https://tokens.1inch.io/0xea1ea0972fa092dd463f2968f9bb51cc4c981d71.png",
     "decimals": 18
-  },
-  {
-    "address": "0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c",
-    "name": "Ultra Token",
-    "symbol": "UOS",
-    "image": "https://tokens.1inch.io/0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c.png",
-    "decimals": 4
   },
   {
     "address": "0x147faf8de9d8d8daae129b187f0d02d819126750",
@@ -4603,13 +4904,6 @@
     "name": "DerivaDAO",
     "symbol": "DDX",
     "image": "https://tokens.1inch.io/0x3a880652f47bfaa771908c07dd8673a787daed3a.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xa1d6df714f91debf4e0802a542e13067f31b8262",
-    "name": "RFOX",
-    "symbol": "RFOX",
-    "image": "https://tokens.1inch.io/0xa1d6df714f91debf4e0802a542e13067f31b8262.png",
     "decimals": 18
   },
   {
@@ -4760,13 +5054,6 @@
     "decimals": 18
   },
   {
-    "address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
-    "name": "Alchemix",
-    "symbol": "ALCX",
-    "image": "https://tokens.1inch.io/0xdbdb4d16eda451d0503b854cf79d55697f90c8df.png",
-    "decimals": 18
-  },
-  {
     "address": "0x24a6a37576377f63f194caa5f518a60f45b42921",
     "name": "Float Bank",
     "symbol": "BANK_1",
@@ -4858,13 +5145,6 @@
     "decimals": 18
   },
   {
-    "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
-    "name": "FTT",
-    "symbol": "FTX Token",
-    "image": "https://tokens.1inch.io/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9.png",
-    "decimals": 18
-  },
-  {
     "address": "0x544c42fbb96b39b21df61cf322b5edc285ee7429",
     "name": "InsurAce",
     "symbol": "INSUR",
@@ -4876,13 +5156,6 @@
     "name": "ChainGuardians Governance Token",
     "symbol": "CGG",
     "image": "https://tokens.1inch.io/0x1fe24f25b1cf609b9c4e7e12d802e3640dfa5e43.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x32a7c02e79c4ea1008dd6564b35f131428673c41",
-    "name": "CRUST",
-    "symbol": "CRU",
-    "image": "https://tokens.1inch.io/0x32a7c02e79c4ea1008dd6564b35f131428673c41.png",
     "decimals": 18
   },
   {
@@ -4946,13 +5219,6 @@
     "name": "HodlTree",
     "symbol": "HTRE",
     "image": "https://tokens.1inch.io/0xdea67845a51e24461d5fed8084e69b426af3d5db.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x8b39b70e39aa811b69365398e0aace9bee238aeb",
-    "name": "PolkaFoundry",
-    "symbol": "PKF",
-    "image": "https://tokens.1inch.io/0x8b39b70e39aa811b69365398e0aace9bee238aeb.png",
     "decimals": 18
   },
   {
@@ -5037,13 +5303,6 @@
     "name": "Chain Games",
     "symbol": "CHAIN",
     "image": "https://tokens.1inch.io/0xc4c2614e694cf534d407ee49f8e44d125e4681c4.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5",
-    "name": "Lympo tokens",
-    "symbol": "LYM",
-    "image": "https://tokens.1inch.io/0xc690f7c7fcffa6a82b79fab7508c466fefdfc8c5.png",
     "decimals": 18
   },
   {
@@ -5229,13 +5488,6 @@
     "decimals": 18
   },
   {
-    "address": "0xec213f83defb583af3a000b1c0ada660b1902a0f",
-    "name": "Presearch",
-    "symbol": "PRE",
-    "image": "https://tokens.1inch.io/0xec213f83defb583af3a000b1c0ada660b1902a0f.png",
-    "decimals": 18
-  },
-  {
     "address": "0xf418588522d5dd018b425e472991e52ebbeeeeee",
     "name": "Ethereum Push Notification Service",
     "symbol": "PUSH",
@@ -5352,20 +5604,6 @@
     "name": "UnmarshalToken",
     "symbol": "MARSH",
     "image": "https://tokens.1inch.io/0x5a666c7d92e5fa7edcb6390e4efd6d0cdd69cf37.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x3d658390460295fb963f54dc0899cfb1c30776df",
-    "name": "CircuitsOfValue",
-    "symbol": "Coval",
-    "image": "https://tokens.1inch.io/0x3d658390460295fb963f54dc0899cfb1c30776df.png",
-    "decimals": 8
-  },
-  {
-    "address": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
-    "name": "Golem Network Token",
-    "symbol": "GLM",
-    "image": "https://tokens.1inch.io/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429.png",
     "decimals": 18
   },
   {
@@ -5516,13 +5754,6 @@
     "decimals": 18
   },
   {
-    "address": "0x72e364f2abdc788b7e918bc238b21f109cd634d7",
-    "name": "Metaverse Index",
-    "symbol": "MVI",
-    "image": "https://tokens.1inch.io/0x72e364f2abdc788b7e918bc238b21f109cd634d7.png",
-    "decimals": 18
-  },
-  {
     "address": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6",
     "name": "Akita Inu",
     "symbol": "AKITA",
@@ -5572,13 +5803,6 @@
     "decimals": 18
   },
   {
-    "address": "0x6f40d4a6237c257fff2db00fa0510deeecd303eb",
-    "name": "Instadapp",
-    "symbol": "INST",
-    "image": "https://tokens.1inch.io/0x6f40d4a6237c257fff2db00fa0510deeecd303eb.png",
-    "decimals": 18
-  },
-  {
     "address": "0x456d8f0d25a4e787ee60c401f8b963a465148f70",
     "name": "Cavapoo",
     "symbol": "CAVA",
@@ -5611,13 +5835,6 @@
     "name": "ARCx Governance Token",
     "symbol": "ARCX",
     "image": "https://tokens.1inch.io/0xed30dd7e50edf3581ad970efc5d9379ce2614adb.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x8798249c2e607446efb7ad49ec89dd1865ff4272",
-    "name": "SushiBar",
-    "symbol": "xSUSHI",
-    "image": "https://tokens.1inch.io/0x8798249c2e607446efb7ad49ec89dd1865ff4272.png",
     "decimals": 18
   },
   {
@@ -5733,13 +5950,6 @@
     "decimals": 18
   },
   {
-    "address": "0x25e1474170c4c0aa64fa98123bdc8db49d7802fa",
-    "name": "Bidao",
-    "symbol": "BID",
-    "image": "https://tokens.1inch.io/0x25e1474170c4c0aa64fa98123bdc8db49d7802fa.png",
-    "decimals": 18
-  },
-  {
     "address": "0x0af55d5ff28a3269d69b98680fd034f115dd53ac",
     "name": "BankSocial",
     "symbol": "BSL",
@@ -5786,13 +5996,6 @@
     "name": "Magic Internet Money",
     "symbol": "MIM",
     "image": "https://tokens.1inch.io/0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x090185f2135308bad17527004364ebcc2d37e5f6",
-    "name": "Spell Token",
-    "symbol": "SPELL",
-    "image": "https://tokens.1inch.io/0x090185f2135308bad17527004364ebcc2d37e5f6.png",
     "decimals": 18
   },
   {
@@ -5964,13 +6167,6 @@
     "decimals": 18
   },
   {
-    "address": "0x3b484b82567a09e2588a13d54d032153f0c0aee0",
-    "name": "SOS",
-    "symbol": "SOS",
-    "image": "https://tokens.1inch.io/0x3b484b82567a09e2588a13d54d032153f0c0aee0.png",
-    "decimals": 18
-  },
-  {
     "address": "0x16cc8367055ae7e9157dbcb9d86fd6ce82522b31",
     "name": "Voxel X Network",
     "symbol": "VXL",
@@ -6020,13 +6216,6 @@
     "decimals": 18
   },
   {
-    "address": "0xcdf7028ceab81fa0c6971208e83fa7872994bee5",
-    "name": "Threshold Network Token",
-    "symbol": "T",
-    "image": "https://tokens.1inch.io/0xcdf7028ceab81fa0c6971208e83fa7872994bee5.png",
-    "decimals": 18
-  },
-  {
     "address": "0x1a7e4e63778b4f12a199c062f3efdd288afcbce8",
     "name": "EURA (previously agEUR)",
     "symbol": "EURA",
@@ -6055,13 +6244,6 @@
     "decimals": 18
   },
   {
-    "address": "0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9",
-    "name": "X2Y2Token",
-    "symbol": "X2Y2",
-    "image": "https://tokens.1inch.io/0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9.png",
-    "decimals": 18
-  },
-  {
     "address": "0x2602278ee1882889b946eb11dc0e810075650983",
     "name": "Vader",
     "symbol": "VADER",
@@ -6087,13 +6269,6 @@
     "name": "Neos Credits",
     "symbol": "NCR",
     "image": "https://tokens.1inch.io/0xdb5c3c46e28b53a39c255aa39a411dd64e5fed9c.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x5c147e74d63b1d31aa3fd78eb229b65161983b2b",
-    "name": "Wrapped Flow",
-    "symbol": "WFLOW",
-    "image": "https://tokens.1inch.io/0x5c147e74d63b1d31aa3fd78eb229b65161983b2b.png",
     "decimals": 18
   },
   {
@@ -6188,13 +6363,6 @@
     "decimals": 9
   },
   {
-    "address": "0x8f693ca8d21b157107184d29d398a8d082b38b76",
-    "name": "Streamr",
-    "symbol": "DATA_1",
-    "image": "https://tokens.1inch.io/0x8f693ca8d21b157107184d29d398a8d082b38b76.png",
-    "decimals": 18
-  },
-  {
     "address": "0x2ba8349123de45e931a8c8264c332e6e9cf593f9",
     "name": "Blockchain Monster Coin",
     "symbol": "BCMC",
@@ -6265,13 +6433,6 @@
     "decimals": 18
   },
   {
-    "address": "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc",
-    "name": "Hop",
-    "symbol": "HOP",
-    "image": "https://tokens.1inch.io/0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc.png",
-    "decimals": 18
-  },
-  {
     "address": "0x632806bf5c8f062932dd121244c9fbe7becb8b48",
     "name": "Phuture DeFi Index",
     "symbol": "PDI",
@@ -6283,13 +6444,6 @@
     "name": "UniX Gaming",
     "symbol": "UNIX",
     "image": "https://tokens.1inch.io/0xddd6a0ecc3c6f6c102e5ea3d8af7b801d1a77ac8.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
-    "name": "Everipedia IQ",
-    "symbol": "IQ",
-    "image": "https://tokens.1inch.io/0x579cea1889991f68acc35ff5c3dd0621ff29b0c9.png",
     "decimals": 18
   },
   {
@@ -6370,13 +6524,6 @@
     "decimals": 18
   },
   {
-    "address": "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35",
-    "name": "SWEAT",
-    "symbol": "SWEAT",
-    "image": "https://tokens.1inch.io/0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35.png",
-    "decimals": 18
-  },
-  {
     "address": "0x4fd51cb87ffefdf1711112b5bd8ab682e54988ea",
     "name": "WPT Investing Corp",
     "symbol": "WPT",
@@ -6433,13 +6580,6 @@
     "decimals": 18
   },
   {
-    "address": "0x7420b4b9a0110cdc71fb720908340c03f9bc03ec",
-    "name": "JasmyCoin",
-    "symbol": "JASMY",
-    "image": "https://tokens.1inch.io/0x7420b4b9a0110cdc71fb720908340c03f9bc03ec.png",
-    "decimals": 18
-  },
-  {
     "address": "0x6dca182ac5e3f99985bc4ee0f726d6472ab1ec55",
     "name": "Ushi",
     "symbol": "USHI",
@@ -6479,13 +6619,6 @@
     "name": "Ethix",
     "symbol": "ETHIX",
     "image": "https://tokens.1inch.io/0xfd09911130e6930bf87f2b0554c44f400bd80d3e.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x72b886d09c117654ab7da13a14d603001de0b777",
-    "name": "XDEFI",
-    "symbol": "XDEFI",
-    "image": "https://tokens.1inch.io/0x72b886d09c117654ab7da13a14d603001de0b777.png",
     "decimals": 18
   },
   {
@@ -6566,13 +6699,6 @@
     "decimals": 3
   },
   {
-    "address": "0xe76c6c83af64e4c60245d8c7de953df673a7a33d",
-    "name": "Rail",
-    "symbol": "RAIL",
-    "image": "https://tokens.1inch.io/0xe76c6c83af64e4c60245d8c7de953df673a7a33d.png",
-    "decimals": 18
-  },
-  {
     "address": "0xe0a189c975e4928222978a74517442239a0b86ff",
     "name": "Keys",
     "symbol": "KEYS",
@@ -6636,20 +6762,6 @@
     "decimals": 18
   },
   {
-    "address": "0xc82e3db60a52cf7529253b4ec688f631aad9e7c2",
-    "name": "ARC",
-    "symbol": "ARC",
-    "image": "https://tokens.1inch.io/0xc82e3db60a52cf7529253b4ec688f631aad9e7c2.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xc669928185dbce49d2230cc9b0979be6dc797957",
-    "name": "BitTorrent",
-    "symbol": "BTT",
-    "image": "https://tokens.1inch.io/0xc669928185dbce49d2230cc9b0979be6dc797957.png",
-    "decimals": 18
-  },
-  {
     "address": "0xc55c2175e90a46602fd42e931f62b3acc1a013ca",
     "name": "Mogul Stars",
     "symbol": "STARS",
@@ -6671,13 +6783,6 @@
     "decimals": 18
   },
   {
-    "address": "0xc0c293ce456ff0ed870add98a0828dd4d2903dbf",
-    "name": "Aura",
-    "symbol": "AURA",
-    "image": "https://tokens.1inch.io/0xc0c293ce456ff0ed870add98a0828dd4d2903dbf.png",
-    "decimals": 18
-  },
-  {
     "address": "0xb620be8a1949aa9532e6a3510132864ef9bc3f82",
     "name": "LendFlare DAO Token",
     "symbol": "LFT",
@@ -6696,13 +6801,6 @@
     "name": "Polka City",
     "symbol": "POLC",
     "image": "https://tokens.1inch.io/0xaa8330fb2b4d5d07abfe7a72262752a8505c6b37.png",
-    "decimals": 18
-  },
-  {
-    "address": "0xba3335588d9403515223f109edc4eb7269a9ab5d",
-    "name": "Gearbox",
-    "symbol": "GEAR",
-    "image": "https://tokens.1inch.io/0xba3335588d9403515223f109edc4eb7269a9ab5d.png",
     "decimals": 18
   },
   {
@@ -8820,13 +8918,6 @@
     "decimals": 18
   },
   {
-    "address": "0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62",
-    "name": "Guild of Guardians",
-    "symbol": "GOG",
-    "image": "https://tokens.1inch.io/0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62.png",
-    "decimals": 18
-  },
-  {
     "address": "0x98585dfc8d9e7d48f0b1ae47ce33332cf4237d96",
     "name": "New Order",
     "symbol": "NEWO",
@@ -8894,13 +8985,6 @@
     "name": "X7R",
     "symbol": "X7R",
     "image": "https://tokens.1inch.io/0x70008f18fc58928dce982b0a69c2c21ff80dca54.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x6368e1e18c4c419ddfc608a0bed1ccb87b9250fc",
-    "name": "Tap",
-    "symbol": "XTP",
-    "image": "https://tokens.1inch.io/0x6368e1e18c4c419ddfc608a0bed1ccb87b9250fc.png",
     "decimals": 18
   },
   {
@@ -9030,13 +9114,6 @@
     "decimals": 18
   },
   {
-    "address": "0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f",
-    "name": "Gho Token",
-    "symbol": "GHO",
-    "image": "https://tokens.1inch.io/0x40d16fc0246ad3160ccc09b8d0d3a2cd28ae6c2f.png",
-    "decimals": 18
-  },
-  {
     "address": "0xb76cf92076adbf1d9c39294fa8e7a67579fde357",
     "name": "Aave Ethereum RPL",
     "symbol": "aEthRPL",
@@ -9128,20 +9205,6 @@
     "decimals": 18
   },
   {
-    "address": "0x455e53cbb86018ac2b8092fdcd39d8444affc3f6",
-    "name": "Polygon Ecosystem Token",
-    "symbol": "POL",
-    "image": "https://tokens.1inch.io/0x455e53cbb86018ac2b8092fdcd39d8444affc3f6.png",
-    "decimals": 18
-  },
-  {
-    "address": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528",
-    "name": "TokenFi",
-    "symbol": "TOKEN",
-    "image": "https://tokens.1inch.io/0x4507cef57c46789ef8d1a19ea45f4216bae2b528.png",
-    "decimals": 9
-  },
-  {
     "address": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
     "name": "ether fi",
     "symbol": "EETH",
@@ -9177,6 +9240,13 @@
     "decimals": 18
   },
   {
+    "address": "0x0000206329b97db379d5e1bf586bbdb969c63274",
+    "name": "Angle USD",
+    "symbol": "agUSD",
+    "image": "https://tokens.1inch.io/0x0000206329b97db379d5e1bf586bbdb969c63274.png",
+    "decimals": 18
+  },
+  {
     "address": "0x922d8563631b03c2c4cf817f4d18f6883aba0109",
     "name": "Houdini Swap",
     "symbol": "LOCK",
@@ -9191,32 +9261,11 @@
     "decimals": 18
   },
   {
-    "address": "0x8aec4bbdcfb451aa289bfbd3c2f4e34a44ada1be",
-    "name": "dogwifhat",
-    "symbol": "DOGWIFHAT",
-    "image": "https://tokens.1inch.io/0x8aec4bbdcfb451aa289bfbd3c2f4e34a44ada1be.png",
-    "decimals": 9
-  },
-  {
-    "address": "0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31",
-    "name": "Pixels",
-    "symbol": "PIXEL",
-    "image": "https://tokens.1inch.io/0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31.png",
-    "decimals": 18
-  },
-  {
     "address": "0x0c0d01abf3e6adfca0989ebba9d6e85dd58eab1e",
     "name": "Aave Ethereum PYUSD",
     "symbol": "aEthPYUSD",
     "image": "https://tokens.1inch.io/0x0c0d01abf3e6adfca0989ebba9d6e85dd58eab1e.png",
     "decimals": 6
-  },
-  {
-    "address": "0xba0dda8762c24da9487f5fa026a9b64b695a07ea",
-    "name": "OX Coin",
-    "symbol": "OX",
-    "image": "https://tokens.1inch.io/0xba0dda8762c24da9487f5fa026a9b64b695a07ea.png",
-    "decimals": 18
   },
   {
     "address": "0x00907f9921424583e7ffbfedf84f92b7b2be4977",

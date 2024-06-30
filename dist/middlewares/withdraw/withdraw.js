@@ -13,7 +13,7 @@ const withdrawSchema = zod_1.z.object({
         amount: zod_1.z.number({
             required_error: "amount is required",
         }),
-        tx_hash: zod_1.z.string({
+        txHash: zod_1.z.string({
             required_error: "txHash is required",
         }),
     }),

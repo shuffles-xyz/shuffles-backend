@@ -4,7 +4,7 @@ import { getWalletBalance } from "../../utils/getWalletBalance";
 
 export async function getTokenBalance(req: Request, res: Response) {
     const address = req.params.address;
-
+    
     let tokens: IToken[] = [];
     const tokenResponse = await fetch(`https://api.shyft.to/sol/v1/wallet/all_tokens?network=mainnet-beta&wallet=${address}`, {
         method: 'GET',

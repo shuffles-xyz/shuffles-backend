@@ -6,8 +6,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getAllLimitOrders = exports.getLimitOrder = exports.createLimitOrder = void 0;
 const prims_client_1 = __importDefault(require("../../lib/prims-client"));
 async function createLimitOrder(req, res) {
-    const { address, input_token, output_token, in_amount, out_amount, buy_rate, tx_hash, gasFees, expiry, } = req.body;
+    const { address, input_token, output_token, in_amount, out_amount, buy_rate, txHash, gasFees, expiry, } = req.body;
     try {
+        console.log(req.body);
         const [limitOrder] = await Promise.all([
             await prims_client_1.default.limit.create({
                 data: {
@@ -17,7 +18,7 @@ async function createLimitOrder(req, res) {
                     in_amount,
                     out_amount,
                     buy_rate,
-                    tx_hash,
+                    tx_hash: txHash,
                     expiry,
                     gasFees
                 },
@@ -33,7 +34,7 @@ async function createLimitOrder(req, res) {
                         in_amount,
                         out_amount,
                         buy_rate,
-                        tx_hash,
+                        txHash,
                         expiry,
                         gasFees
                     }

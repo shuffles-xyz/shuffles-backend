@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getDCA = exports.getAllDCA = exports.createDCA = void 0;
 const prims_client_1 = __importDefault(require("../../lib/prims-client"));
 async function createDCA(req, res) {
-    const { address, dca_key, input_token, output_token, in_amount, out_amount, gasFees } = req.body;
+    const { address, dca_key, input_token, output_token, in_amount, out_amount, gasFees, txHash } = req.body;
     try {
         const [dca] = await Promise.all([
             prims_client_1.default.dCA.create({
@@ -17,7 +17,8 @@ async function createDCA(req, res) {
                     output_token,
                     in_amount,
                     out_amount,
-                    gasFees
+                    gasFees,
+                    tx_hash: txHash
                 }
             }),
             prims_client_1.default.activity.create({
@@ -30,7 +31,8 @@ async function createDCA(req, res) {
                         output_token,
                         in_amount,
                         out_amount,
-                        gasFees
+                        gasFees,
+                        txHash
                     }
                 },
             })
